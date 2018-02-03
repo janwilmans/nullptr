@@ -5,7 +5,7 @@
  - bla
  
  <nullptr.nl>
- 
+```c++
   #include <memory>
   #include <mutex>
 
@@ -90,3 +90,4 @@
     mutable std::mutex mutex;
     ptr_t ptr;
   };
+```
