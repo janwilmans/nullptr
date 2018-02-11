@@ -191,9 +191,9 @@ Then to stack up more potential problems:
     }
     
 
-If this code is used in more one then one thread as once, there is just no way to get it right. possible once thread calls use() and another calls **set()** setting foo to nullptr, no amount of checking in dowork() can prevent the potential for a crash.
+If this code is used in more one then one thread at once, possibly one thread calls use() and another calls **set()** setting foo to nullptr, no amount of checking in dowork() can prevent the potential for a crash. Of course protecting the access to **foo** using a mutex could solve that and there are also [better ways][6], but solutions is not what this part of the post is about. We're digging into the problems first.
 
-Note that use a reference is not causing this problem and its not even responsible for hiding the problem. The problem is that calling this code from 2 thread was unsafe to begin with, no matter what kind of pointer you use.
+Note that using a reference is not causing this problem and its not even responsible for hiding the problem. The problem is that calling this code from 2 threads was unsafe to begin with, no matter what kind of pointer you use.
 
 This does not mean references or raw pointers (or any kind of pointer for that matter) are bad. The problem here was that the author did not think about who controls the lifetime of the object foo. You might think that using a unique_ptr or shared_ptr would improve this. Lets see about that:
 
@@ -216,3 +216,4 @@ This code is just as bad for use in two threads because 'foo' is potentially cop
  [3]: https://github.com/Microsoft/GSL
  [4]: https://github.com/Microsoft/GSL/blob/64a7dae4c6fb218a23b3d48db0eec56a3c4d5234/include/gsl/pointers#L69
  [5]: https://github.com/dropbox/nn
+ [6]: https://github.com/copperspice/libguarded
