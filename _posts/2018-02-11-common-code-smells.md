@@ -1,19 +1,17 @@
 ---
 ID: 791
-post_title: >
-  Common code smells and guidelines
-  extracted from them
+post_title: Common code smells by Ólafur Waage
 author: Jan Wilmans
 post_excerpt: ""
 layout: post
 permalink: >
-  http://nullptr.nl/2018/02/common-code-smells-and-guidelines-extracted-from-them/
+  http://nullptr.nl/2018/02/common-code-smells/
 published: true
 post_date: 2018-02-11 20:33:13
 ---
 The following post was triggered by a [twitter post][1] by Ólafur Waage about his observations of common mistakes during code reviews over a period of 4 months. Some of these were not news to me but I had not seen them collected as a set anywhere in a single place.
 
-I have added and/or rephrased some passages based personal experience. I also want to thank Gert-jan de Vos for inspiring me to internalizing many of the habits described here.
+I have added and/or rephrased some passages based personal experience.
 
 > [One function that does everything][2]
 
