@@ -25,8 +25,8 @@ post_date: 2017-11-04 13:46:31
 *   <https://github.com/cplusplus/draft/tree/master/papers>
 *   <https://tc39.github.io/ecma262/>
 *   [Herb's spaceship operator proposal, use as template, as an example of how to write a proposal][4]
-*   <carbon.now.sh>
-*   <godbolt.org>
+*   <https://carbon.now.sh>
+*   <https://godbolt.org/>
 
 # javascript related
 
