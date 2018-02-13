@@ -22,6 +22,8 @@ on the other hand;
 
 **I think it might be all of the above.**
 
+> How can we remember our ignorance, which our growth requires, when we are using our knowledge all the time? - Henry David Thoreau
+
 ## So what do we have, lets look at some [history][1] first
 
 First came **pointers**, they were the first of their kind in C++, as inherited from C in 1979 they:
