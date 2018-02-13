@@ -66,7 +66,7 @@ Smart pointers are called smart because they manage the lifetime of objects in s
 *   express shared ownership
 *   can be moved but **can not be copied**
 
-Enter the [GSL][3] in 2015 including, among many other things, [not_null<> template][4]:
+Enter the [GSL][3] in 2015 including, among many other things, [not_null<> and owner<> template][4]:
 
 **not_null<Foo*>**
 
@@ -111,8 +111,8 @@ This basically orders my preference for pointers as:
     - unique_ptr<Foo>
     - not_null<shared_ptr<Foo>>
     - shared_ptr<Foo>
-    - [gsl::owner<Foo*>][6]
-    - gsl::not_null<Foo*>
+    - [gsl::owner<Foo*>][7]
+    - [gsl::not_null<Foo*>][4]
     - Foo*
     
 
