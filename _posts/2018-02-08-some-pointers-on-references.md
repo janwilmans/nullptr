@@ -116,7 +116,7 @@ This basically orders my preference for pointers as:
     - Foo*
     
 
-> gsl::not_null<Foo*>](https://github.com/Microsoft/GSL/blob/64a7dae4c6fb218a23b3d48db0eec56a3c4d5234/include/gsl/pointers#L69) gsl::owner<Foo*>](https://github.com/Microsoft/GSL/blob/64a7dae4c6fb218a23b3d48db0eec56a3c4d5234/include/gsl/pointers#L51)
+[gsl::not_null<Foo*>][4] [gsl::owner<Foo*>][6]
 
 Depending on the other attributes that you need, you may have the luxury of choice, however by default, reference and unique_ptr are probably your friends.
 
@@ -196,7 +196,7 @@ Then to stack up more potential problems:
     }
     
 
-If this code is used in more one then one thread at once, possibly one thread calls use() and another calls **set()** setting foo to nullptr, no amount of checking in dowork() can prevent the potential for a crash. Of course protecting the access to **foo** using a mutex could solve that and there are also [better ways][6], but solutions is not what this part of the post is about. We're digging into the problems first.
+If this code is used in more one then one thread at once, possibly one thread calls use() and another calls **set()** setting foo to nullptr, no amount of checking in dowork() can prevent the potential for a crash. Of course protecting the access to **foo** using a mutex could solve that and there are also [better ways][7], but solutions is not what this part of the post is about. We're digging into the problems first.
 
 Note that using a reference is not causing this problem and its not even responsible for hiding the problem. The problem is that calling this code from 2 threads was unsafe to begin with, no matter what kind of pointer you use.
 
@@ -229,4 +229,5 @@ To summarize so guidelines I like use:
  [3]: https://github.com/Microsoft/GSL
  [4]: https://github.com/Microsoft/GSL/blob/64a7dae4c6fb218a23b3d48db0eec56a3c4d5234/include/gsl/pointers#L69
  [5]: https://github.com/dropbox/nn
- [6]: https://github.com/copperspice/libguarded
+ [6]: https://github.com/Microsoft/GSL/blob/64a7dae4c6fb218a23b3d48db0eec56a3c4d5234/include/gsl/pointers#L51
+ [7]: https://github.com/copperspice/libguarded
