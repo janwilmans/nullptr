@@ -116,7 +116,7 @@ This basically orders my preference for pointers as:
     - Foo*
     
 
-[gsl::not_null<Foo*>][4] [gsl::owner<Foo*>][6]
+[gsl::not_null<Foo*>][4]   [gsl::owner<Foo*>][6]
 
 Depending on the other attributes that you need, you may have the luxury of choice, however by default, reference and unique_ptr are probably your friends.
 
