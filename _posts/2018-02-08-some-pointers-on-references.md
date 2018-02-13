@@ -116,7 +116,7 @@ This basically orders my preference for pointers as:
     - Foo*
     
 
-[gsl::not_null<Foo*>][4]   [gsl::owner<Foo*>][6]
+[gsl::not_null<Foo*>][4] [gsl::owner<Foo*>][6]
 
 Depending on the other attributes that you need, you may have the luxury of choice, however by default, reference and unique_ptr are probably your friends.
 
@@ -142,7 +142,13 @@ Might be more clearly expressed as:
     }
     
 
-This has two advantages; first of all it makes explicit that the argument is not optional and second, gsl-aware static analysis tools can use the type information to give better diagnostic messages. However, there is still no expression of ownership, so we might write:
+As a sidenote, the GSL has three options to handle contract violations:
+
+1.  GSL_TERMINATE_ON_CONTRACT_VIOLATION: std::terminate will be called (default)
+2.  GSL_THROW_ON_CONTRACT_VIOLATION: a gsl::fail_fast exception will be thrown
+3.  GSL_UNENFORCED_ON_CONTRACT_VIOLATION: nothing happens
+
+This **gsl::not_null<foo></foo>** has two advantages; first of all it makes explicit that the argument is not optional and second, gsl-aware static analysis tools can use the type information to give better diagnostic messages. However, there is still no expression of ownership, so we might write:
 
     void Func(Foo& foo, int x)
     {
@@ -222,7 +228,7 @@ To summarize some guidelines I like use:
 
 *   use references to express that no ownership is passed, it is be far the easiest to understand/read
 *   never assign the value of a pointer to a reference if it was optional
-*   gsl::not_null<> can help to make legacy code more readable without actually changing its meaning, but depending on configuration, can change behaviour or not. (throw an exception or call std::terminate when the not_null contract is violated
+*   gsl::not_null<> can help to make legacy code more readable without actually changing its meaning, but depending on configuration, can change behaviour or not. (throw an exception or call std::terminate when the not_null contract is violated)
 *   gsl::owner<> can help to make legacy code more readable making nullptr assignments and implicitly converted pointers compiler errors
 
  [1]: http://en.cppreference.com/w/cpp/language/history
