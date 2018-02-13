@@ -224,12 +224,13 @@ This code is just as bad for use in two threads because 'foo' is potentially cop
 
 <http://nullptr.nl/2018/01/introducing-mt_shared_ptr/> <http://nullptr.nl/2017/09/shared_ptr-broken/>
 
-To summarize some guidelines I like use:
+To summarize some guidelines I like use are:
 
-*   use references to express that no ownership is passed, it is be far the easiest to understand/read
+*   consciously assign the ownership of **every** object you create
+*   use references to express that no ownership is passed, it is by far the easiest to understand / read
 *   never assign the value of a pointer to a reference if it was optional
-*   gsl::not_null<> can help to make legacy code more readable without actually changing its meaning, but depending on configuration, can change behaviour or not. (throw an exception or call std::terminate when the not_null contract is violated)
-*   gsl::owner<> can help to make legacy code more readable making nullptr assignments and implicitly converted pointers compiler errors
+*   gsl::not_null<> can help to make legacy code more readable without actually changing its meaning. If desired it can fail fast by enabling exception or std::terminate behaviour.
+*   gsl::owner<> can make null + implicitly converted pointers assignments compiler errors and express ownership explicitly where raw pointers are passed.
 
  [1]: http://en.cppreference.com/w/cpp/language/history
  [2]: http://www.stroustrup.com/bs_faq2.html#pointers-and-references
