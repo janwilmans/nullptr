@@ -111,10 +111,12 @@ This basically orders my preference for pointers as:
     - unique_ptr<Foo>
     - not_null<shared_ptr<Foo>>
     - shared_ptr<Foo>
-    - [gsl::owner<Foo*>][7]
-    - [gsl::not_null<Foo*>][4]
+    - [gsl::owner<Foo*>]
+    - [gsl::not_null<Foo*>]
     - Foo*
     
+
+> gsl::not_null<Foo*>](https://github.com/Microsoft/GSL/blob/64a7dae4c6fb218a23b3d48db0eec56a3c4d5234/include/gsl/pointers#L69) gsl::owner<Foo*>](https://github.com/Microsoft/GSL/blob/64a7dae4c6fb218a23b3d48db0eec56a3c4d5234/include/gsl/pointers#L51)
 
 Depending on the other attributes that you need, you may have the luxury of choice, however by default, reference and unique_ptr are probably your friends.
 
