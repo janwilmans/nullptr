@@ -111,8 +111,8 @@ This basically orders my preference for pointers as:
     - unique_ptr<Foo>
     - not_null<shared_ptr<Foo>>
     - shared_ptr<Foo>
-    - [gsl::owner<Foo*>]
-    - [gsl::not_null<Foo*>]
+    - gsl::owner<Foo*>
+    - gsl::not_null<Foo*>
     - Foo*
     
 
@@ -218,11 +218,12 @@ This code is just as bad for use in two threads because 'foo' is potentially cop
 
 <http://nullptr.nl/2018/01/introducing-mt_shared_ptr/> <http://nullptr.nl/2017/09/shared_ptr-broken/>
 
-To summarize so guidelines I like use:
+To summarize some guidelines I like use:
 
 *   use references to express that no ownership is passed, it is be far the easiest to understand/read
 *   never assign the value of a pointer to a reference if it was optional
-*   not_null<> can help to make legacy code more readable without actually changing its meaning
+*   gsl::not_null<> can help to make legacy code more readable without actually changing its meaning, but depending on configuration, can change behaviour or not. (throw an exception or call std::terminate when the not_null contract is violated
+*   gsl::owner<> can help to make legacy code more readable making nullptr assignments and implicitly converted pointers compiler errors
 
  [1]: http://en.cppreference.com/w/cpp/language/history
  [2]: http://www.stroustrup.com/bs_faq2.html#pointers-and-references
