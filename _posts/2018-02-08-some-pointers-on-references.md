@@ -148,7 +148,7 @@ As a sidenote, the GSL has three options to handle contract violations:
 2.  GSL_THROW_ON_CONTRACT_VIOLATION: a gsl::fail_fast exception will be thrown
 3.  GSL_UNENFORCED_ON_CONTRACT_VIOLATION: nothing happens
 
-This **gsl::not_null<foo></foo>** has two advantages; first of all it makes explicit that the argument is not optional and second, gsl-aware static analysis tools can use the type information to give better diagnostic messages. However, there is still no expression of ownership, so we might write:
+This **`gsl::not_null<foo>`** has two advantages; first of all it makes explicit that the argument is not optional and second, gsl-aware static analysis tools can use the type information to give better diagnostic messages. However, there is still no expression of ownership, so we might write:
 
     void Func(Foo& foo, int x)
     {
