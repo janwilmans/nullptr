@@ -40,7 +40,7 @@ Then there were **references**, they where introduced in 1985 [for operator over
 So references:
 
 *   are always initialized
-*   can be null assigned (but never do that)
+*   can be null assigned (but please never do that)
 *   **cannot be reassigned**
 *   explicitly express the absence of ownership
 *   don't allow arithmetic
@@ -92,17 +92,17 @@ Throughout this post, where I talk about 'pointers', I mean all kinds, so: raw, 
 
 # Different kinds of pointers with different use cases
 
-Pointers, or what today we like to call 'raw pointers', to contrast them from 'smart' pointers, have kind of folklore about them. They are attributed qualities like 'bad style' or even 'being evil'. I my opinion pointers are useful and harmless in themselves but like anything they can be misused in a way that can become problematic. Not unlike:
+Pointers, or what today we like to call 'raw pointers', to contrast them from 'smart' pointers, have kind of folklore about them. They are attributed qualities like 'bad style' or even 'being evil'. I my opinion pointers are useful and harmless in themselves but like anything they can be misused in a way that can become problematic.
 
 > "Warning: towels can be harmful if swallowed in large quantities". -- Douglass Adams.
 
 That being said, I think in general pointers should be considered a last resort, not a default. Or to put it another way: **Use a reference if you can, use a pointer if you have to.**
 
-As a rule of thumb I think you could say:
+As a rule of thumb I:
 
 *   prefer pointers that express ownership 
 *   prefer pointers that cannot be uninitialized 
-*   prefer pointers that cannot be null 
+*   prefer pointers that cannot be null
 *   prefer pointers that cannot be copied
 
 This basically orders my preference for pointers as:
@@ -111,7 +111,8 @@ This basically orders my preference for pointers as:
     - unique_ptr<Foo>
     - not_null<shared_ptr<Foo>>
     - shared_ptr<Foo>
-    - not_null<Foo*>
+    - [gsl::owner<Foo*>][6]
+    - gsl::not_null<Foo*>
     - Foo*
     
 
@@ -148,7 +149,7 @@ This has two advantages; first of all it makes explicit that the argument is not
     }
     
 
-Here we use a reference to express explicitly that our 'foo' argument is not optional and we do not receive any ownership. So if references are so great, why not just always use them? Consider this data structure:
+Here we use a reference to express explicitly that our 'foo' argument is not optional and the caller does not receive ownership. So if references are so great, why not just always use them? Consider this data structure:
 
     struct Time {}
     struct Task 
@@ -173,10 +174,10 @@ Here a Task can be created, but can never be rescheduled, which would mean that 
 
 Here a Task can be assigned a time, it has to have a time at construction, the time can be changed later, but can only be re-assigned another Time object.
 
-There is another advantage to this because references can be null assigned, and to make matters worse, there is no way to check when that happens.
+There is another advantage to this because references can be null assigned and to make matters worse, there is no way to check when that happens.
 
-    Time * t = nullptr;
-    Task task = { *t };
+    Time * t = nullptr; 
+    Task task = { *t }; // please never null assign a reference!
     
 
 Then to stack up more potential problems:
@@ -211,7 +212,15 @@ This does not mean references or raw pointers (or any kind of pointer for that m
     }
     
 
-This code is just as bad for use in two threads because 'foo' is potentially copied and re-assigned at the same time. See for more information my other blog posts.
+This code is just as bad for use in two threads because 'foo' is potentially copied and re-assigned at the same time. See for more information my other blog posts:
+
+<http://nullptr.nl/2018/01/introducing-mt_shared_ptr/> <http://nullptr.nl/2017/09/shared_ptr-broken/>
+
+To summarize so guidelines I like use:
+
+*   use references to express that no ownership is passed, it is be far the easiest to understand/read
+*   never assign the value of a pointer to a reference if it was optional
+*   not_null<> can help to make legacy code more readable without actually changing its meaning
 
  [1]: http://en.cppreference.com/w/cpp/language/history
  [2]: http://www.stroustrup.com/bs_faq2.html#pointers-and-references
