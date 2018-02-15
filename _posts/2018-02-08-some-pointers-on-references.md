@@ -66,7 +66,7 @@ Smart pointers are called smart because they manage the lifetime of objects in s
 *   express unique ownership
 *   can be moved but **can not be copied**
 
-Enter the [GSL][3] in 2015 including, among many other things, [not_null<> and owner<> template][4]:
+Enter the [GSL][3] in 2015 including, among many other things, [not_null<>][4] and [owner<> template][4]:
 
 **not_null<Foo*>**
 
@@ -78,7 +78,7 @@ Enter the [GSL][3] in 2015 including, among many other things, [not_null<> and o
 
 They can also be combined, for example:
 
-**`not_null<shared_ptr>`**
+**`not_null<shared_ptr<Foo>>`**
 
 *   cannot be uninitialized
 *   cannot be null assigned
