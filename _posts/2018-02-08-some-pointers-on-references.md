@@ -88,7 +88,7 @@ They can also be combined, for example:
 
 A similar albeit slightly different in philosophy is the [nn<> type from dropbox][5].
 
-Throughout this post, where I talk about 'pointers', I mean all kinds, so: raw, smart, atomic and also references. This summary is certainty not an exhaustive list of existing (smart) pointers but lets compare the specimens we have here.
+Throughout this post, where I talk about 'pointers', I mean all kinds, so: raw, smart, atomic and also references. (even though references are strictly speaking not pointers). This summary is certainty not an exhaustive list of existing (smart) pointers but lets compare the specimens we have here.
 
 # Different kinds of pointers with different use cases
 
