@@ -10,7 +10,7 @@ int main()
 
 ```batch
 ::blabla
-:: dit is een test don`t try it an home
+:: dit is een test don't try it an home
 ::blabla
 ::blabla
 ::blabla
@@ -19,7 +19,7 @@ int main()
 
 ```batch
 ::blabla
-:: dit is een test don\`t try it an home
+:: dit is een test don''t try it an home
 ::blabla
 ::blabla
 ::blabla
@@ -28,7 +28,7 @@ int main()
 
 ```batch
 ::blabla
-:: dit is een test don```````t try it an home
+:: dit is een test don```'```t try it an home
 ::blabla
 ::blabla
 ::blabla
