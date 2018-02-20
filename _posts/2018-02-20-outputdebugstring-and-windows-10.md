@@ -27,7 +27,8 @@ After some investigation this turned out, *debugview++ itselt* was not sending a
 
 So the problem was introduced because in Windows 10 1703 the Win32 API itself started using OutputDebugString internally. Below is a stackdump from the process while it was hanging (created using taskmanager's 'Create dump file' feature).
 
-<img src="http://nullptr.nl/wp-content/uploads/2018/02/create_dump.png" alt="" width="626" height="674" class="alignleft size-full wp-image-1022" />
+<img src="http://nullptr.nl/wp-content/uploads/2018/02/create_dump.png" alt="" width="626" height="674" class="alignleft size-full wp-image-1022" />   
+
 
         ntdll.dll!_NtWaitForSingleObject@12�()  Unknown
         KERNELBASE.dll!WaitForSingleObjectEx()  Unknown
