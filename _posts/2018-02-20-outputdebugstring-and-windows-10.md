@@ -29,7 +29,8 @@ So the problem was introduced because in Windows 10 1703 the Win32 API itself st
 
 After I found out *why* it was happening, I was also able to do a small redesign of the flow for incoming messages so it does not matter anymore where the messages come from.
 
-> 
+> The obscure we see eventually. The completely obvious, it seems, takes longer. - Edward R. Murrow.
+
 <img src="http://nullptr.nl/wp-content/uploads/2018/02/create_dump.png" alt="" width="626" height="674" class="aligntop size-full wp-image-1022" />
 
 <div>
