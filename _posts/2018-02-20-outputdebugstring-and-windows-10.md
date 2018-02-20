@@ -17,7 +17,7 @@ post_date: 2018-02-20 22:08:20
 
 While testing [Debugview++][1] on Windows Windows 10 1703 Creators Update Build 15063.413 (the latest version at the time) one of my users found that the application hangs at startup for about 20 seconds, before actually continuing the startup. After this it was working normally.
 
-The bug was reported [here][2]. On the version before that 'Windows 10 version 1607 14393.1358' this problem did not occur. Now [Debugview++][1] is kind of special in that it listens to a 'debugger' API, namely to receive the '[OutputDebugString][3]' messages. For those of you not familiar with this API, it is win32 facility to output debug message (as the name suggests).
+The bug was reported [here][2]. On the version before that Windows 10 version 1607 14393.1358 this problem did not occur. Now [Debugview++][1] is kind of special in that it listens to a 'debugger' API, namely to receive the '[OutputDebugString][3]' messages. For those of you not familiar with this API, it is win32 facility to output debug message (as the name suggests).
 
 Normally debugview++ receives these messages from another process. The mechanism to deliver the message is quite [primitive][4], it is a fixed 4096 bytes buffer and the caller of OutputDebugString can briefly be blocked if messages are not immediately read by the debug application.
 
