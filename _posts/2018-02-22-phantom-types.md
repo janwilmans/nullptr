@@ -252,6 +252,20 @@ As you can see, this is becoming more and more cumbersome. It makes sense to be 
 
 The Boost.Units library offers many SI units and common operations out of the box. Its documentation leaves much to be desired, but watching [Robert Ramey's CPPCON 2015 talk "Boost Units Library for Correct Code"][6] is a good introduction.
 
+Another also very useful application is in string verification:
+
+        struct raw {};
+        struct verified {};
+    
+        using RawData = StrongType < std::string, raw > ;
+        using VerifiedData = StrongType < std::string, verified >;
+    
+        VerifiedData verify(const RawData& data) { return VerifiedData("");  }
+        void process(const VerifiedData& data) {}
+    
+
+Here there is no way for the 'process' method to accept un-verified data as an input. This is a very nice compiler check to have and as Ben Deane mentioned in his talk 'Using types effectively' can also promote a clear separation of responsibilities. The process method does not have to do any checks because it can be sure no unverified data will come in.
+
 To summarize: Strong types can be implemented in C++ and getting basic type safety that way is not that difficult. The downside of doing a naive implementation is that for doing arithmetic it requires lots of explicit constructions and .get() calls which is ugly, or at least, no longer looks natural. For SI units Boost.Units can offer an alternative. As a final note: the ideas in this post were distilled from the references below, the code samples above were written be me and can be used freely.
 
 > References
