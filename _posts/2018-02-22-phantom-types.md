@@ -27,9 +27,7 @@ The idea is simple (or so it seems). Suppose you would like to distinguish varia
     }
     
 
-Error 1 error C2664: 'void StrongTyped::g(StrongTyped::AxisId)' : cannot convert argument 1 from 'StrongTyped::ControllerId' to 'StrongTyped::AxisId' C:\Users\jan\Documents\Visual Studio 2013\Projects\initialized_vars\initialized_vars\initialized_vars.cpp 35 1 initialized_vars
-
-The idea here is that axes and controllers are identified by an index, the indexes are not unique, both ranges contains 0, 1, 2 3, etc... Now function g() should only be called with an AxisId, but if you were to give it '1' or a ControllerId, that would happily compile. Also as the example shows, typedef'ed basic types cannot be used to overload a method.
+The idea here is that axes and controllers are identified by an index, the indexes are not unique, both ranges contain 0, 1, 2 3, etc... Now function g() should only be called with an AxisId, but if you were to give it '1' or a ControllerId, that would happily compile. Also as the example shows, typedef'ed basic types cannot be used to overload a method.
 
 This case is basically now a solved problem in C++11 with the introduction of 'enum class', as it can do a special trick for integers:
 
@@ -71,7 +69,7 @@ However, what about the case where there is not a known/fixed amount of members:
     }
     
 
-Here it would have been nice to overload the method 'getWorkingHours' with arguments of different type for 'day' or 'week'. It turns out this is actually not all that hard, let have the enum class do its thing:
+Here it would have been nice to overload the method 'getWorkingHours' with arguments of different type for 'day' or 'week'. It turns out this is actually not all that hard, lets have the enum class do its thing:
 
     enum class Days;  // notice: enum declarations without any specific values 
     enum class Weeks;      
@@ -245,26 +243,30 @@ To summarize: Strong types can be implemented in C++ and getting basic type safe
 > References
 
 [C++Now 2017: Jonathan Müller “Type-safe Programming"][4]  
-[Arne Mertz' 2016 Simplify C++ artical "Use Stronger Types!"][5]  
-[CppCon 2015: Kyle Markley "Extreme Type Safety with Opaque Typedefs"][6] => [Link to Kyle Markley's sources][7]  
+[Arne Mertz' 2016 Simplify C++ article "Use Stronger Types!"][5]  
+[CppCon 2016: Ben Deane “Using Types Effectively"][6]  
+[CppCon 2015: Kyle Markley "Extreme Type Safety with Opaque Typedefs"][7] => [Link to Kyle Markley's sources][8]  
 [CppCon 2015: Robert Ramey “Boost Units Library for Correct Code"][3]  
-[The blog at the bottom of the sea - Getting Strongly Typed Typedefs Using Phantom Types][8]  
-[Jonathan Müller's blog about strong typedefs][9] => [Link to Jonathan Müller's sources][10]  
-[Link to Opaque typedef proposal][11]  
-[WG21/N1891 = J16/05-0151 Walter E. Brown's 2005 Opaque Typedefs proposal][12]  
-[N2141 = 06-0211 Alisdair Meredith Strong Typedefs in C++09][13] [Boost BOOST_STRONG_TYPEDEF][14]
+[The blog at the bottom of the sea - Getting Strongly Typed Typedefs Using Phantom Types][9]  
+[Jonathan Müller's blog about strong typedefs][10] => [Link to Jonathan Müller's sources][11]  
+[Link to Opaque typedef proposal][12]  
+[WG21/N1891 = J16/05-0151 Walter E. Brown's 2005 Opaque Typedefs proposal][13]  
+[N2141 = 06-0211 Alisdair Meredith Strong Typedefs in C++09][14] [Boost BOOST_STRONG_TYPEDEF][15]
+
+https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
 
  [1]: http://en.cppreference.com/w/cpp/language/rule_of_three
  [2]: http://www.boost.org/doc/libs/1_66_0/doc/html/boost_units.html
  [3]: https://www.youtube.com/watch?v=qphj8ZuZlPA&t=1192s
  [4]: https://www.youtube.com/watch?v=iihlo9A2Ezw
  [5]: https://arne-mertz.de/2016/11/stronger-types/
- [6]: https://www.youtube.com/watch?v=jLdSjh8oqmE
- [7]: https://sourceforge.net/projects/opaque-typedef/
- [8]: https://blog.demofox.org/2015/02/05/getting-strongly-typed-typedefs-using-phantom-types/
- [9]: http://foonathan.net/blog/2016/10/19/strong-typedefs.html
- [10]: https://github.com/foonathan/type_safe
- [11]: https://github.com/viboes/opaque/blob/master/libs/opaque/doc/opaque.pdf
- [12]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2005/n1891.pdf
- [13]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2141.html
- [14]: http://www.boost.org/doc/libs/1_61_0/libs/serialization/doc/strong_typedef.html
+ [6]: https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
+ [7]: https://www.youtube.com/watch?v=jLdSjh8oqmE
+ [8]: https://sourceforge.net/projects/opaque-typedef/
+ [9]: https://blog.demofox.org/2015/02/05/getting-strongly-typed-typedefs-using-phantom-types/
+ [10]: http://foonathan.net/blog/2016/10/19/strong-typedefs.html
+ [11]: https://github.com/foonathan/type_safe
+ [12]: https://github.com/viboes/opaque/blob/master/libs/opaque/doc/opaque.pdf
+ [13]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2005/n1891.pdf
+ [14]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2141.html
+ [15]: http://www.boost.org/doc/libs/1_61_0/libs/serialization/doc/strong_typedef.html
