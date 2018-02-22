@@ -190,8 +190,8 @@ This is an example of an fairly simple 'Strong type'. Different instances of Str
         auto m2 = toMeters(mm);
         std::cout << "the length is: " << mm << "\n";
         std::cout << "the length is: " << m2 << "\n";
-        //mm = m2; // no operator found which takes a right-hand operand of type 'StrongTyped::Meters
-        //m2 = mm; // no operator found which takes a right-hand operand of type 'StrongTyped::MilliMeters 
+        //mm = m2; // no operator found which takes a right-hand operand of type 'Meters'  
+        //m2 = mm; // no operator found which takes a right-hand operand of type 'MilliMeters'  
     }
     
 
@@ -247,11 +247,11 @@ So this is all very nice, but we can take it one step further; we could implemen
     }
     
 
-As you can see, this is becoming more and more cumbersome. It makes sense to be able to add/subtract Meters from Millimeters. But that would also make sense for types like: picometers, micrometers, centimeters, decimeters, kilometers, etc etc. And why not addition ? Division? Multiplication ? Meters squared could actually return a new type SquareMeters... The amount of operations quickly explodes and became very tedious to implement. Fortunately, ideas are rarely unique or new, so searching for an existing solution quickly yielded one: [Boost.Units][5]
+As you can see, this is becoming more and more cumbersome. It makes sense to be able to add/subtract Meters from Millimeters. But that would also make sense for types like: picometers, micrometers, centimeters, decimeters, kilometers, etc etc. And why not addition ? Division? Multiplication ? Meters squared could actually return a new type SquareMeters... The amount of operations quickly explodes and becomes very tedious to implement. Fortunately, ideas are rarely unique or new, so searching for an existing solution quickly yielded one: [Boost.Units][5]
 
 The Boost.Units library offers many SI units and common operations out of the box. Its documentation leaves much to be desired, but watching [Robert Ramey's CPPCON 2015 talk "Boost Units Library for Correct Code"][6] is a good introduction.
 
-To summarize: Strong types can be implemented in C++ and getting basic type safety that way is not that difficult. The downside of doing a naive implementation is that for doing arithmetic requires lots of explicit constructions and .get() calls which is ugly or at best, no longer looks natural. For SI units Boost.Units can offer an alternative. As a final note: the ideas in this post were distilled from the references below, the code samples above were written be me and can be used freely.
+To summarize: Strong types can be implemented in C++ and getting basic type safety that way is not that difficult. The downside of doing a naive implementation is that for doing arithmetic it requires lots of explicit constructions and .get() calls which is ugly, or at least, no longer looks natural. For SI units Boost.Units can offer an alternative. As a final note: the ideas in this post were distilled from the references below, the code samples above were written be me and can be used freely.
 
 > References
 
