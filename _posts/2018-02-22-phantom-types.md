@@ -49,7 +49,7 @@ This case is basically now a solved problem in C++11 with the introduction of 'e
     void g(AxisId id) {}
     void foo()
     {
-       g(ControllerId::A); // error: cannot convert argument 1 from 'StrongTyped::ControllerId' to 'StrongTyped::AxisId' // nice, very clear message!
+       g(ControllerId::A); // error: cannot convert argument 1 from 'ControllerId' to 'AxisId' // nice, very clear message!
     }   
     
 
