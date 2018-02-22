@@ -53,6 +53,19 @@ This case is basically now a solved problem in C++11 with the introduction of 'e
     }   
     
 
+I should mention at this point, that there is a 'gotcha' [in C++17][1], which future textbooks will now have to refer to as the well known anti-pattern called '[Ólafur's Fruit Salad][2]':
+
+    enum class Apple;
+    enum class Orange;
+    Apple a{3};
+    Orange o{5};
+    //o = a;   // doesn't compile
+    Apple fruit_salad{Orange{2}}; // compiles without warning!
+    ‏
+    
+
+[Try this on godbolt.org][3] to see if your compiler is affected.
+
 However, what about the case where there is not a known/fixed amount of members:
 
     using Days = int;
@@ -182,7 +195,7 @@ This is an example of an fairly simple 'Strong type'. Different instances of Str
     }
     
 
-I have made the 'template class StrongType' a little more verbose by implementing the move assignment operator and move constructor explicitly so it can be used on somewhat older compilers as well. On a C++17 compliant compilers all [rule-of-five][1] constructors could be defaulted.
+I have made the 'template class StrongType' a little more verbose by implementing the move assignment operator and move constructor explicitly so it can be used on somewhat older compilers as well. On a C++17 compliant compilers all [rule-of-five][4] constructors could be defaulted.
 
 So this is all very nice, but we can take it one step further; we could implement assignment operators for Meters on a Millimeter class and vice versa.
 
@@ -234,39 +247,42 @@ So this is all very nice, but we can take it one step further; we could implemen
     }
     
 
-As you can see, this is becoming more and more cumbersome. It makes sense to be able to add/subtract Meters from Millimeters. But that would also make sense for types like: picometers, micrometers, centimeters, decimeters, kilometers, etc etc. And why not addition ? Division? Multiplication ? Meters squared could actually return a new type SquareMeters... The amount of operations quickly explodes and became very tedious to implement. Fortunately, ideas are rarely unique or new, so searching for an existing solution quickly yielded one: [Boost.Units][2]
+As you can see, this is becoming more and more cumbersome. It makes sense to be able to add/subtract Meters from Millimeters. But that would also make sense for types like: picometers, micrometers, centimeters, decimeters, kilometers, etc etc. And why not addition ? Division? Multiplication ? Meters squared could actually return a new type SquareMeters... The amount of operations quickly explodes and became very tedious to implement. Fortunately, ideas are rarely unique or new, so searching for an existing solution quickly yielded one: [Boost.Units][5]
 
-The Boost.Units library offers many SI units and common operations out of the box. Its documentation leaves much to be desired, but watching [Robert Ramey's CPPCON 2015 talk "Boost Units Library for Correct Code"][3] is a good introduction.
+The Boost.Units library offers many SI units and common operations out of the box. Its documentation leaves much to be desired, but watching [Robert Ramey's CPPCON 2015 talk "Boost Units Library for Correct Code"][6] is a good introduction.
 
 To summarize: Strong types can be implemented in C++ and getting basic type safety that way is not that difficult. The downside of doing a naive implementation is that for doing arithmetic requires lots of explicit constructions and .get() calls which is ugly or at best, no longer looks natural. For SI units Boost.Units can offer an alternative. As a final note: the ideas in this post were distilled from the references below, the code samples above were written be me and can be used freely.
 
 > References
 
-[C++Now 2017: Jonathan Müller “Type-safe Programming"][4]  
-[Arne Mertz' 2016 Simplify C++ article "Use Stronger Types!"][5]  
-[CppCon 2016: Ben Deane “Using Types Effectively"][6]  
-[CppCon 2015: Kyle Markley "Extreme Type Safety with Opaque Typedefs"][7] => [Link to Kyle Markley's sources][8]  
-[CppCon 2015: Robert Ramey “Boost Units Library for Correct Code"][3]  
-[The blog at the bottom of the sea - Getting Strongly Typed Typedefs Using Phantom Types][9]  
-[Jonathan Müller's blog about strong typedefs][10] => [Link to Jonathan Müller's sources][11]  
-[Link to Opaque typedef proposal][12]  
-[WG21/N1891 = J16/05-0151 Walter E. Brown's 2005 Opaque Typedefs proposal][13]  
-[N2141 = 06-0211 Alisdair Meredith Strong Typedefs in C++09][14] [Boost BOOST_STRONG_TYPEDEF][15]
+[C++Now 2017: Jonathan Müller “Type-safe Programming"][7]  
+[Arne Mertz' 2016 Simplify C++ article "Use Stronger Types!"][8]  
+[CppCon 2016: Ben Deane “Using Types Effectively"][9]  
+[CppCon 2015: Kyle Markley "Extreme Type Safety with Opaque Typedefs"][10] => [Link to Kyle Markley's sources][11]  
+[CppCon 2015: Robert Ramey “Boost Units Library for Correct Code"][6]  
+[The blog at the bottom of the sea - Getting Strongly Typed Typedefs Using Phantom Types][12]  
+[Jonathan Müller's blog about strong typedefs][13] => [Link to Jonathan Müller's sources][14]  
+[Link to Opaque typedef proposal][15]  
+[WG21/N1891 = J16/05-0151 Walter E. Brown's 2005 Opaque Typedefs proposal][16]  
+[N2141 = 06-0211 Alisdair Meredith Strong Typedefs in C++09][17] [Boost BOOST_STRONG_TYPEDEF][18]
 
 https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
 
- [1]: http://en.cppreference.com/w/cpp/language/rule_of_three
- [2]: http://www.boost.org/doc/libs/1_66_0/doc/html/boost_units.html
- [3]: https://www.youtube.com/watch?v=qphj8ZuZlPA&t=1192s
- [4]: https://www.youtube.com/watch?v=iihlo9A2Ezw
- [5]: https://arne-mertz.de/2016/11/stronger-types/
- [6]: https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
- [7]: https://www.youtube.com/watch?v=jLdSjh8oqmE
- [8]: https://sourceforge.net/projects/opaque-typedef/
- [9]: https://blog.demofox.org/2015/02/05/getting-strongly-typed-typedefs-using-phantom-types/
- [10]: http://foonathan.net/blog/2016/10/19/strong-typedefs.html
- [11]: https://github.com/foonathan/type_safe
- [12]: https://github.com/viboes/opaque/blob/master/libs/opaque/doc/opaque.pdf
- [13]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2005/n1891.pdf
- [14]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2141.html
- [15]: http://www.boost.org/doc/libs/1_61_0/libs/serialization/doc/strong_typedef.html
+ [1]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2015/p0138r0.pdf
+ [2]: https://twitter.com/bjorn_fahller/status/966585963500789760
+ [3]: https://godbolt.org/g/CqM2kN
+ [4]: http://en.cppreference.com/w/cpp/language/rule_of_three
+ [5]: http://www.boost.org/doc/libs/1_66_0/doc/html/boost_units.html
+ [6]: https://www.youtube.com/watch?v=qphj8ZuZlPA&t=1192s
+ [7]: https://www.youtube.com/watch?v=iihlo9A2Ezw
+ [8]: https://arne-mertz.de/2016/11/stronger-types/
+ [9]: https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
+ [10]: https://www.youtube.com/watch?v=jLdSjh8oqmE
+ [11]: https://sourceforge.net/projects/opaque-typedef/
+ [12]: https://blog.demofox.org/2015/02/05/getting-strongly-typed-typedefs-using-phantom-types/
+ [13]: http://foonathan.net/blog/2016/10/19/strong-typedefs.html
+ [14]: https://github.com/foonathan/type_safe
+ [15]: https://github.com/viboes/opaque/blob/master/libs/opaque/doc/opaque.pdf
+ [16]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2005/n1891.pdf
+ [17]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2141.html
+ [18]: http://www.boost.org/doc/libs/1_61_0/libs/serialization/doc/strong_typedef.html
