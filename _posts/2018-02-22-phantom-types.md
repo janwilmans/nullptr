@@ -151,10 +151,11 @@ This is an example of an fairly simple 'Strong type'. Different instances of Str
             }
             return *this;
         }
-        explicit StrongType(T value) : m_value(value) {} // basic type constructor
+        explicit StrongType(const T& value) : m_value(value) {} // basic type constructor
         virtual ~StrongType() = default;
     
         double get() const { return m_value; }
+        void set(const T& value) { m_value = value;  }
     
     private:
         T m_value;
