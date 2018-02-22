@@ -127,7 +127,7 @@ These are examples of applications of strong types from different fields. The us
 
 another way to look at the application of the district types is:
 
-*   make overloading possible for different types basic off the same basic type.
+*   make overloading possible for different variables of the same basic type.
 *   make non-sensible operations compilation errors, such as dividing by an offset or subtracting an address from an offset.
 *   verifying data: have user-input validated and put into a verified type
 
