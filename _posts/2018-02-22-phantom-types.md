@@ -196,7 +196,11 @@ This is an example of an fairly simple 'Strong type'. Different instances of Str
     }
     
 
-I have made the 'template class StrongType' a little more verbose by implementing the move assignment operator and move constructor explicitly so it can be used on somewhat older compilers as well. On a C++17 compliant compilers all [rule-of-five][4] constructors could be defaulted.
+I have made the 'template class StrongType' a little more verbose by implementing the move assignment operator and move constructor explicitly so it can be used on somewhat older compilers as well. On a C++17 compliant compilers all [rule-of-five][4] constructors could be defaulted. Also the tag type struct does not have to be on separate line, it can be defined in-place like so:
+
+    using Meters = StrongType < double, struct tag_meter() >;
+    using MilliMeters = StrongType < double, struct tag_millimeter() >;
+    
 
 So this is all very nice, but we can take it one step further; we could implement assignment operators for Meters on a Millimeter class and vice versa.
 
