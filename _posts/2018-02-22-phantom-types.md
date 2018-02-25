@@ -23,7 +23,8 @@ The idea is simple (or so it seems). Suppose you would like to distinguish varia
     void g(AxisId id) {}
     void foo()
     {
-       g(ControllerId::A);        // very wrong, but compiles fine and without warning
+       ControllerId controllerA(42);
+       g(controllerA);        // very wrong, but compiles fine and without warning
     }
     
 
