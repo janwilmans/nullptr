@@ -154,7 +154,7 @@ This is an example of an fairly simple 'Strong type'. Different instances of Str
         explicit StrongType(const T& value) : m_value(value) {} // basic type constructor
         virtual ~StrongType() = default;
     
-        double get() const { return m_value; }
+        T get() const { return m_value; }
         void set(const T& value) { m_value = value;  }
     
     private:
