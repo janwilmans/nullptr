@@ -54,7 +54,7 @@ This case is basically now a solved problem in C++11 with the introduction of 'e
     }   
     
 
-I should mention at this point, that there is a 'gotcha' [in C++17][1], which future textbooks will now have to refer to as the well known anti-pattern called '[Ólafur's Fruit Salad][2]':
+I should mention at this point, that there is a 'gotcha' [in C++17][1] but not in earlier versions, which future textbooks will now have to refer to as the well known anti-pattern called '[Ólafur's Fruit Salad][2]':
 
     enum class Apple;
     enum class Orange;
@@ -64,6 +64,8 @@ I should mention at this point, that there is a 'gotcha' [in C++17][1], which fu
     Apple fruit_salad{Orange{2}}; // compiles without warning!
     ‏
     
+
+Hopefully this will be addressed in C++20.
 
 [Try this on godbolt.org][3] to see if your compiler is affected.
 
