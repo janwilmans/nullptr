@@ -47,9 +47,9 @@ This case is basically now a solved problem in C++11 with the introduction of 'e
     void f(ControllerId id) {} // Ok, ControllerId is a unique type
     
     void g(AxisId id) {}
-    void foo()
     {
-       g(ControllerId::A); // error: cannot convert argument 1 from 'ControllerId' to 'AxisId' // nice, very clear message!
+       ControllerId controllerA(42);
+       g(controllerA); // error: cannot convert argument 1 from 'ControllerId' to 'AxisId' // nice, very clear message!
     }   
     
 
