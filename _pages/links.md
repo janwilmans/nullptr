@@ -27,6 +27,7 @@ post_date: 2017-11-04 13:46:31
 *   [Herb's spaceship operator proposal, use as template, as an example of how to write a proposal][4]
 *   <https://carbon.now.sh>
 *   <https://godbolt.org/>
+*   <http://eel.is/c++draft/>
 
 # javascript related
 
