@@ -32,7 +32,7 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 # Past
 
 [Meeting C++ Conference 2017][13]  
-[FOSDEM][14], 3/4 Februari 2018, Brussels [Cpp Europe][15], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][16]  
+[FOSDEM][14], 3/4 Februari 2018, Brussels, free event for software developers [Cpp Europe][15], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][16]  
 [emBO++][11], EMBEDDED C++ CONFERENCE IN BOCHUM, 9th to the 11th of March 2018 in Bochum, ruhr-valley, Germany  
 [ACCU 2018][17] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018  
 [C++ CoreHard Spring 2018 Сonference][18], 7/8 April 2018  
