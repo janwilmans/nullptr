@@ -4,7 +4,7 @@ post_title: 'Agenda &#8211; kan weg'
 author: Jan Wilmans
 post_excerpt: ""
 layout: page
-permalink: http://nullptr.nl/cppagenda/
+permalink: http://nullptr.nl/cppagenda-kanweg/
 published: true
 post_date: 2018-06-22 22:08:35
 ---
