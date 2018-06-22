@@ -31,12 +31,12 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 # Past
 
 [Meeting C++ Conference 2017][13]  
-[Cpp Europe][14], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][15]  
+[FOSDEM][14], 3/4 Februari 2018, Brussels [Cpp Europe][15], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][16]  
 [emBO++][11], EMBEDDED C++ CONFERENCE IN BOCHUM, 9th to the 11th of March 2018 in Bochum, ruhr-valley, Germany  
-[ACCU 2018][16] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018  
+[ACCU 2018][17] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018  
 C++ Now, May 2018  
-[ISO C++ Meeting, Rapperswil][17], Switzerland 4-9 June 2018  
-[C++ Russia][18], Saint-Petersburg, Russia April 19-21 2018  
+[ISO C++ Meeting, Rapperswil][18], Switzerland 4-9 June 2018  
+[C++ Russia][19], Saint-Petersburg, Russia April 19-21 2018  
 NDC Oslo, 11-15 June 2018
 
  [1]: https://www.italiancpp.org/event/itcppcon18/
@@ -52,8 +52,9 @@ NDC Oslo, 11-15 June 2018
  [11]: https://www.embo.io/
  [12]: http://cppnow.org/
  [13]: http://meetingcpp.com/2017/
- [14]: https://cppeurope.com/
- [15]: https://twitter.com/@mozaicworks
- [16]: https://conference.accu.org/2018/accu2018.html
- [17]: http://open-std.org/JTC1/SC22/WG21/docs/papers/2018/n4745.html
- [18]: http://cppconf.ru/
+ [14]: https://fosdem.org/2018/
+ [15]: https://cppeurope.com/
+ [16]: https://twitter.com/@mozaicworks
+ [17]: https://conference.accu.org/2018/accu2018.html
+ [18]: http://open-std.org/JTC1/SC22/WG21/docs/papers/2018/n4745.html
+ [19]: http://cppconf.ru/
