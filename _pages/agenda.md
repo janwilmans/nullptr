@@ -19,8 +19,8 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 # 2019
 
 *   [emBO++ 2019][6] March 2018 in Bochum, ruhr-valley, Germany
-*   [ACCU 2019][17] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018
-*   [C++ Now][7], A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado, May 5, 2019 - May 10, 2019
+*   [ACCU 2019][7] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018
+*   [C++ Now][8], A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado, May 5, 2019 - May 10, 2019
 *   [CppCon 2019][2] September 2019, Bellevue, Washington, USA.
 
  [1]: https://www.eventbrite.com/e/cppcon-2018-registration-38781666007
@@ -29,4 +29,5 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
  [4]: https://www.google.nl/maps/place/Wroc%C5%82aw,+Poland/data=!4m2!3m1!1s0x470fe9c2d4b58abf:0xb70956aec205e0f5?sa=X&ved=0ahUKEwib2cvFgOjbAhUM16QKHaBIDeEQ8gEI0wEwEQ
  [5]: http://meetingcpp.com/
  [6]: https://www.embo.io/
- [7]: http://cppnow.org/
+ [7]: https://conference.accu.org/2018/accu2018.html
+ [8]: http://cppnow.org/
