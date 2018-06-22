@@ -4,7 +4,7 @@ post_title: C++ Agenda 2018 / 2019
 author: Jan Wilmans
 post_excerpt: ""
 layout: page
-permalink: http://nullptr.nl/agenda/
+permalink: http://nullptr.nl/cppagenda/
 published: true
 post_date: 2018-06-22 20:28:50
 ---
