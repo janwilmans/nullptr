@@ -23,21 +23,21 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 
 # 2019
 
-[emBO++][11]  
-[C++ Now][12], A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado, May 5, 2019 - May 10, 2019
+*   [emBO++][11]
+*   [C++ Now][12], A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado, May 5, 2019 - May 10, 2019
 
 # Past
 
-[Meeting C++ Conference 2017][13]  
-[FOSDEM][14], 3/4 Februari 2018, Brussels, free event for software developers  
-[Cpp Europe][15], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][16]  
-[emBO++][11], EMBEDDED C++ CONFERENCE IN BOCHUM, 9th to the 11th of March 2018 in Bochum, ruhr-valley, Germany  
-[ACCU 2018][17] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018  
-[C++ CoreHard Spring 2018 Сonference][18], 7/8 April 2018  
-[European LLVM Developers Meeting 2018][19], Bristol, UK, April 16-17, 2018 C++ Now, May 2018  
-[ISO C++ Meeting, Rapperswil][20], Switzerland 4-9 June 2018  
-[C++ Russia][21], Saint-Petersburg, Russia April 19-21 2018  
-[NDC Oslo][22], 11-15 June 2018, Inspiring Software Developers since 2008
+*   [Meeting C++ Conference 2017][13]
+*   [FOSDEM][14], 3/4 Februari 2018, Brussels, free event for software developers
+*   [Cpp Europe][15], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][16]
+*   [emBO++][11], EMBEDDED C++ CONFERENCE IN BOCHUM, 9th to the 11th of March 2018 in Bochum, ruhr-valley, Germany
+*   [ACCU 2018][17] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018
+*   [C++ CoreHard Spring 2018 Сonference][18], 7/8 April 2018
+*   [European LLVM Developers Meeting 2018][19], Bristol, UK, April 16-17, 2018 C++ Now, May 2018
+*   [ISO C++ Meeting, Rapperswil][20], Switzerland 4-9 June 2018
+*   [C++ Russia][21], Saint-Petersburg, Russia April 19-21 2018
+*   [NDC Oslo][22], 11-15 June 2018, Inspiring Software Developers since 2008
 
  [1]: https://www.italiancpp.org/event/itcppcon18/
  [2]: https://www.meetup.com/The-Dutch-Cpp-Group/events/251860695/?rv=me1&_xtd=gatlbWFpbF9jbGlja9oAJGU4ZTdiNDI2LThkNGUtNDYwZS1iMjJmLTEwYzkzMWY0MTU0ZQ&_af=event&_af_eid=251860695&https=on
