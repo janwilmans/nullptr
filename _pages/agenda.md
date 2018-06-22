@@ -26,13 +26,19 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 
 # 2019
 
-[emBO++][11] [C++ Now][12], A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado, May 5, 2019 - May 10, 2019
+[emBO++][11]  
+[C++ Now][12], A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado, May 5, 2019 - May 10, 2019
 
 # Past
 
-[Cpp Europe][13], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][14]  
+[Meeting C++ Conference 2017][13]  
+[Cpp Europe][14], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][15]  
 [emBO++][11], EMBEDDED C++ CONFERENCE IN BOCHUM, 9th to the 11th of March 2018 in Bochum, ruhr-valley, Germany  
-[ACCU 2018][15] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018 [Meeting C++ Conference 2017][16] May 2018 [ISO C++ Meeting, Rapperswil][17], Switzerland 4-9 June 2018
+[ACCU 2018][16] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018  
+C++ Now, May 2018  
+[ISO C++ Meeting, Rapperswil][17], Switzerland 4-9 June 2018  
+[C++ Russia][18], Saint-Petersburg, Russia April 19-21 2018  
+NDC Oslo, 11-15 June 2018
 
  [1]: https://www.italiancpp.org/event/itcppcon18/
  [2]: https://www.meetup.com/The-Dutch-Cpp-Group/events/251860695/?rv=me1&_xtd=gatlbWFpbF9jbGlja9oAJGU4ZTdiNDI2LThkNGUtNDYwZS1iMjJmLTEwYzkzMWY0MTU0ZQ&_af=event&_af_eid=251860695&https=on
@@ -46,8 +52,9 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
  [10]: http://meetingcpp.com/
  [11]: https://www.embo.io/
  [12]: http://cppnow.org/
- [13]: https://cppeurope.com/
- [14]: https://twitter.com/@mozaicworks
- [15]: https://conference.accu.org/2018/accu2018.html
- [16]: http://meetingcpp.com/2017/
+ [13]: http://meetingcpp.com/2017/
+ [14]: https://cppeurope.com/
+ [15]: https://twitter.com/@mozaicworks
+ [16]: https://conference.accu.org/2018/accu2018.html
  [17]: http://open-std.org/JTC1/SC22/WG21/docs/papers/2018/n4745.html
+ [18]: http://cppconf.ru/
