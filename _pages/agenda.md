@@ -30,7 +30,7 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 
 [Meeting C++ Conference 2017][11]  
 [emBO++][9], EMBEDDED C++ CONFERENCE IN BOCHUM, 9th to the 11th of March 2018 in Bochum, ruhr-valley, Germany  
-[ACCU 2018][12] took place at Bristol Marriott Hotel City Centre 2018-04-10 to 2018-04-14 – Tuesday 2017-04-10, the first
+[ACCU 2018][12] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018
 
  [1]: https://www.italiancpp.org/event/itcppcon18/
  [2]: https://www.meetup.com/The-Dutch-Cpp-Group/events/251860695/?rv=me1&_xtd=gatlbWFpbF9jbGlja9oAJGU4ZTdiNDI2LThkNGUtNDYwZS1iMjJmLTEwYzkzMWY0MTU0ZQ&_af=event&_af_eid=251860695&https=on
