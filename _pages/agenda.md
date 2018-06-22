@@ -12,17 +12,14 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 
 # Upcoming
 
-[Italian C++ Conference 2018][1], Saturday June 23, Milan (free, size : ~160 people)
-
-[Lightning Talks!, The Dutch C++ Group][2], Thursday, June 28, 2018, Location not set yet.
-
-[Registration][3] open for [CppCon 2018][4] September 23-28, Bellevue, Washington, USA.  
-[SG14 Meeting on Executors][5], Seattle, WA, USA; Standard C++ Foundation, at CppCon
-
-[code::dive 2018][6], 7-8 November 2018, Kino Nowe Horyzonty, [Wrocław, Poland][7] (free, register on time!, C++, ML, DevOps, Go, Security)  
-[ISO C++ WG21 Meeting San Diego][8], Oktober 12, 2018  
-[Meeting Embedded 2018][9], November 14, 2018, Vienna House Andel's Berlin Hotel  
-[Meeting C++][10], 15th - 17th November in Berlin
+*   [Italian C++ Conference 2018][1], Saturday June 23, Milan (free, size : ~160 people)
+*   [Lightning Talks!, The Dutch C++ Group][2], Thursday, June 28, 2018, Location not set yet.
+*   [Registration][3] open for [CppCon 2018][4] September 23-28, Bellevue, Washington, USA.
+*   [SG14 Meeting on Executors][5], Seattle, WA, USA; Standard C++ Foundation, at CppCon
+*   [code::dive 2018][6], 7-8 November 2018, Kino Nowe Horyzonty, [Wrocław, Poland][7] (free, register on time!, C++, ML, DevOps, Go, Security)
+*   [ISO C++ WG21 Meeting San Diego][8], Oktober 12, 2018
+*   [Meeting Embedded 2018][9], November 14, 2018, Vienna House Andel's Berlin Hotel
+*   [Meeting C++][10], 15th - 17th November in Berlin
 
 # 2019
 
