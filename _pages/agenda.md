@@ -19,7 +19,8 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 [Registration][3] open for [CppCon 2018][4] September 23-28, Bellevue, Washington, USA.  
 [SG14 Meeting on Executors][5], Seattle, WA, USA; Standard C++ Foundation, at CppCon
 
-[code::dive 2018][6], 7-8 November 2018, Kino Nowe Horyzonty, [Wrocław, Poland][7] (free, register on time!, C++, ML, DevOps, Go, Security) [ISO C++ WG21 Meeting San Diego][8], Oktober 12, 2018  
+[code::dive 2018][6], 7-8 November 2018, Kino Nowe Horyzonty, [Wrocław, Poland][7] (free, register on time!, C++, ML, DevOps, Go, Security)  
+[ISO C++ WG21 Meeting San Diego][8], Oktober 12, 2018  
 [Meeting Embedded 2018][9], November 14, 2018, Vienna House Andel's Berlin Hotel  
 [Meeting C++][10], 15th - 17th November in Berlin
 
@@ -34,10 +35,10 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 [FOSDEM][14], 3/4 Februari 2018, Brussels [Cpp Europe][15], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][16]  
 [emBO++][11], EMBEDDED C++ CONFERENCE IN BOCHUM, 9th to the 11th of March 2018 in Bochum, ruhr-valley, Germany  
 [ACCU 2018][17] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018  
-C++ Now, May 2018  
-[ISO C++ Meeting, Rapperswil][18], Switzerland 4-9 June 2018  
-[C++ Russia][19], Saint-Petersburg, Russia April 19-21 2018  
-NDC Oslo, 11-15 June 2018
+[European LLVM Developers Meeting 2018][18], Bristol, UK, April 16-17, 2018 C++ Now, May 2018  
+[ISO C++ Meeting, Rapperswil][19], Switzerland 4-9 June 2018  
+[C++ Russia][20], Saint-Petersburg, Russia April 19-21 2018  
+[NDC Oslo][21], 11-15 June 2018, Inspiring Software Developers since 2008
 
  [1]: https://www.italiancpp.org/event/itcppcon18/
  [2]: https://www.meetup.com/The-Dutch-Cpp-Group/events/251860695/?rv=me1&_xtd=gatlbWFpbF9jbGlja9oAJGU4ZTdiNDI2LThkNGUtNDYwZS1iMjJmLTEwYzkzMWY0MTU0ZQ&_af=event&_af_eid=251860695&https=on
@@ -56,5 +57,7 @@ NDC Oslo, 11-15 June 2018
  [15]: https://cppeurope.com/
  [16]: https://twitter.com/@mozaicworks
  [17]: https://conference.accu.org/2018/accu2018.html
- [18]: http://open-std.org/JTC1/SC22/WG21/docs/papers/2018/n4745.html
- [19]: http://cppconf.ru/
+ [18]: http://llvm.org/devmtg/2018-04/
+ [19]: http://open-std.org/JTC1/SC22/WG21/docs/papers/2018/n4745.html
+ [20]: http://cppconf.ru/
+ [21]: https://ndcoslo.com/
