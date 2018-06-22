@@ -16,7 +16,7 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 
 [Lightning Talks!, The Dutch C++ Group][2], Thursday, June 28, 2018, Location not set yet.
 
-[Registration][3] open for [CppCon 2018][4] September 23-28, 2018 at the Meydenbauer Center in Bellevue, Washington, USA.  
+[Registration][3] open for [CppCon 2018][4] September 23-28, Bellevue, Washington, USA.  
 [SG14 Meeting on Executors][5], Seattle, WA, USA; Standard C++ Foundation, at CppCon
 
 [code::dive 2018][6], 7-8 November 2018, Kino Nowe Horyzonty, [Wrocław, Poland][7] (free, register on time!, C++, ML, DevOps, Go, Security)
