@@ -1,6 +1,6 @@
 ---
 ID: 1207
-post_title: Agenda
+post_title: 'Agenda &#8211; kan weg'
 author: Jan Wilmans
 post_excerpt: ""
 layout: page
