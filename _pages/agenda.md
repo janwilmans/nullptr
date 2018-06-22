@@ -29,8 +29,9 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 # Past
 
 [Meeting C++ Conference 2017][11]  
+[Cpp Europe][12], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][13]  
 [emBO++][9], EMBEDDED C++ CONFERENCE IN BOCHUM, 9th to the 11th of March 2018 in Bochum, ruhr-valley, Germany  
-[ACCU 2018][12] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018
+[ACCU 2018][14] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018
 
  [1]: https://www.italiancpp.org/event/itcppcon18/
  [2]: https://www.meetup.com/The-Dutch-Cpp-Group/events/251860695/?rv=me1&_xtd=gatlbWFpbF9jbGlja9oAJGU4ZTdiNDI2LThkNGUtNDYwZS1iMjJmLTEwYzkzMWY0MTU0ZQ&_af=event&_af_eid=251860695&https=on
@@ -43,4 +44,6 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
  [9]: https://www.embo.io/
  [10]: http://cppnow.org/
  [11]: http://meetingcpp.com/2017/
- [12]: https://conference.accu.org/2018/accu2018.html
+ [12]: https://cppeurope.com/
+ [13]: https://twitter.com/@mozaicworks
+ [14]: https://conference.accu.org/2018/accu2018.html
