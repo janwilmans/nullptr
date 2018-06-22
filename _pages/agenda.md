@@ -35,10 +35,10 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 [FOSDEM][14], 3/4 Februari 2018, Brussels [Cpp Europe][15], February 27, 2018, MARSHAL GARDEN HOTEL, BUCHAREST, ROMENIA, [@MOZAICWORKS][16]  
 [emBO++][11], EMBEDDED C++ CONFERENCE IN BOCHUM, 9th to the 11th of March 2018 in Bochum, ruhr-valley, Germany  
 [ACCU 2018][17] took place at Bristol Marriott Hotel City Centre, 11-14 April 2018  
-[European LLVM Developers Meeting 2018][18], Bristol, UK, April 16-17, 2018 C++ Now, May 2018  
-[ISO C++ Meeting, Rapperswil][19], Switzerland 4-9 June 2018  
-[C++ Russia][20], Saint-Petersburg, Russia April 19-21 2018  
-[NDC Oslo][21], 11-15 June 2018, Inspiring Software Developers since 2008
+[C++ CoreHard Spring 2018 Сonference][18], 7/8 April 2018 [European LLVM Developers Meeting 2018][19], Bristol, UK, April 16-17, 2018 C++ Now, May 2018  
+[ISO C++ Meeting, Rapperswil][20], Switzerland 4-9 June 2018  
+[C++ Russia][21], Saint-Petersburg, Russia April 19-21 2018  
+[NDC Oslo][22], 11-15 June 2018, Inspiring Software Developers since 2008
 
  [1]: https://www.italiancpp.org/event/itcppcon18/
  [2]: https://www.meetup.com/The-Dutch-Cpp-Group/events/251860695/?rv=me1&_xtd=gatlbWFpbF9jbGlja9oAJGU4ZTdiNDI2LThkNGUtNDYwZS1iMjJmLTEwYzkzMWY0MTU0ZQ&_af=event&_af_eid=251860695&https=on
@@ -57,7 +57,8 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
  [15]: https://cppeurope.com/
  [16]: https://twitter.com/@mozaicworks
  [17]: https://conference.accu.org/2018/accu2018.html
- [18]: http://llvm.org/devmtg/2018-04/
- [19]: http://open-std.org/JTC1/SC22/WG21/docs/papers/2018/n4745.html
- [20]: http://cppconf.ru/
- [21]: https://ndcoslo.com/
+ [18]: http://conference.corehard.by/
+ [19]: http://llvm.org/devmtg/2018-04/
+ [20]: http://open-std.org/JTC1/SC22/WG21/docs/papers/2018/n4745.html
+ [21]: http://cppconf.ru/
+ [22]: https://ndcoslo.com/
