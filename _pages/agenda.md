@@ -25,7 +25,6 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 
 *   [emBO++][11]
 *   [C++ Now][12], A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado, May 5, 2019 - May 10, 2019
-*   ISO C++ WG21 Meeting Cologne, Germany, Summer 2019
 
 # Past
 
