@@ -20,8 +20,6 @@ Agenda for upcoming C++ conferences, Meetups and ISO Meetings
 
 [Meeting Embedded 2018][7], November 14, 2018, Vienna House Andel's Berlin Hotel [Meeting C++][8], 15th - 17th November in Berlin
 
-https://accu.org/
-
 # 2019
 
 [emBO++][9] [C++ Now][10], A gathering of C++ experts and enthusiasts from around the world in beautiful Aspen, Colorado, May 5, 2019 - May 10, 2019
