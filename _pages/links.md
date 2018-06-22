@@ -19,6 +19,7 @@ post_date: 2017-11-04 13:46:31
 
 # Links of personal interest
 
+*   <https://github.com/tvaneerd/cpp20_in_TTs>
 *   <https://github.com/CobaltFusion/DebugViewPP>
 *   <https://github.com/janwilmans/DezyneSamples>
 *   <https://github.com/VerumSoftwareTools/DezyneCommunity>
