@@ -177,7 +177,12 @@ Since sp could be re-assigned between calls, you probably wanted:
 
 I consider this sane/expected behaviour and you could still write sp.share()->func1(); several times if the operator-> was not there. (don't do that) However, I think it is a valid argument that it may provoke incorrect usage (its easy to use incorrectly). So I've commented out the operator-> but left it in commented to allow to be used for step-by-step migration of existing code. You can drop in mt_shared_ptr<> as a shared_ptr<> replacement and code will fail to compile in places where operator-> was used (lots of place I expect). So then you start fixing them, but if it turns out to be too much work to do in one go you could temporarily enable the operator-> to make it compile again and allow you to run tests etc.
 
-Note 2: I tried to make mt_share_ptr<> behave like a **regular type**. This basically means that is has value semantics. However, it is not a regular type because that would mean we have to: * use the [rule of 5][2] (we do) * be equationally complete, that is, operator==() should be implementable as a non-friend, non-member, function. * in C++11 (or above) you should provide a specialization of std::hash<> for equationally complete types * implement operator< to provide a total ordering (or specialize std::less<>() if a natural total ordering is not available)
+Note 2: I tried to make mt_share_ptr<> behave like a **regular type**. This basically means that is has value semantics. However, it is not a regular type because that would mean we have to:
+
+*   use the [rule of 5][2] (we do) 
+*   be equationally complete, that is, operator==() should be implementable as a non-friend, non-member, function. 
+*   in C++11 (or above) you should provide a specialization of std::hash<> for equationally complete types 
+*   implement operator< to provide a total ordering (or specialize std::less<>() if a natural total ordering is not available) 
 
 One might be temped to think some ==, != and <> operators would be nice to have on class mt_shared_ptr, however, this is really just provoking more incorrect usage.
 
