@@ -258,12 +258,14 @@ mt_shared_ptr.h:
     
         mt_shared_ptr(const ptr_t& p) : ptr(p) {} // constructor taking a shared_ptr<T>
     
+        /*
         ptr_t operator->() const
         {
             std::lock_guard<std::mutex> lock(mutex);
             if (!ptr) throw std::runtime_error("mt_shared_ptr<> nullptr dereference");
             return ptr;
         }
+        */
     
         ptr_t share() const
         {
