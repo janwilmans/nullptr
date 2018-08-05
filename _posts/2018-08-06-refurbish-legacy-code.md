@@ -7,7 +7,7 @@ author: Jan Wilmans
 post_excerpt: ""
 layout: post
 permalink: >
-  http://nullptr.nl/2018/08/how-to-refurbish-legacy-code-into-a-maintainable-state/
+  http://nullptr.nl/2018/08/refurbish-legacy-code/
 published: true
 post_date: 2018-08-06 00:28:21
 ---
