@@ -23,7 +23,7 @@ Normally debugview++ receives these messages from another process. The mechanism
 
 Now, I've optimized debugview++ to read message as fast as possible and to unblock the traced application asap. I wondered what could be causing debugview++ **itself** to block for 20 seconds? The 20 seconds were curious in itself because the OutputDebugString API has a 10-second timeout, so it looked awfully like two message-timeouts; could I have made a mistake and was I accidentally using the OutputDebugString myself within debugview++ ? Of course that would be problematic, as that could potentially cause an infinite recursion problem.
 
-After some investigation this turned out, *debugview++ itselt* was not sending any messages, at least not from its code, but the win32 libraries (specifically oleaut32.dll) that where loaded implicitly, can now call into this OutputdebugString API.
+After some investigation this turned out, *debugview++ itself* was not sending any messages, at least not from its code, but the win32 libraries (specifically oleaut32.dll) that where loaded implicitly, can now call into this OutputdebugString API.
 
 So the problem was introduced because in Windows 10 1703 the Win32 API itself started using OutputDebugString internally. Below is a stackdump from the process while it was hanging (created using taskmanager's 'Create dump file' feature).
 
