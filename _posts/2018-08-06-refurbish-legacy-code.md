@@ -95,7 +95,7 @@ It is useful to remember this, because it can introduce differences in behaviour
 
 The assertion can in some cases hang a continuous integration system because it [pops up a message dialog][2] by default, however, as far as I know this applies to MSVC only.
 
-You might argue, is a crash not always worse then no crash at all? I think it is not; a program continuing to run with unknown behaviour is in my option much worse than a crash because it is a potential later crash that will be unpredictable and much harder to debug then the initial problem. If we're going to crash we should do it sooner so we can catch it before it reaches production.
+You might argue, is a crash not always worse then no crash at all? I think it is not; a program continuing to run with unknown behaviour is in my opinion much worse than a crash because it is a potential later crash that will be unpredictable and much harder to debug then the initial problem. If we're going to crash we should do it sooner so we can catch it before it reaches production.
 
 There are also cases where references are not an option, for example in data structures where the pointer can never be null but it should be re-assignable to point to a different object. For those cases the not_null<> template from the GSL seems to work well.
 
