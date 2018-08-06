@@ -480,6 +480,10 @@ The major drawback of use `boost::shared_ptr<>` or any shared pointer, is that t
 
 I have not had to refactor such a project yet, but I expect to take the a similar approach for these project as I do for projects using raw owning pointers, start by nailing down the lifetime of objects. Replace `boost::shared_ptr<>` parameters with references or `not_null<>` pointers if the methods does no participate in the lifetime management of the object.
 
+## Final words
+
+This post is a work in progress, I will update it after I have more experience applying these techniques or discover new ones.
+
 References: [Twitter feed][10]
 
  [1]: https://medium.com/web-engineering-vox/the-art-of-defensive-programming-6789a9743ed4
