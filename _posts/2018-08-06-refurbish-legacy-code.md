@@ -206,7 +206,7 @@ However, what to do when you (again: I) have a 15 year old code base where this 
     };
     
 
-[Godbolt][4]
+[>> Godbolt this][4]
 
 Here, because it is a toy example, it is easy to see the Message is allocated in the receiveMessageFromHardware() method and it is deallocated in p3(). However in practice, this can be a long and interesting journey through the code to find all the places that allocate Message objects and all end-paths that (should) deallocate the Message object. Also, if the full path to p3() is not followed, due to an error condition, who will deallocate?
 
