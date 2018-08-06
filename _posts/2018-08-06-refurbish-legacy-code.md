@@ -277,7 +277,7 @@ Now the code has improved in multiple ways:
 *   it is clear about the ownership of the Message object
 *   the correctness in terms of deallocation of the Message object no longer depends on the error path, early return or exceptions being thrown
 
-When written like this it does not matter if a function exists early by returning mid-processing or whether an exception occurs, the Message object will always be correctly cleaned up and you do not have to write any cleanup code to make that happen.
+When written like this it does not matter if a function exits early by returning mid-processing or whether an exception occurs, the Message object will always be correctly cleaned up and you do not have to write any cleanup code to make that happen.
 
 However, introducing a std::unique_ptr throughout the code can be a challenge, the Message object may be passed through **a lot** of layers, through a queue, passed over multiple threads etc. What if you cannot or just don't want to change everything in a single changeset?
 
