@@ -52,6 +52,13 @@ Let see some examples, so we know what we're dealing with:
       foo1(&b);
     }
     
+    
+    [void foo()
+    {
+      Bar b;
+      foo1(&b);
+    }][2]
+    
 
 Lets look at motivation first, what goes on in this code? The author foo1() was concerned that someone could pass nullptr and decided to check for this condition and do nothing in that case. While this prevents a crash, if passing nullptr is truly a programming error, this is will effectively cloak a bug and make it hard to detect.
 
