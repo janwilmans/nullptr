@@ -163,7 +163,7 @@ Summary for this chapter about defensive programming style:
 *   for places where reference **can** be used a crash will occur only **when** the reference is actually used
 *   not_null can be used in both places and can be configured to crash **when it is assigned a null value**, which is when I want to know about it.
 
-> Conclusion: using references in places where pointers are passed that may never be null is an improvement over raw pointers, since it is documenting the precondition, but not_null is more explicit in expressing this intent and has the added benefit of earlier error detection.
+> Conclusion: using references in places where pointers are passed that may never be null is an improvement over raw pointers, since it is documenting the precondition. But not_null<> is more explicit in expressing this intent and has the added benefit of earlier error detection.
 
 ## Dealing with raw pointers that manage lifetime
 
