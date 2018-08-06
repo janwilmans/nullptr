@@ -236,7 +236,7 @@ The first thing to do is probably just to annotate the code to make clear the ra
     };
     
 
-This is a great improvement to do as a first step, it documents/makes explicit the fact that the raw pointers are owning raw pointers. the `gsl::owner<>` template is very simple:
+This is a great improvement to do as a first step, it documents/makes explicit the fact that the raw pointers are owning raw pointers. The `gsl::owner<>` template is very simple:
 
     template <class T, class = std::enable_if_t<std::is_pointer<T>::value>>
     using owner = T;
