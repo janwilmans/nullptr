@@ -480,7 +480,7 @@ When smartpointers were 'new' and not in the standard library yet (C++/03 era), 
 
 The major drawback of use `boost::shared_ptr<>` or any shared pointer, is that there is no explicit *transfer* of ownership. How long an object will live will depend on the last user and while this sounds reasonable, it encourages sloppy lifetime management and very often these program suffer from shutdown problems (crashes).
 
-I have not had to refactor such a project yet, but I expect to take a similar approach for these project as I do for projects using raw owning pointers, start by nailing down the lifetime of objects. Replace `boost::shared_ptr<>` parameters with references or `not_null<>` pointers if the methods does not participate in the lifetime management of the object.
+I have not had to refactor such a project yet, but I expect to take a similar approach for these project as I do for projects using raw owning pointers, start by nailing down the lifetime of objects. Replace `boost::shared_ptr<>` parameters with references or `not_null<>` pointers for methods that do not participate in the lifetime management of the object.
 
 ## Final words
 
