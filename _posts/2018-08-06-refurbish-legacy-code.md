@@ -53,11 +53,11 @@ Let see some examples, so we know what we're dealing with:
     }
     
 
-Lets look at motivation first, what goes on in this code? The author foo1() was concerned that someone could pass nullptr and decided to check for this condition and do nothing in that case. While this prevents a crash, if passing nullptr is truly a programming error, this is will effectively cloak a bug and make it hard to detect.
+Lets look at motivation first, what goes on in this code? The author of foo1() was concerned that someone could pass nullptr and decided to check for this condition and do nothing in that case. While this prevents a crash, if passing nullptr is truly a programming error, this will effectively cloak a bug and make it hard to detect.
 
 The author of foo2() takes a different approach and decides that passing nullptr is a precondition violation of the method and an assertion is in order. In this case an assertion will trigger in debug builds but in production nothing will prevent it from crashing. This sounds even worse, right?
 
-In fact both methods had a pre-condition that **bar** can never be null but by way it is called, we can be absolutely sure that **bar** is never null. However, if some future author changes things around, that might no longer be the case. So if for some reason **bar** does becomes null (or any other invalid value for that matter) I would want to know about it as soon as possible. Also I would like the code to express that this was indeed the intended precondition.
+In fact both methods had a pre-condition that **bar** can never be null but by the way it is called, we can be absolutely sure that **bar** is never null. However, if some future author changes things around, that might no longer be the case. So if for some reason **bar** does becomes null (or any other invalid value for that matter) I would want to know about it as soon as possible. Also I would like the code to express that this was indeed the intended precondition.
 
 There are several ways to achieve this, first of all lets look at references:
 
