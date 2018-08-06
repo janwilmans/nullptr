@@ -53,12 +53,12 @@ What is this 5? Give it a name and put it somewhere, this number has context, sh
     if (something > maximumTemperature ) ...
     
 
-Notice that your brain is now probably suddenly trying to make sense of the function and questions aride like:
+Notice that your brain is now probably suddenly trying to make sense of the function and questions arise like:
 
 *   should this be a floating pointer number 
 *   are these in Celsius of Fahrenheit
 
-These are good questions and that kind of questions my be answered by the name of the variable sometimes. This also leads into the question: should that not be part of the type of the variable so trying to assign degrees of Celsius to degrees Fahrenheit would be a compiler error. This can be accomplished by using the [boost units library][5]. There is an excellent [talk on this subject by Robert Ramey from CPPCON2015][6].
+These are good questions and that kind of question may be answered by the name of the variable sometimes. This also leads into the question: should that not be part of the type of the variable so trying to assign degrees of Celsius to degrees Fahrenheit would be a compiler error. This can be accomplished by using the [boost units library][5]. There is an excellent [talk on this subject by Robert Ramey from CPPCON2015][6].
 
 > [One class for everything][7]
 
