@@ -149,10 +149,12 @@ Long story short: (1) make sure the pointer you dereference is not nullptr befor
     5: }
     
 
-A side-story on the ASSERT case above, it can have interesting side effects on static code analyzers! The analyzer goes like this:
+A side-story on the ASSERT case above, it can have interesting side effects on static code analyzers! The analysis goes like this:
 
 *   line 3, analyzer reads: you're telling me bar could be nullptr, i'll make a note of that (why would you otherwise check for that) 
-*   line 4, analyzer reads: you're calling a method on 'bar', let me check if that could be nullptr, err, YES, it could be! I better warning the user to do a null-check!
+*   line 4, analyzer reads: you're calling a method on 'bar', let me check if that could be nullptr, err, YES, it could be! I better warn the user to do a null-check!
+
+Actually removing the assert gets rid of this false-positive warning from the static analyzer.
 
 Summary for this chapter about defensive programming style:
 
