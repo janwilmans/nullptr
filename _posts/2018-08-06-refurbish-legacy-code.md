@@ -136,7 +136,7 @@ Here you can see that checking a reference for null can have interesting side ef
 At first glance you might expect this to be a compiler bug, however, it is not. The reasoning goes something like this:
 
 *   you cannot assign a reference with a null value (int& i = nullptr will not compile)
-*   dereferencing a pointer containing the value nullptr causes undefined behavior (int &i = *ip; is UB when ip in nullptr)
+*   dereferencing a pointer containing the value nullptr causes undefined behavior (int &i = *ip; is UB when ip is nullptr)
 *   so: a reference can **never** have the value nullptr
 *   this means the if-statement can never be true and so the whole if-statement can be optimized out.
 
