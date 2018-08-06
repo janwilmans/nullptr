@@ -19,7 +19,7 @@ So you (or rather I) have this legacy code that must be maintained. It has all t
 
 ## About defensive programming
 
-Don't get me wrong, [Defensive programming][1] in itself can be a useful or even vital in some cases. The gist of defensive programming is "do not trust other software developers to do the right thing" with your code. However, in many cases 'we' ourselves are the 'other software developers' and if you can not even trust yourself to use you own code right and you do checks everywhere, then this will come at a great costs in terms of run-time and readability/maintainability. So it stands to reason that we need to strike a balance here. Also, even if we do want to do checks against incorrect usage, there are tools that can help reduce the time and lines of code spend on doing it.
+Don't get me wrong, [Defensive programming][1] in itself can be a useful thing or even vital in some cases. The gist of defensive programming is "do not trust other software developers to do the right thing" with your code. However, in many cases 'we' ourselves are the 'other software developers' and if you can not even trust yourself to use you own code right and you do checks everywhere, then this will come at a great costs in terms of run-time and readability/maintainability. So it stands to reason that we need to strike a balance here. Also, even if we do want to do checks against incorrect usage, there are tools that can help reduce the time and lines of code spend on doing it.
 
 Let see some examples, so we know what we're dealing with:
 
