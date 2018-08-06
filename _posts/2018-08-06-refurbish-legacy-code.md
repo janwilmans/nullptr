@@ -458,11 +458,11 @@ Example of rewriting typedef's to make them more readable:
     typedef void (*FunctionPointer)();     // oldschool pointer to a `void()` function
     
 
-## chapter on using dropbox' `NN<>` template is not done yet, check back for more information later....
+## using the dropbox NN<> template
 
-[Youtube video on NN<>][8] [Github repo for NN<>][9]
+> I have not written this part yet, check back for more later....check this video to wet your appetite [Youtube video on NN<>][8] [Github repo for NN<>][9]
 
-# what about smartpointers (shared_ptr and unique_ptr) and gsl::not_null
+## what about smart pointers (shared_ptr and unique_ptr) and gsl::not_null
 
 Earlier version of the GSL did not allow you to wrap `std::unique_ptr<>` or `std::shared_ptr<>` in a `not_null<>` template, however, this seems to work ok now:
 
@@ -472,11 +472,11 @@ Earlier version of the GSL did not allow you to wrap `std::unique_ptr<>` or `std
 
 I need to try and play with this some more and will update this post after I do.
 
-# what about a `boost::shared_ptr<>` "infected" code base?
+## what about a boost::shared_ptr<> "infected" code base?
 
 When smartpointer were 'new' and not in the standard library yet (C++/03 era), boost had an implementation already. May early adopters realized using a smartpointer was superior to using raw pointers for ownership. However, in these early days there was no such thing as move-semantics yet. As a consequence many developers adopter `boost::shared_ptr<>` as it could be copied easily and life was good (or so it seemed).
 
-The major drawback of use `boost::shared_ptr<>` or any shared pointer, is that there is no explicit ownership. How long an object will live will depend on the last user and while this sounds reasonable, it encourages sloppy lifetime management and very often these program suffer from shutdown problems (crashes).
+The major drawback of use `boost::shared_ptr<>` or any shared pointer, is that there is no explicit *transfer* of ownership. How long an object will live will depend on the last user and while this sounds reasonable, it encourages sloppy lifetime management and very often these program suffer from shutdown problems (crashes).
 
 I have not had to refactor such a project yet, but I expect to take the a similar approach for these project as I do for projects using raw owning pointers, start by nailing down the lifetime of objects. Replace `boost::shared_ptr<>` parameters with references or `not_null<>` pointers if the methods does no participate in the lifetime management of the object.
 
