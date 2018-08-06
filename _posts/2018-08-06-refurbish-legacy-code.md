@@ -179,8 +179,8 @@ Do you see the special syntax used to indicate and make very clear that this raw
         h(foo); 
     }
     
-    void g(Foo* foo) {}               // non-owning raw pointer
-    void h(Foo* foo) { delete foo; }  // owning raw pointer 
+    void g(Foo* foo) {} // non-owning raw pointer
+    void h(Foo* foo) { delete foo; } // owning raw pointer 
     
 
 A general advice often heard is:
