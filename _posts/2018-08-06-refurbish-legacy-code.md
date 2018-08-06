@@ -240,7 +240,7 @@ This is a great improvement to do as a first step, it documents/makes explicit t
     using owner = T;
     
 
-That's all she wrote... its basically a template doing exactly nothing. This in it self is a very useful step in the process of documenting ownership and by doing so making the code more readable. The assumption that the pointer owns the object and thus the object will either life until the end of the method or it will be passed onto another method is now explicitly encoded in the type of parameter. Note that static analyzers can know about `gsl::owner<>` and can now help you to find the cases where an owning type was passed but not deallocated.
+That's all she wrote... its basically a template doing exactly nothing except check that the argument passed is a pointer type. This in itself is a very useful step in the process of documenting ownership and by doing so making the code more readable. The assumption that the pointer owns the object and thus the object will either life until the end of the method or it will be passed onto another method is now explicitly encoded in the type of parameter. Note that static analyzers can know about `gsl::owner<>` and can now help you to find the cases where an owning raw pointer was passed but not deallocated.
 
 The next most obvious modern c++ solution/step is in many cases introducing a `std::unique_ptr<Message>` and moving the ownership through the chain, like so:
 
@@ -273,7 +273,7 @@ The next most obvious modern c++ solution/step is in many cases introducing a `s
 Now the code has improved in multiple ways:
 
 *   it is clear about the ownership of the Message object
-*   the path the Message passes through is errorpath, early return or exception agnostic
+*   the correctness in terms of deallocation of the Message object nolonger depends on the errorpath, early return or exceptions being thrown
 
 When written like this it does not matter if a function exists early by returning mid-processing or whether an exception occurs, the Message object will always be correctly cleaned up and you do not have to write any cleanup code to make that happen.
 
