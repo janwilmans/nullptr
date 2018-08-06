@@ -206,7 +206,7 @@ However, what to do when you (again: I) have a 15 year old code base where this 
     };
     
 
-[>> Godbolt this][4]
+[Godbolt this][4]
 
 Here, because it is a toy example, it is easy to see the Message is allocated in the receiveMessageFromHardware() method and it is deallocated in p3(). However in practice, this can be a long and interesting journey through the code to find all the places that allocate Message objects and all end-paths that (should) deallocate the Message object. Also, if the full path to p3() is not followed, due to an error condition, who will deallocate?
 
@@ -267,6 +267,8 @@ The next most obvious modern c++ solution/step is in many cases introducing a `s
         Engine().process(receiveMessageFromHardware());
     }
     
+
+[Gobolt this][5]
 
 Now the code has improved in multiple ways:
 
@@ -435,9 +437,9 @@ Example code for a windows specific way to make adding logging in any class a on
     cdbg << "some value: " << 4 << ", and another: " << 2 << "\n";
     
 
-The cdbg object is a std::basic_ostream<> that writes anything it gets passed to the OutputDebugString API. By using this approach a tools like [DebugView++][5] can be used to monitor and filter these message. If you happen to be on another platform you get just swap out OutputDebugString for std::cout or your own favorite log function. The point here is: adding an easy to use facility to quickly add some logging get really help you understand code more quickly.
+The cdbg object is a std::basic_ostream<> that writes anything it gets passed to the OutputDebugString API. By using this approach a tools like [DebugView++][6] can be used to monitor and filter these message. If you happen to be on another platform you get just swap out OutputDebugString for std::cout or your own favorite log function. The point here is: adding an easy to use facility to quickly add some logging get really help you understand code more quickly.
 
-[GitHub link to basic_dbgstream][6]
+[GitHub link to basic_dbgstream][7]
 
 Example of rewriting typedef's to make them more readable:
 
@@ -458,7 +460,7 @@ Example of rewriting typedef's to make them more readable:
 
 ## chapter on using dropbox' `NN<>` template is not done yet, check back for more information later....
 
-[Youtube video on NN<>][7] [Github repo for NN<>][8]
+[Youtube video on NN<>][8] [Github repo for NN<>][9]
 
 # what about smartpointers (shared_ptr and unique_ptr) and gsl::not_null
 
@@ -478,14 +480,15 @@ The major drawback of use `boost::shared_ptr<>` or any shared pointer, is that t
 
 I have not had to refactor such a project yet, but I expect to take the a similar approach for these project as I do for projects using raw owning pointers, start by nailing down the lifetime of objects. Replace `boost::shared_ptr<>` parameters with references or `not_null<>` pointers if the methods does no participate in the lifetime management of the object.
 
-References: [Twitter feed][9]
+References: [Twitter feed][10]
 
  [1]: https://medium.com/web-engineering-vox/the-art-of-defensive-programming-6789a9743ed4
  [2]: https://msdn.microsoft.com/en-us/library/1y71x448.aspx
  [3]: https://godbolt.org/g/aiUbVJ
  [4]: https://godbolt.org/g/1FnerL
- [5]: https://github.com/CobaltFusion/DebugViewPP
- [6]: https://github.com/CobaltFusion/DebugViewPP/blob/master/DbgMsgSrc/dbgstream.h
- [7]: https://www.youtube.com/watch?v=mVfL0mQU3Bg
- [8]: https://github.com/dropbox/nn
- [9]: https://twitter.com/janwilmans/status/1021742252538966016
+ [5]: https://godbolt.org/g/5VzT8M
+ [6]: https://github.com/CobaltFusion/DebugViewPP
+ [7]: https://github.com/CobaltFusion/DebugViewPP/blob/master/DbgMsgSrc/dbgstream.h
+ [8]: https://www.youtube.com/watch?v=mVfL0mQU3Bg
+ [9]: https://github.com/dropbox/nn
+ [10]: https://twitter.com/janwilmans/status/1021742252538966016
