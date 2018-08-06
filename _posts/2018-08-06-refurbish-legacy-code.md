@@ -279,7 +279,7 @@ Now the code has improved in multiple ways:
 
 When written like this it does not matter if a function exits early by returning mid-processing or whether an exception occurs, the Message object will always be correctly cleaned up and you do not have to write any cleanup code to make that happen.
 
-However, introducing a std::unique_ptr throughout the code can be a challenge, the Message object may be passed through **a lot** of layers, through a queue, passed over multiple threads etc. What if you cannot or just don't want to change everything in a single changeset?
+However, introducing std::unique_ptr<> throughout the code can be a challenge, the Message object may be passed through **a lot** of layers, through a queue, passed over multiple threads etc. What if you cannot or just don't want to change everything in a single changeset?
 
     #include <memory>
     
@@ -380,11 +380,11 @@ The approach does not just work bottom-up, here is a top-down example:
     }
     
 
-Here we used make_unique to allocate the object and in process() took the ownership from the unique_ptr and continue passing the 'old way' to p2() Theoretically, just could even start on both sides at the same time and work towards the middle, but I'm not sure that would serve any purpose.
+Here we used make_unique<> to allocate the object and in process() took the ownership from the unique_ptr and continue passing the 'old way' to p2(). Theoretically, just could even start on both sides at the same time and work towards the middle, but I'm not sure that would serve any purpose.
 
 ## const correctness
 
-Another thing that is useful to document is the intention a method is not supposed change anything. In my code base this was not really done (anywhere). The problem with added const retrospectively is that making a method const will probably mean you have to make other methods const as well, this can snowball really quick. A good way I found to start adding it is to use a static analysis tool (I used Resharper C++) to tell you what methods can be made const (leaf methods) that are not const right now. After you have done this, re-running the tool will get you the next level of methods to make const, if you repeat this cycle a few (5-10) times you can quickly improve the const-correctness of a project a lot.
+Another thing that is useful to document is the intention a method is not supposed to change anything. In my code base this was not really done (anywhere). The problem with added const retrospectively is that making a method const will probably mean you have to make other methods const as well and this can snowball really quick. A good way I found to start adding it is to use a static analysis tool (I used Resharper C++) to tell you what methods can be made const (leaf methods) that are not const right now. After you have done this, re-running the tool will get you the next level of methods to make const, if you repeat this cycle a few (5-10) times you can quickly improve the const-correctness of a project a lot.
 
 ## smartpointers and RAII types
 
@@ -439,7 +439,7 @@ Example code for a windows specific way to make adding logging in any class a on
     cdbg << "some value: " << 4 << ", and another: " << 2 << "\n";
     
 
-The cdbg object is a std::basic_ostream<> that writes anything it gets passed to the OutputDebugString API. By using this approach a tools like [DebugView++][6] can be used to monitor and filter these message. If you happen to be on another platform you get just swap out OutputDebugString for std::cout or your own favorite log function. The point here is: adding an easy to use facility to quickly add some logging get really help you understand code more quickly.
+The cdbg object is a std::basic_ostream<> that writes anything it gets passed to the OutputDebugString API. By using this approach a tool like [DebugView++][6] can be used to monitor and filter these message. If you happen to be on another platform you can just swap out OutputDebugString for std::cout or your own favorite log function. The point here is: adding an easy to use facility to quickly add some logging get really help you understand code more quickly.
 
 [GitHub link to basic_dbgstream][7]
 
@@ -466,7 +466,7 @@ Example of rewriting typedef's to make them more readable:
 
 ## what about smart pointers (shared_ptr and unique_ptr) and gsl::not_null
 
-Earlier version of the GSL did not allow you to wrap `std::unique_ptr<>` or `std::shared_ptr<>` in a `not_null<>` template, however, this seems to work ok now:
+Earlier versions of the GSL did not allow you to wrap `std::unique_ptr<>` or `std::shared_ptr<>` in a `not_null<>` template, however, this seems to work ok now:
 
     class Message {};
     gsl::not_null<std::shared_ptr<Message>> msg = std::make_shared<Message>();
@@ -476,11 +476,11 @@ I need to try and play with this some more and will update this post after I do.
 
 ## what about a boost::shared_ptr<> "infected" code base?
 
-When smartpointer were 'new' and not in the standard library yet (C++/03 era), boost had an implementation already. Many early adopters realized using a smartpointer was superior to using raw pointers for ownership. However, in these early days there was no such thing as move-semantics yet. As a consequence many developers adopted `boost::shared_ptr<>` as it could be copied easily and life was good (or so it seemed).
+When smartpointers were 'new' and not in the standard library yet (C++/03 era), boost had an implementation already. Many early adopters realized using a smartpointer was superior to using raw pointers for ownership. However, in these early days there was no such thing as move-semantics yet. As a consequence many developers adopted `boost::shared_ptr<>` as it could be copied easily and life was good (or so it seemed).
 
 The major drawback of use `boost::shared_ptr<>` or any shared pointer, is that there is no explicit *transfer* of ownership. How long an object will live will depend on the last user and while this sounds reasonable, it encourages sloppy lifetime management and very often these program suffer from shutdown problems (crashes).
 
-I have not had to refactor such a project yet, but I expect to take the a similar approach for these project as I do for projects using raw owning pointers, start by nailing down the lifetime of objects. Replace `boost::shared_ptr<>` parameters with references or `not_null<>` pointers if the methods does not participate in the lifetime management of the object.
+I have not had to refactor such a project yet, but I expect to take a similar approach for these project as I do for projects using raw owning pointers, start by nailing down the lifetime of objects. Replace `boost::shared_ptr<>` parameters with references or `not_null<>` pointers if the methods does not participate in the lifetime management of the object.
 
 ## Final words
 
