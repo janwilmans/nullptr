@@ -91,7 +91,7 @@ Here it would have been nice to overload the method 'getWorkingHours' with argum
     #include <iostream>
     
     enum class Days : unsigned int {};  // notice: enum declarations without any specific values 
-    enum class Weeks: unsigned int {};
+    enum class Weeks : unsigned int {};
     
     template <typename T>
     auto value_of(const T& t) -> std::underlying_type_t < T >
@@ -117,7 +117,7 @@ Here it would have been nice to overload the method 'getWorkingHours' with argum
     }
     
 
-What happens here is that by specifying the enum class without any specific values it can only be assigned by being explicit about it, which is exactly what we want. note: the standard is not specific about the underlying type you get when no values are specified, as in `enum class Days;` so I make a point of specifying it explicitly in these cases.
+What happens here is that by specifying the enum class without any specific values it can only be assigned by being explicit about it, which is exactly what we want. note: the standard is not specific about the underlying type you get when no values are specified, as in `enum class Days;` so I make a point of specifying it explicitly as `unsigned int` in these cases.
 
 The 'value_of' template is not strictly necessary, a 'static_cast<int>(x)' would also work just as well. However you would have to make sure you specify the correct underlying type, otherwise you risk a narrowing conversion without any diagnostic warnings because they would be silenced by the static_cast<>. By using the value_of template you don't have to repeat yourself *and* if the underlying type would change at some point appropriate warnings would be emitted.</int>
 
