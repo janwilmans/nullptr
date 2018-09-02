@@ -36,6 +36,8 @@ post_date: 2017-11-04 13:46:31
 
 *   <https://goo.gl/RaBJDo>
 
+*   <http://fbinfer.com/>
+
  [1]: http://nullptr.nl
  [2]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4659.pdf
  [3]: https://github.com/janwilmans/janwilmans.github.io/blob/master/n4659.pdf
