@@ -31,6 +31,7 @@ post_date: 2017-11-04 13:46:31
 *   <https://godbolt.org/>
 *   <https://sharplab.io/>
 *   <http://eel.is/c++draft/>
+*   <http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2289.pdf> 
 
 # javascript related
 
