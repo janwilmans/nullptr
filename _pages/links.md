@@ -32,7 +32,7 @@ post_date: 2017-11-04 13:46:31
 *   <https://sharplab.io/>
 *   <http://eel.is/c++draft/>
 *   [Herb's Zero-overhead deterministic exceptions: Throwing values][5]
-*   [Niall's Zero overhead deterministic failure A unified mechanism for C and C++][6]
+*   [Niall's Zero overhead deterministic failure A unified mechanism for C and C++][6] <https://en.cppreference.com/w/cpp/language/aggregate_initialization#Designated_initializers>
 
 # javascript related
 
