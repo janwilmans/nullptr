@@ -31,7 +31,8 @@ post_date: 2017-11-04 13:46:31
 *   <https://godbolt.org/>
 *   <https://sharplab.io/>
 *   <http://eel.is/c++draft/>
-*   <http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2289.pdf> 
+*   [Herb's Zero-overhead deterministic exceptions: Throwing values][5]
+*   [Niall's Zero overhead deterministic failure A unified mechanism for C and C++][6]
 
 # javascript related
 
@@ -43,3 +44,5 @@ post_date: 2017-11-04 13:46:31
  [2]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4659.pdf
  [3]: https://github.com/janwilmans/janwilmans.github.io/blob/master/n4659.pdf
  [4]: http://open-std.org/JTC1/SC22/WG21/docs/papers/2017/p0515r0.pdf
+ [5]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0709r1.pdf
+ [6]: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2289.pdf
