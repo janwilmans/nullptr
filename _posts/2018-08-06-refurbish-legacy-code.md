@@ -384,7 +384,7 @@ Here we used make_unique<> to allocate the object and in process() took the owne
 
 ## const correctness
 
-Another thing that is useful to document is the intention a method is not supposed to change anything. In my code base this was not really done (anywhere). The problem with added const retrospectively is that making a method const will probably mean you have to make other methods const as well and this can snowball really quick. A good way I found to start adding it is to use a static analysis tool (I used Resharper C++) to tell you what methods can be made const (leaf methods) that are not const right now. After you have done this, re-running the tool will get you the next level of methods to make const, if you repeat this cycle a few (5-10) times you can quickly improve the const-correctness of a project a lot.
+Another thing that is useful to document is the intention a method is not supposed to change anything. In my code base this was not really done (anywhere). The problem with added const retrospectively is that making a method const will probably mean you have to make other methods const as well and this can snowball really quick. A good way I found to start adding it is to use a static analysis tool (I used Resharper C++) to tell you what methods can be made const (leaf methods) that are not const right now. After you have done this, re-running the tool will get you the next level of methods to make const, if you repeat this cycle a few (5-10) times you can quickly improve the const-correctness of a project a lot. The reason why this approach is nice is because you can stop at any time and the effects do not snowball because you started by changing the leaf methods and are working your way up the call chains.
 
 ## smartpointers and RAII types
 
@@ -484,7 +484,7 @@ I have not had to refactor such a project yet, but I expect to take a similar ap
 
 ## Final words
 
-This post is a work in progress, I will update it after I have more experience applying these techniques or discover new ones.
+This post is a work in progress, I will update it after I have more experience applying these techniques or discover new ones. std::string_view is up next... stay tuned....
 
 References: [Twitter feed][10]
 
