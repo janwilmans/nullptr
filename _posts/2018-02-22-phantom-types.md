@@ -262,6 +262,8 @@ As you can see, this is becoming more and more cumbersome. It makes sense to be 
 
 The Boost.Units library offers many SI units and common operations out of the box. Its documentation leaves much to be desired, but watching [Robert Ramey's CPPCON 2015 talk "Boost Units Library for Correct Code"][6] is a good introduction.
 
+Another good resource is [Jonathan Müller's type-safe library][7], for more information read this blog post https://foonathan.net/blog/2016/10/11/type-safe.html
+
 Another also very useful application is in string verification:
 
         struct raw {};
@@ -280,13 +282,13 @@ To summarize: Strong types can be implemented in C++ and getting basic type safe
 
 > References
 
-[C++Now 2017: Jonathan Müller “Type-safe Programming"][7]  
-[Arne Mertz' 2016 Simplify C++ article "Use Stronger Types!"][8]  
-[CppCon 2016: Ben Deane “Using Types Effectively"][9]  
-[CppCon 2015: Kyle Markley "Extreme Type Safety with Opaque Typedefs"][10] => [Link to Kyle Markley's sources][11]  
+[C++Now 2017: Jonathan Müller “Type-safe Programming"][8]  
+[Arne Mertz' 2016 Simplify C++ article "Use Stronger Types!"][9]  
+[CppCon 2016: Ben Deane “Using Types Effectively"][10]  
+[CppCon 2015: Kyle Markley "Extreme Type Safety with Opaque Typedefs"][11] => [Link to Kyle Markley's sources][12]  
 [CppCon 2015: Robert Ramey “Boost Units Library for Correct Code"][6]  
-[The blog at the bottom of the sea - Getting Strongly Typed Typedefs Using Phantom Types][12]  
-[Jonathan Müller's blog about strong typedefs][13] => [Link to Jonathan Müller's sources][14]  
+[The blog at the bottom of the sea - Getting Strongly Typed Typedefs Using Phantom Types][13]  
+[Jonathan Müller's blog about strong typedefs][14] => [Link to Jonathan Müller's sources][7]  
 [Link to Opaque typedef proposal][15]  
 [WG21/N1891 = J16/05-0151 Walter E. Brown's 2005 Opaque Typedefs proposal][16]  
 [N2141 = 06-0211 Alisdair Meredith Strong Typedefs in C++09][17] [Boost BOOST_STRONG_TYPEDEF][18]
@@ -299,14 +301,14 @@ https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
  [4]: http://en.cppreference.com/w/cpp/language/rule_of_three
  [5]: http://www.boost.org/doc/libs/1_66_0/doc/html/boost_units.html
  [6]: https://www.youtube.com/watch?v=qphj8ZuZlPA&t=1192s
- [7]: https://www.youtube.com/watch?v=iihlo9A2Ezw
- [8]: https://arne-mertz.de/2016/11/stronger-types/
- [9]: https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
- [10]: https://www.youtube.com/watch?v=jLdSjh8oqmE
- [11]: https://sourceforge.net/projects/opaque-typedef/
- [12]: https://blog.demofox.org/2015/02/05/getting-strongly-typed-typedefs-using-phantom-types/
- [13]: http://foonathan.net/blog/2016/10/19/strong-typedefs.html
- [14]: https://github.com/foonathan/type_safe
+ [7]: https://github.com/foonathan/type_safe
+ [8]: https://www.youtube.com/watch?v=iihlo9A2Ezw
+ [9]: https://arne-mertz.de/2016/11/stronger-types/
+ [10]: https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
+ [11]: https://www.youtube.com/watch?v=jLdSjh8oqmE
+ [12]: https://sourceforge.net/projects/opaque-typedef/
+ [13]: https://blog.demofox.org/2015/02/05/getting-strongly-typed-typedefs-using-phantom-types/
+ [14]: http://foonathan.net/blog/2016/10/19/strong-typedefs.html
  [15]: https://github.com/viboes/opaque/blob/master/libs/opaque/doc/opaque.pdf
  [16]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2005/n1891.pdf
  [17]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2141.html
