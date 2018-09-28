@@ -262,7 +262,7 @@ As you can see, this is becoming more and more cumbersome. It makes sense to be 
 
 The Boost.Units library offers many SI units and common operations out of the box. Its documentation leaves much to be desired, but watching [Robert Ramey's CPPCON 2015 talk "Boost Units Library for Correct Code"][6] is a good introduction.
 
-Another good resource is [Jonathan Müller's type-safe library][7], for more information read [this blog post][8].
+Alternatively, a good resource is [Jonathan Müller's type-safe library][7], for more information read [this blog post][8].
 
 Another also very useful application is in string verification:
 
