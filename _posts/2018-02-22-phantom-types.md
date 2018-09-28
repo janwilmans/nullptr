@@ -262,7 +262,7 @@ As you can see, this is becoming more and more cumbersome. It makes sense to be 
 
 The Boost.Units library offers many SI units and common operations out of the box. Its documentation leaves much to be desired, but watching [Robert Ramey's CPPCON 2015 talk "Boost Units Library for Correct Code"][6] is a good introduction.
 
-Another good resource is [Jonathan Müller's type-safe library][7], for more information read this blog post https://foonathan.net/blog/2016/10/11/type-safe.html
+Another good resource is [Jonathan Müller's type-safe library][7], for more information read [this blog post][8].
 
 Another also very useful application is in string verification:
 
@@ -282,16 +282,16 @@ To summarize: Strong types can be implemented in C++ and getting basic type safe
 
 > References
 
-[C++Now 2017: Jonathan Müller “Type-safe Programming"][8]  
-[Arne Mertz' 2016 Simplify C++ article "Use Stronger Types!"][9]  
-[CppCon 2016: Ben Deane “Using Types Effectively"][10]  
-[CppCon 2015: Kyle Markley "Extreme Type Safety with Opaque Typedefs"][11] => [Link to Kyle Markley's sources][12]  
+[C++Now 2017: Jonathan Müller “Type-safe Programming"][9]  
+[Arne Mertz' 2016 Simplify C++ article "Use Stronger Types!"][10]  
+[CppCon 2016: Ben Deane “Using Types Effectively"][11]  
+[CppCon 2015: Kyle Markley "Extreme Type Safety with Opaque Typedefs"][12] => [Link to Kyle Markley's sources][13]  
 [CppCon 2015: Robert Ramey “Boost Units Library for Correct Code"][6]  
-[The blog at the bottom of the sea - Getting Strongly Typed Typedefs Using Phantom Types][13]  
-[Jonathan Müller's blog about strong typedefs][14] => [Link to Jonathan Müller's sources][7]  
-[Link to Opaque typedef proposal][15]  
-[WG21/N1891 = J16/05-0151 Walter E. Brown's 2005 Opaque Typedefs proposal][16]  
-[N2141 = 06-0211 Alisdair Meredith Strong Typedefs in C++09][17] [Boost BOOST_STRONG_TYPEDEF][18]
+[The blog at the bottom of the sea - Getting Strongly Typed Typedefs Using Phantom Types][14]  
+[Jonathan Müller's blog about strong typedefs][15] => [Link to Jonathan Müller's sources][7]  
+[Link to Opaque typedef proposal][16]  
+[WG21/N1891 = J16/05-0151 Walter E. Brown's 2005 Opaque Typedefs proposal][17]  
+[N2141 = 06-0211 Alisdair Meredith Strong Typedefs in C++09][18] [Boost BOOST_STRONG_TYPEDEF][19]
 
 https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
 
@@ -302,14 +302,15 @@ https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
  [5]: http://www.boost.org/doc/libs/1_66_0/doc/html/boost_units.html
  [6]: https://www.youtube.com/watch?v=qphj8ZuZlPA&t=1192s
  [7]: https://github.com/foonathan/type_safe
- [8]: https://www.youtube.com/watch?v=iihlo9A2Ezw
- [9]: https://arne-mertz.de/2016/11/stronger-types/
- [10]: https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
- [11]: https://www.youtube.com/watch?v=jLdSjh8oqmE
- [12]: https://sourceforge.net/projects/opaque-typedef/
- [13]: https://blog.demofox.org/2015/02/05/getting-strongly-typed-typedefs-using-phantom-types/
- [14]: http://foonathan.net/blog/2016/10/19/strong-typedefs.html
- [15]: https://github.com/viboes/opaque/blob/master/libs/opaque/doc/opaque.pdf
- [16]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2005/n1891.pdf
- [17]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2141.html
- [18]: http://www.boost.org/doc/libs/1_61_0/libs/serialization/doc/strong_typedef.html
+ [8]: https://foonathan.net/blog/2016/10/11/type-safe.html
+ [9]: https://www.youtube.com/watch?v=iihlo9A2Ezw
+ [10]: https://arne-mertz.de/2016/11/stronger-types/
+ [11]: https://www.youtube.com/watch?v=ojZbFIQSdl8&feature=youtu.be&t=1458
+ [12]: https://www.youtube.com/watch?v=jLdSjh8oqmE
+ [13]: https://sourceforge.net/projects/opaque-typedef/
+ [14]: https://blog.demofox.org/2015/02/05/getting-strongly-typed-typedefs-using-phantom-types/
+ [15]: http://foonathan.net/blog/2016/10/19/strong-typedefs.html
+ [16]: https://github.com/viboes/opaque/blob/master/libs/opaque/doc/opaque.pdf
+ [17]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2005/n1891.pdf
+ [18]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2006/n2141.html
+ [19]: http://www.boost.org/doc/libs/1_61_0/libs/serialization/doc/strong_typedef.html
