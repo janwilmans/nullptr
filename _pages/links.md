@@ -40,7 +40,7 @@ post_date: 2017-11-04 13:46:31
 
 *   <http://fbinfer.com/>
 
-*   Upcoming meetings and conferences
+# Upcoming meetings and conferences
 
 Week 6 - Febr 4-6 (Ma-Wo) [C++ at Sea, Kent UK][7] [Wo: Nicolai Josuttis, Modern C++ Template Programming][8] Week 12 - March 14-17 (Do-Zo) [EMBO, Bochum Germany][9] Week 19 - May 5-10 (Zo-Vr) [C++Now Aspen, Colorado][10] Week 38 - September 15-20 (Zo-Vr) [Cppcon 2019, Aurora, Colorado, Not announced yet][11]
 
