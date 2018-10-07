@@ -46,6 +46,7 @@ post_date: 2017-11-04 13:46:31
 *   Week 6 - Febr 4-6 (Ma-Wo) [C++ at Sea, Kent UK][8] [Wo: Nicolai Josuttis, Modern C++ Template Programming][9] 
 *   Week 12 - March 14-17 (Do-Zo) [EMBO, Bochum Germany][10] 
 *   Week 19 - May 5-10 (Zo-Vr) [C++Now Aspen, Colorado][11]
+*   Week 29 - July 15-20 (Ma-Za) Cologne, Germany; Nicolai Josuttis, exact location tbd.
 *   Week 38 - September 15-20 (Zo-Vr) [Cppcon 2019, Aurora, Colorado, Not announced yet][12]
 
  [1]: http://nullptr.nl
