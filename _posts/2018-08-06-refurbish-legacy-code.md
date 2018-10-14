@@ -384,7 +384,28 @@ Here we used make_unique<> to allocate the object and in process() took the owne
 
 ## const correctness
 
-Another thing that is useful to document is the intention a method is not supposed to change anything. In my code base this was not really done (anywhere). The problem with added const retrospectively is that making a method const will probably mean you have to make other methods const as well and this can snowball really quick. A good way I found to start adding it is to use a static analysis tool (I used Resharper C++) to tell you what methods can be made const (leaf methods) that are not const right now. After you have done this, re-running the tool will get you the next level of methods to make const, if you repeat this cycle a few (5-10) times you can quickly improve the const-correctness of a project a lot. The reason why this approach is nice is because you can stop at any time and the effects do not snowball because you started by changing the leaf methods and are working your way up the call chains.
+Another thing that is useful to document is the intention a method is not supposed to change anything. In my code base this was not really done (anywhere). The problem with adding const retrospectively is that making a method const will probably mean you have to make its callers const as well and this can snowball really quick. A good way I found to start adding it is to use a static analysis tool (I used Resharper C++) to tell you what methods can be made const (leaf methods) that are not const right now. **However I should mention at this pointer that adding const in an inheritance hierarchy (any virtual method) can break existing code.** This is because as const is part of the function prototype, for example:
+
+So to deal with this safely, when adding const to a virtual method always made sure to also add the **override** keyword.
+
+    class Base
+    {
+      virtual void bar() = 0;
+    };
+    
+    class Foo : public Base
+    {
+      virtual void bar() const = 0; // by adding const here, still compiles but Foo::bar no longer overrides Base::bar!
+    };
+    
+    class Foo2 : public Base
+    {
+      virtual void bar() const override = 0; // compiler error! bar did not override any base class methods
+    };
+    
+    
+
+After you have done this, re-running the tool will get you the next level of methods to make const, if you repeat this cycle a few (5-10) times you can quickly improve the const-correctness of a project a lot. The reason why this approach is nice is because you can stop at any time and the effects do not snowball because you started by changing the leaf methods and are working your way up the call chains.
 
 ## smartpointers and RAII types
 
