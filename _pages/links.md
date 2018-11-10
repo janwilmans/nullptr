@@ -39,6 +39,10 @@ post_date: 2017-11-04 13:46:31
 *   <https://goo.gl/RaBJDo>
 *   <http://fbinfer.com/>
 
+# tools
+
+https://kinddragon.github.io/vld/
+
 # Upcoming meetings and conferences
 
 [Upcoming ISO C++ Meetings][7]
