@@ -15,6 +15,7 @@ post_date: 2017-11-04 13:46:31
 *   <https://github.com/CobaltFusion/DebugViewPP>
 *   <https://github.com/janwilmans/BoostTestUi/releases>
 *   <https://kinddragon.github.io/vld/>
+*   <http://www.radgametools.com/telemetry.htm>
 
 # C++ related
 
