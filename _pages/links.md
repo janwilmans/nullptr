@@ -10,6 +10,12 @@ post_date: 2017-11-04 13:46:31
 ---
 [# Home][1]
 
+# tools
+
+*   <https://github.com/CobaltFusion/DebugViewPP>
+*   <https://github.com/janwilmans/BoostTestUi/releases>
+*   <https://kinddragon.github.io/vld/>
+
 # C++ related
 
 *   <http://nullptr.nl/sg14>
@@ -21,7 +27,7 @@ post_date: 2017-11-04 13:46:31
 
 *   <http://slashslash.info/eastconst/>
 *   <https://github.com/tvaneerd/cpp20_in_TTs>
-*   <https://github.com/CobaltFusion/DebugViewPP>
+*   
 *   <https://github.com/janwilmans/DezyneSamples>
 *   <https://github.com/VerumSoftwareTools/DezyneCommunity>
 *   <https://github.com/cplusplus/draft/tree/master/papers>
@@ -38,10 +44,6 @@ post_date: 2017-11-04 13:46:31
 
 *   <https://goo.gl/RaBJDo>
 *   <http://fbinfer.com/>
-
-# tools
-
-https://kinddragon.github.io/vld/
 
 # Upcoming meetings and conferences
 
