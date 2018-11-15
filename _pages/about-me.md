@@ -8,7 +8,9 @@ permalink: http://nullptr.nl/about-me/
 published: true
 post_date: 2018-04-30 20:09:02
 ---
-Hi, I'm Jan Wilmans, software architect and coach.
+Hi there dear reader,
+
+I'm Jan Wilmans, software architect and coach.
 
 I like to explain c++ to others without teaching them perse. I believe its better to *mentor* people instead of teaching them. [Here][1] is a short post on the difference. On this website I have collected several projects that have my interest and there is a blog where I sometimes rant about c++.
 
