@@ -24,6 +24,7 @@ post_date: 2017-11-04 13:46:31
 *   <https://wg21.link/>
 *   <https://isocpp.org/std>
 *   [C++ standard (March 2017)][2] [Mirror][3]
+*   <https://www.youtube.com/watch?v=JSjoCisIHcM>
 
 # Links of personal interest
 
