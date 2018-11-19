@@ -18,6 +18,7 @@ post_date: 2017-11-04 13:46:31
 *   <http://www.radgametools.com/telemetry.htm>
 *   <https://www.remkoweijnen.nl/blog/2013/06/13/debugging-tools-for-windows-direct-download/>
 *   <https://cppinsights.io/>
+*   <http://www.codersnotes.com/sleepy/>
 
 # C++ related
 
