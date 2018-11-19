@@ -17,6 +17,7 @@ post_date: 2017-11-04 13:46:31
 *   <https://kinddragon.github.io/vld/>
 *   <http://www.radgametools.com/telemetry.htm>
 *   <https://www.remkoweijnen.nl/blog/2013/06/13/debugging-tools-for-windows-direct-download/>
+*   <https://cppinsights.io/>
 
 # C++ related
 
