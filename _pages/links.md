@@ -50,6 +50,11 @@ post_date: 2017-11-04 13:46:31
 *   <https://goo.gl/RaBJDo>
 *   <http://fbinfer.com/>
 
+# live c++
+
+*   <https://twitter.com/pati_gallardo/status/1079387727697723393>
+*   <https://molecular-matters.com/products_livepp.html>
+
 # Upcoming meetings and conferences
 
 [Upcoming ISO C++ Meetings][8]
