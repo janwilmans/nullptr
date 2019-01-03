@@ -37,7 +37,7 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 
 > IncludeCpp is a global, inclusive, and diverse community for developers interested in C++. Join our [discord][10].
 
-# More general resources
+## More general resources
 
 *   [Kevlin Henney][13] is a great speaker on many topics, check him out, also on [youtube][14].
 *   <https://www.fluentcpp.com/2018/11/30/function-parameters-3/>
@@ -45,7 +45,7 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 *   <https://en.cppreference.com/>
 *   <https://www.oreilly.com/library/view/effective-modern-c/9781491908419/>
 
-# Tips on tweeting and posting on forums:
+## Tips on tweeting and posting on forums:
 
 *   ask questions! and when you do explain **what you already did** to explore the problem and why you did not get to the desired answer. This helps to give context and avoids answers like 'just google it'.
 *   use common sense, be nice, if you see a question you can answer, why not chip in and answer it. You may sometimes get it wrong, but that is OK, you will learn from that also!
@@ -75,12 +75,12 @@ Also worth mentioning, [The 7 Habits of Highly Effective People][21] not about c
     *   <https://stackoverflow.com/> is an excellent place for discussion and to ask questions 
     *   read the manual [cppreference.com][22]
 
-# Recommended talks
+## Recommended talks
 
 *   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][23]
 *   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][24]
 
-# List of conferences
+## List of conferences
 
 *   <https://cppcon.org/>
 
