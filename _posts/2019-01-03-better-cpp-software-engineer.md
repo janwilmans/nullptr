@@ -42,8 +42,6 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 *   [Kevlin Henney][13] is a great speaker on many topics, check him out, also on [youtube][14].
 *   <https://www.fluentcpp.com/2018/11/30/function-parameters-3/>
 *   <http://ericniebler.com/>
-*   <https://en.cppreference.com/>
-*   <https://www.oreilly.com/library/view/effective-modern-c/9781491908419/>
 
 ## Tips on tweeting and posting on forums:
 
@@ -61,24 +59,25 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 
 ## Other things to do
 
+*   read the manual [cppreference.com][15]
 *   watch the conference video's! there are many many hour of premium content available online, free of charge
 *   read books (really!), I recommend, in order:
     
-    *   [A Tour of C++ by Bjarne Stroustrup][15] [>bol<][16]
-    *   [Effective Modern C++ by Scott Meyers][17] [>bol<][18]
-    *   [C++ concurrency in action by Anthony Williams][19] [>link<][20]
+    *   [A Tour of C++ by Bjarne Stroustrup][16] [>bol<][17]
+    *   [Effective Modern C++ by Scott Meyers][18] [>bol<][19]
+    *   [C++ concurrency in action by Anthony Williams][20] [>link<][21]
 
-Also worth mentioning, [The 7 Habits of Highly Effective People][21] not about c++ at all, its about self-management, but it changed my life. Of course there are many other good books, these are just the ones that I read and really stuck with me.
+Also worth mentioning, [The 7 Habits of Highly Effective People][22] not about c++ at all, its about self-management, but it changed my life. Of course there are many other good books, these are just the ones that I read and really stuck with me.
 
 *   join communities
     
     *   <https://stackoverflow.com/> is an excellent place for discussion and to ask questions 
-    *   read the manual [cppreference.com][22]
+    *   join [cpplang on slack][23]
 
 ## Recommended talks
 
-*   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][23]
-*   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][24]
+*   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][24]
+*   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][25]
 
 ## List of conferences
 
@@ -105,13 +104,14 @@ This post is a work in progress, I will update it regularly.
  [12]: https://twitter.com/janwilmans
  [13]: https://twitter.com/KevlinHenney
  [14]: https://www.google.nl/search?tbm=vid&q=Kevlin%20Henney
- [15]: https://www.amazon.com/Tour-C-Depth/dp/0321958314
- [16]: https://www.bol.com/nl/p/a-tour-of-c/9200000096584509/
- [17]: https://www.oreilly.com/library/view/effective-modern-c/9781491908419/
- [18]: https://www.bol.com/nl/p/effective-modern-c/9200000036037659/
- [19]: https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
- [20]: https://www.bogotobogo.com/cplusplus/files/CplusplusConcurrencyInAction_PracticalMultithreading.pdf
- [21]: https://www.franklincovey.com/the-7-habits.html
- [22]: https://cppreference.com
- [23]: https://www.youtube.com/watch?v=u5senBJUkPc
- [24]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
+ [15]: https://cppreference.com
+ [16]: https://www.amazon.com/Tour-C-Depth/dp/0321958314
+ [17]: https://www.bol.com/nl/p/a-tour-of-c/9200000096584509/
+ [18]: https://www.oreilly.com/library/view/effective-modern-c/9781491908419/
+ [19]: https://www.bol.com/nl/p/effective-modern-c/9200000036037659/
+ [20]: https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
+ [21]: https://www.bogotobogo.com/cplusplus/files/CplusplusConcurrencyInAction_PracticalMultithreading.pdf
+ [22]: https://www.franklincovey.com/the-7-habits.html
+ [23]: https://cpplang.now.sh/
+ [24]: https://www.youtube.com/watch?v=u5senBJUkPc
+ [25]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
