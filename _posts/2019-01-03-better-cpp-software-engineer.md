@@ -50,16 +50,18 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 *   ask questions! and when you do explain **what you already did** to explore the problem and why you did not get to the desired answer. This helps to give context and avoids answers like 'just google it'.
 *   use common sense, be nice, if you see a question you can answer, why not chip in and answer it. You may sometimes get it wrong, but that is OK, you will learn from that also!
 
-# Other things to do
+# Stage 2, meanwhile in real life...
 
 *   go to a conference! (see list of conferences below) they are the most immersive way to learn a lot in a short amount of time
 *   if a conference seems too expensive, remember that volunteers and students often get special discounts and some even offer free access!
-*   if you are employed, remind your boss that its is no more expensive compared to a regular course/training and much more immersive and interactive. 
-*   watch the conference video's! there are many many hour of premium content available online, free of charge
+*   if you are employed, remind your boss that its is no more expensive compared to a regular course/training and much more immersive and interactive.
     
     *   <https://channel9.msdn.com/events/CPP/> the cppcon conference produces over 100 recorded talks ever year!
     *   <https://www.google.nl/search?q=youtube+cppcon>
 
+## Other things to do
+
+*   watch the conference video's! there are many many hour of premium content available online, free of charge
 *   read books (really!), I recommend, in order:
     
     *   [A Tour of C++ by Bjarne Stroustrup][15] [>bol<][16]
