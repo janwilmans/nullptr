@@ -87,6 +87,8 @@ Dutch people:
 *   <https://twitter.com/TheDutchCppGrp>
 *   <http://www.040coders.nl>
 
+This post is a work in progress, I will update it regularly.
+
  [1]: http://cppcast.com
  [2]: http://cppcast.com/2017/09/jan-wilmans/
  [3]: https://cppcon.org/
