@@ -75,16 +75,17 @@ Also worth mentioning, [The 7 Habits of Highly Effective People][21] not about c
 
 # Recommended talks
 
-*   CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..." https://www.youtube.com/watch?v=u5senBJUkPc
-*   
-
-KevlinHenney watch myself: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
+*   CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..." <https://www.youtube.com/watch?v=u5senBJUkPc>
+*   <https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s>
 
 # List of conferences
 
 *   <https://cppcon.org/>
 
-Dutch people: * <https://twitter.com/TheDutchCppGrp> * <http://www.040coders.nl>
+Dutch people:
+
+*   <https://twitter.com/TheDutchCppGrp>
+*   <http://www.040coders.nl>
 
  [1]: http://cppcast.com
  [2]: http://cppcast.com/2017/09/jan-wilmans/
