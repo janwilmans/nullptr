@@ -75,8 +75,8 @@ Also worth mentioning, [The 7 Habits of Highly Effective People][21] not about c
 
 # Recommended talks
 
-*   CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..." <https://www.youtube.com/watch?v=u5senBJUkPc>
-*   <https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s>
+*   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][23]
+*   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][24]
 
 # List of conferences
 
@@ -109,3 +109,5 @@ Dutch people:
  [20]: https://www.bogotobogo.com/cplusplus/files/CplusplusConcurrencyInAction_PracticalMultithreading.pdf
  [21]: https://www.franklincovey.com/the-7-habits.html
  [22]: https://cppreference.com
+ [23]: https://www.youtube.com/watch?v=u5senBJUkPc
+ [24]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
