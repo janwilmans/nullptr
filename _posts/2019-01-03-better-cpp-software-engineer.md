@@ -67,9 +67,9 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
     *   [Effective Modern C++ by Scott Meyers][18] [>bol<][19]
     *   [C++ concurrency in action by Anthony Williams][20] [>link<][21]
 
-I got feedback from some the great folks on the [orange page][22] the just reading books is not going to make you a good software engineer. Also they mentioned: "all that stuff about `Variadic templates, metaprogramming, memory barriers and the specifics of memory layout` do you really need to know all that? Is not too obscure and not used on daily basis" ?
+I got feedback from some the great folks on the [orange page][22] that just reading books is not going to make you a good software engineer. Also they mentioned: "all that stuff about >Variadic templates, meta programming, memory barriers and the specifics of memory layout< do you really need to know all that? Is not too obscure and not used on daily basis" ?
 
-This is absolutely true.
+There is absolutely truth in this. First of all: practice, practice, practice. Programming is, just like so many things a skill that is really honed by doing it *a lot*. Still the mentioned books at great. "A Tour of C++", make sure to get the second edition that was just released, is only 256 (yes!) pages. I encourage you to read a few chapters and as soon as you found something new, do try it! Open up your favorite editor and try it out. Also by all means skip chapters that you find difficult, or uninteresting, read through the books to get a sense of the whole and return to the more difficult to grasp parts later.
 
 Also worth mentioning, [The 7 Habits of Highly Effective People][23] not about c++ at all, its about self-management, but it changed my life. Of course there are many other good books, these are just the ones that I read and really stuck with me.
 
