@@ -82,11 +82,20 @@ Also worth mentioning, [The 7 Habits of Highly Effective People][22] not about c
 ## List of conferences
 
 *   <https://cppcon.org/>
+*   <http://embo.io/>
+*   <http://cppnow.org/>
+*   <https://cpponsea.uk/>
+*   <https://meetingcpp.com/>
 
-Dutch people:
+## Meet dutch C++ people at local groups:
 
 *   <https://twitter.com/TheDutchCppGrp>
 *   <http://www.040coders.nl>
+
+## ping-backs
+
+*   <https://www.kylegalbraith.com/learn-by-doing/volume/36/how-do-you-feel-about-cplusplus.html>
+*   <https://news.ycombinator.com/item?id=18814697>
 
 This post is a work in progress, I will update it regularly.
 
