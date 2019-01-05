@@ -85,9 +85,9 @@ Also worth mentioning, [The 7 Habits of Highly Effective People][23] not about c
 
 ## List of conferences
 
-*   <https://cppcon.org/>
+*   <https://cppcon.org/> ([student discounts][27]) 
 *   <http://embo.io/>
-*   <http://cppnow.org/> ([student discounts][27]) 
+*   <http://cppnow.org/> 
 *   <https://cpponsea.uk/>
 *   <https://meetingcpp.com/>
 *   <https://codedive.pl/> (free!)
@@ -130,4 +130,4 @@ This post is a work in progress, I will update it regularly.
  [24]: https://cpplang.now.sh/
  [25]: https://www.youtube.com/watch?v=u5senBJUkPc
  [26]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
- [27]: http://mailto:students@cppcon.org
+ [27]: mailto:students@cppcon.org
