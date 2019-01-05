@@ -40,8 +40,11 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 ## More general resources
 
 *   [Kevlin Henney][13] is a great speaker on many topics, check him out, also on [youtube][14].
-*   <https://www.fluentcpp.com/2018/11/30/function-parameters-3/>
 *   <http://ericniebler.com/>
+*   [Fluent C++ - Jonathan Boccara's blog][15]
+*   <https://www.youtube.com/c/Cppchat>
+*   <http://cppcast.com/>
+*   [Jason Turner' C++ Weekly][16] 
 
 ## Tips on tweeting and posting on forums:
 
@@ -59,33 +62,40 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 
 ## Other things to do
 
-*   read the manual [cppreference.com][15]
+*   read the manual [cppreference.com][17]
 *   watch the conference video's! there are many many hour of premium content available online, free of charge
 *   read books (really!), I recommend, in order:
     
-    *   [A Tour of C++ by Bjarne Stroustrup][16] [>bol<][17]
-    *   [Effective Modern C++ by Scott Meyers][18] [>bol<][19]
-    *   [C++ concurrency in action by Anthony Williams][20] [>link<][21]
+    *   [A Tour of C++ by Bjarne Stroustrup][18] [>bol<][19]
+    *   [Effective Modern C++ by Scott Meyers][20] [>bol<][21]
+    *   [C++ concurrency in action by Anthony Williams][22] [>link<][23]
 
-I got feedback from some the great folks on the [orange page][22] that just reading books is not going to make you a good software engineer. Also they mentioned: "all that stuff about >Variadic templates, meta programming, memory barriers and the specifics of memory layout< do you really need to know all that? Is not too obscure and not used on daily basis" ?
+*   as a nice reference:
+    
+    *   [The C++ Programming Language (4th Edition)][24] 
+    *   [The ISO Standard document, the official specification][25]
+
+These last ones are not good to start with, but it an excellent reference if you want to dive into the full details.
+
+I got feedback from some the great folks on the [orange page][26] that just reading books is not going to make you a good software engineer. Also they mentioned: "all that stuff about >Variadic templates, meta programming, memory barriers and the specifics of memory layout< do you really need to know all that? Is not too obscure and not used on daily basis" ?
 
 There is absolutely truth in this. First of all: practice, practice, practice. Programming is, just like so many things a skill that is really honed by doing it *a lot*. Still the mentioned books at great. "A Tour of C++", make sure to get the second edition that was just released, is only 256 (yes!) pages. I encourage you to read a few chapters and as soon as you found something new, do try it! Open up your favorite editor and try it out. Also by all means skip chapters that you find difficult, or uninteresting, read through the books to get a sense of the whole and return to the more difficult to grasp parts later.
 
-Also worth mentioning, [The 7 Habits of Highly Effective People][23] not about c++ at all, its about self-management, but it changed my life. Of course there are many other good books, these are just the ones that I read and really stuck with me.
+Also worth mentioning, [The 7 Habits of Highly Effective People][27] not about c++ at all, its about self-management, but it changed my life. Of course there are many other good books, these are just the ones that I read and really stuck with me.
 
 *   join communities
     
     *   <https://stackoverflow.com/> is an excellent place for discussion and to ask questions 
-    *   join [cpplang on slack][24]
+    *   join [cpplang on slack][28]
 
 ## Recommended talks
 
-*   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][25]
-*   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][26]
+*   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][29]
+*   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][30]
 
 ## List of conferences
 
-*   <https://cppcon.org/> ([student discounts][27]) 
+*   <https://cppcon.org/> ([student discounts][31]) 
 *   <http://embo.io/>
 *   <http://cppnow.org/> 
 *   <https://cpponsea.uk/>
@@ -118,16 +128,20 @@ This post is a work in progress, I will update it regularly.
  [12]: https://twitter.com/janwilmans
  [13]: https://twitter.com/KevlinHenney
  [14]: https://www.google.nl/search?tbm=vid&q=Kevlin%20Henney
- [15]: https://cppreference.com
- [16]: https://www.amazon.com/Tour-C-Depth/dp/0321958314
- [17]: https://www.bol.com/nl/p/a-tour-of-c/9200000096584509/
- [18]: https://www.oreilly.com/library/view/effective-modern-c/9781491908419/
- [19]: https://www.bol.com/nl/p/effective-modern-c/9200000036037659/
- [20]: https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
- [21]: https://www.bogotobogo.com/cplusplus/files/CplusplusConcurrencyInAction_PracticalMultithreading.pdf
- [22]: https://news.ycombinator.com/item?id=18814697
- [23]: https://www.franklincovey.com/the-7-habits.html
- [24]: https://cpplang.now.sh/
- [25]: https://www.youtube.com/watch?v=u5senBJUkPc
- [26]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
- [27]: mailto:students@cppcon.org
+ [15]: https://www.fluentcpp.com/
+ [16]: https://www.youtube.com/playlist?list=PLs3KjaCtOwSZ2tbuV1hx8Xz-rFZTan2J1
+ [17]: https://cppreference.com
+ [18]: https://www.amazon.com/Tour-C-Depth/dp/0321958314
+ [19]: https://www.bol.com/nl/p/a-tour-of-c/9200000096584509/
+ [20]: https://www.oreilly.com/library/view/effective-modern-c/9781491908419/
+ [21]: https://www.bol.com/nl/p/effective-modern-c/9200000036037659/
+ [22]: https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
+ [23]: https://www.bogotobogo.com/cplusplus/files/CplusplusConcurrencyInAction_PracticalMultithreading.pdf
+ [24]: http://www.stroustrup.com/4th.html
+ [25]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4659.pdf
+ [26]: https://news.ycombinator.com/item?id=18814697
+ [27]: https://www.franklincovey.com/the-7-habits.html
+ [28]: https://cpplang.now.sh/
+ [29]: https://www.youtube.com/watch?v=u5senBJUkPc
+ [30]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
+ [31]: mailto:students@cppcon.org
