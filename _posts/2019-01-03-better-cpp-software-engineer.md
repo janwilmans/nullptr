@@ -67,17 +67,21 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
     *   [Effective Modern C++ by Scott Meyers][18] [>bol<][19]
     *   [C++ concurrency in action by Anthony Williams][20] [>link<][21]
 
-Also worth mentioning, [The 7 Habits of Highly Effective People][22] not about c++ at all, its about self-management, but it changed my life. Of course there are many other good books, these are just the ones that I read and really stuck with me.
+I got feedback from some the great folks on the [orange page][22] the just reading books is not going to make you a good software engineer. Also they mentioned: "all that stuff about `Variadic templates, metaprogramming, memory barriers and the specifics of memory layout` do you really need to know all that? Is not too obscure and not used on daily basis" ?
+
+This is absolutely true.
+
+Also worth mentioning, [The 7 Habits of Highly Effective People][23] not about c++ at all, its about self-management, but it changed my life. Of course there are many other good books, these are just the ones that I read and really stuck with me.
 
 *   join communities
     
     *   <https://stackoverflow.com/> is an excellent place for discussion and to ask questions 
-    *   join [cpplang on slack][23]
+    *   join [cpplang on slack][24]
 
 ## Recommended talks
 
-*   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][24]
-*   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][25]
+*   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][25]
+*   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][26]
 
 ## List of conferences
 
@@ -120,7 +124,8 @@ This post is a work in progress, I will update it regularly.
  [19]: https://www.bol.com/nl/p/effective-modern-c/9200000036037659/
  [20]: https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
  [21]: https://www.bogotobogo.com/cplusplus/files/CplusplusConcurrencyInAction_PracticalMultithreading.pdf
- [22]: https://www.franklincovey.com/the-7-habits.html
- [23]: https://cpplang.now.sh/
- [24]: https://www.youtube.com/watch?v=u5senBJUkPc
- [25]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
+ [22]: https://news.ycombinator.com/item?id=18814697
+ [23]: https://www.franklincovey.com/the-7-habits.html
+ [24]: https://cpplang.now.sh/
+ [25]: https://www.youtube.com/watch?v=u5senBJUkPc
+ [26]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
