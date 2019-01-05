@@ -112,7 +112,9 @@ Also worth mentioning, [The 7 Habits of Highly Effective People][27] not about c
 *   <https://www.kylegalbraith.com/learn-by-doing/volume/36/how-do-you-feel-about-cplusplus.html>
 *   <https://news.ycombinator.com/item?id=18814697>
 
-This post is a work in progress, I will update it regularly.
+## Note from the author
+
+This post got an unusual amount of attention, I would like to emphasize that it a work in progress, I will update it regularly.
 
  [1]: http://cppcast.com
  [2]: http://cppcast.com/2017/09/jan-wilmans/
