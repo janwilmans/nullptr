@@ -37,6 +37,8 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 
 > IncludeCpp is a global, inclusive, and diverse community for developers interested in C++. Join our [discord][10].
 
+## 
+
 ## More general resources
 
 *   [Kevlin Henney][13] is a great speaker on many topics, check him out, also on [youtube][14].
@@ -90,12 +92,13 @@ Also worth mentioning, [The 7 Habits of Highly Effective People][27] not about c
 
 ## Recommended talks
 
-*   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][29]
-*   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][30]
+*   [CppCon 2015: Joshua Gerrard "The dangers of C-style casts"][29] is nice 5-minute talk to get started with.
+*   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][30] 
+*   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][31]
 
 ## List of conferences
 
-*   <https://cppcon.org/> ([student discounts][31]) 
+*   <https://cppcon.org/> ([student discounts][32]) 
 *   <http://embo.io/>
 *   <http://cppnow.org/> 
 *   <https://cpponsea.uk/>
@@ -144,6 +147,7 @@ This post got an unusual amount of attention, I would like to emphasize that it 
  [26]: https://news.ycombinator.com/item?id=18814697
  [27]: https://www.franklincovey.com/the-7-habits.html
  [28]: https://cpplang.now.sh/
- [29]: https://www.youtube.com/watch?v=u5senBJUkPc
- [30]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
- [31]: mailto:students@cppcon.org
+ [29]: https://www.youtube.com/watch?v=DAvZ3OG9cNo
+ [30]: https://www.youtube.com/watch?v=u5senBJUkPc
+ [31]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
+ [32]: mailto:students@cppcon.org
