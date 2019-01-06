@@ -46,20 +46,20 @@ The links in this article is a rather arbitrary set, there is no particular orde
 *   [CppCon 2015: Joshua Gerrard "The dangers of C-style casts"][13] is a nice 5-minute talk to get started with.
 *   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][14] 
 *   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][15]
+*   [CppCon 2016: Howard Hinnant - A ＜chrono＞ Tutorial (it's about time)][16]
 
 ## C++ resources
 
 *   <https://abseil.io/tips/>
-*   [CppCon 2016: Howard Hinnant - A ＜chrono＞ Tutorial (it's about time)][16]
+*   <http://ericniebler.com/>
+*   [Fluent C++ - Jonathan Boccara's blog][17]
+*   <https://www.youtube.com/c/Cppchat>
+*   <http://cppcast.com/>
+*   [Jason Turner's C++ Weekly][18] 
 
 ## More general resources
 
-*   [Kevlin Henney][17] is a great speaker on many topics, check him out, also on [youtube][18].
-*   <http://ericniebler.com/>
-*   [Fluent C++ - Jonathan Boccara's blog][19]
-*   <https://www.youtube.com/c/Cppchat>
-*   <http://cppcast.com/>
-*   [Jason Turner's C++ Weekly][20] 
+*   [Kevlin Henney][19] is a great speaker on many topics, check him out, also on [youtube][20].
 
 ## Tips on tweeting and posting on forums:
 
@@ -155,10 +155,10 @@ This post got an unusual amount of attention, I would like to emphasize that it 
  [14]: https://www.youtube.com/watch?v=u5senBJUkPc
  [15]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
  [16]: https://www.youtube.com/watch?v=P32hvk8b13M
- [17]: https://twitter.com/KevlinHenney
- [18]: https://www.google.nl/search?tbm=vid&q=Kevlin%20Henney
- [19]: https://www.fluentcpp.com/
- [20]: https://www.youtube.com/playlist?list=PLs3KjaCtOwSZ2tbuV1hx8Xz-rFZTan2J1
+ [17]: https://www.fluentcpp.com/
+ [18]: https://www.youtube.com/playlist?list=PLs3KjaCtOwSZ2tbuV1hx8Xz-rFZTan2J1
+ [19]: https://twitter.com/KevlinHenney
+ [20]: https://www.google.nl/search?tbm=vid&q=Kevlin%20Henney
  [21]: https://cppreference.com
  [22]: https://www.amazon.com/Tour-C-Depth/dp/0321958314
  [23]: https://www.bol.com/nl/p/a-tour-of-c/9200000096584509/
