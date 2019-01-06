@@ -110,6 +110,19 @@ Also worth mentioning, [The 7 Habits of Highly Effective People][30] not about c
 *   <https://twitter.com/TheDutchCppGrp>
 *   <http://www.040coders.nl>
 
+## Good talks on slightly more advanced topics
+
+*   [CppCon 2017: Ben Deane & Jason Turner “constexpr ALL the Things!][33]
+*   [CppCon 2016: Ben Deane - Using Types Effectively][34]
+*   [CppCon 2018: Robert Ramey - Safe Numerics][35]
+
+## Funny videos about computer complexities
+
+Take these with a grain of salt, yes there is truth to them, but you will probably never have to solve these problems yourself.
+
+*   [The Problem with Time & Timezones - Computerphile][36]
+*   [Internationalis(z)ing Code - Computerphile][37]
+
 ## ping-backs
 
 *   <https://www.kylegalbraith.com/learn-by-doing/volume/36/how-do-you-feel-about-cplusplus.html>
@@ -151,3 +164,8 @@ This post got an unusual amount of attention, I would like to emphasize that it 
  [30]: https://www.franklincovey.com/the-7-habits.html
  [31]: https://cpplang.now.sh/
  [32]: mailto:students@cppcon.org
+ [33]: https://www.youtube.com/watch?v=PJwd4JLYJJY
+ [34]: https://www.youtube.com/watch?v=ojZbFIQSdl8
+ [35]: https://www.youtube.com/watch?v=93Cjg42bGEw
+ [36]: https://www.youtube.com/watch?v=-5wpm-gesOY
+ [37]: https://www.youtube.com/watch?v=0j74jcxSunY
