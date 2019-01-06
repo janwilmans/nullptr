@@ -39,20 +39,27 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 
 ## Watch talks from conferences for example: cppcon, cppnew or meeting++ conferences
 
+The links in this article is a rather arbitrary set, there is no particular order or purpose to them, other then to show you that the information exists. Really it is out there, search on google, search on youtube, ask around on twitter for specific topics. Below I list a few I particularly liked or found useful in my daily job.
+
 ## Recommended talks
 
 *   [CppCon 2015: Joshua Gerrard "The dangers of C-style casts"][13] is nice 5-minute talk to get started with.
 *   [CppCon 2015: T. Winters & H. Wright “All Your Tests are Terrible..."][14] 
 *   [ITT 2016 - Kevlin Henney - Seven Ineffective Coding Habits of Many Programmers][15]
 
+## C++ resources
+
+*   <https://abseil.io/tips/>
+*   [CppCon 2016: Howard Hinnant - A ＜chrono＞ Tutorial (is about time)][16]
+
 ## More general resources
 
-*   [Kevlin Henney][16] is a great speaker on many topics, check him out, also on [youtube][17].
+*   [Kevlin Henney][17] is a great speaker on many topics, check him out, also on [youtube][18].
 *   <http://ericniebler.com/>
-*   [Fluent C++ - Jonathan Boccara's blog][18]
+*   [Fluent C++ - Jonathan Boccara's blog][19]
 *   <https://www.youtube.com/c/Cppchat>
 *   <http://cppcast.com/>
-*   [Jason Turner' C++ Weekly][19] 
+*   [Jason Turner' C++ Weekly][20] 
 
 ## Tips on tweeting and posting on forums:
 
@@ -70,35 +77,35 @@ The [#include C++][9] community is very welcoming to *everybody*, seriously, it 
 
 ## Other things to do
 
-*   read the manual [cppreference.com][20]
+*   read the manual [cppreference.com][21]
 *   watch the conference video's! there are many many hour of premium content available online, free of charge
 *   read books (really!), I recommend, in order:
     
-    *   [A Tour of C++ by Bjarne Stroustrup][21] [>bol<][22]
-    *   [Effective Modern C++ by Scott Meyers][23] [>bol<][24]
-    *   [C++ concurrency in action by Anthony Williams][25] [>link<][26]
+    *   [A Tour of C++ by Bjarne Stroustrup][22] [>bol<][23]
+    *   [Effective Modern C++ by Scott Meyers][24] [>bol<][25]
+    *   [C++ concurrency in action by Anthony Williams][26] [>link<][27]
 
 *   as a nice reference:
     
-    *   [The C++ Programming Language (4th Edition)][27] 
-    *   [The ISO Standard document, the official specification][28]
+    *   [The C++ Programming Language (4th Edition)][28] 
+    *   [The ISO Standard document, the official specification][29]
 
 These last ones are not good to start with, but it an excellent reference if you want to dive into the full details.
 
-I got feedback from some the great folks on the [orange page][29] that just reading books is not going to make you a good software engineer. Also they mentioned: "all that stuff about >Variadic templates, meta programming, memory barriers and the specifics of memory layout< do you really need to know all that? Is not too obscure and not used on daily basis" ?
+I got feedback from some the great folks on the [orange page][30] that just reading books is not going to make you a good software engineer. Also they mentioned: "all that stuff about >Variadic templates, meta programming, memory barriers and the specifics of memory layout< do you really need to know all that? Is not too obscure and not used on daily basis" ?
 
 There is absolutely truth in this. First of all: practice, practice, practice. Programming is, just like so many things a skill that is really honed by doing it *a lot*. Still the mentioned books at great. "A Tour of C++", make sure to get the second edition that was just released, is only 256 (yes!) pages. I encourage you to read a few chapters and as soon as you found something new, do try it! Open up your favorite editor and try it out. Also by all means skip chapters that you find difficult, or uninteresting, read through the books to get a sense of the whole and return to the more difficult to grasp parts later.
 
-Also worth mentioning, [The 7 Habits of Highly Effective People][30] not about c++ at all, its about self-management, but it changed my life. Of course there are many other good books, these are just the ones that I read and really stuck with me.
+Also worth mentioning, [The 7 Habits of Highly Effective People][31] not about c++ at all, its about self-management, but it changed my life. Of course there are many other good books, these are just the ones that I read and really stuck with me.
 
 *   join communities
     
     *   <https://stackoverflow.com/> is an excellent place for discussion and to ask questions 
-    *   join [cpplang on slack][31]
+    *   join [cpplang on slack][32]
 
 ## List of conferences
 
-*   <https://cppcon.org/> ([student discounts][32]) 
+*   <https://cppcon.org/> ([student discounts][33]) 
 *   <http://embo.io/>
 *   <http://cppnow.org/> 
 *   <https://cpponsea.uk/>
@@ -112,16 +119,16 @@ Also worth mentioning, [The 7 Habits of Highly Effective People][30] not about c
 
 ## Good talks on slightly more advanced topics
 
-*   [CppCon 2017: Ben Deane & Jason Turner “constexpr ALL the Things!][33]
-*   [CppCon 2016: Ben Deane - Using Types Effectively][34]
-*   [CppCon 2018: Robert Ramey - Safe Numerics][35]
+*   [CppCon 2017: Ben Deane & Jason Turner “constexpr ALL the Things!][34]
+*   [CppCon 2016: Ben Deane - Using Types Effectively][35]
+*   [CppCon 2018: Robert Ramey - Safe Numerics][36]
 
 ## Funny videos about computer complexities
 
 Take these with a grain of salt, yes there is truth to them, but you will probably never have to solve these problems yourself.
 
-*   [The Problem with Time & Timezones - Computerphile][36]
-*   [Internationalis(z)ing Code - Computerphile][37]
+*   [The Problem with Time & Timezones - Computerphile][37]
+*   [Internationalis(z)ing Code - Computerphile][38]
 
 ## ping-backs
 
@@ -147,25 +154,26 @@ This post got an unusual amount of attention, I would like to emphasize that it 
  [13]: https://www.youtube.com/watch?v=DAvZ3OG9cNo
  [14]: https://www.youtube.com/watch?v=u5senBJUkPc
  [15]: https://www.youtube.com/watch?v=ZsHMHukIlJY&t=2369s
- [16]: https://twitter.com/KevlinHenney
- [17]: https://www.google.nl/search?tbm=vid&q=Kevlin%20Henney
- [18]: https://www.fluentcpp.com/
- [19]: https://www.youtube.com/playlist?list=PLs3KjaCtOwSZ2tbuV1hx8Xz-rFZTan2J1
- [20]: https://cppreference.com
- [21]: https://www.amazon.com/Tour-C-Depth/dp/0321958314
- [22]: https://www.bol.com/nl/p/a-tour-of-c/9200000096584509/
- [23]: https://www.oreilly.com/library/view/effective-modern-c/9781491908419/
- [24]: https://www.bol.com/nl/p/effective-modern-c/9200000036037659/
- [25]: https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
- [26]: https://www.bogotobogo.com/cplusplus/files/CplusplusConcurrencyInAction_PracticalMultithreading.pdf
- [27]: http://www.stroustrup.com/4th.html
- [28]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4659.pdf
- [29]: https://news.ycombinator.com/item?id=18814697
- [30]: https://www.franklincovey.com/the-7-habits.html
- [31]: https://cpplang.now.sh/
- [32]: mailto:students@cppcon.org
- [33]: https://www.youtube.com/watch?v=PJwd4JLYJJY
- [34]: https://www.youtube.com/watch?v=ojZbFIQSdl8
- [35]: https://www.youtube.com/watch?v=93Cjg42bGEw
- [36]: https://www.youtube.com/watch?v=-5wpm-gesOY
- [37]: https://www.youtube.com/watch?v=0j74jcxSunY
+ [16]: https://www.youtube.com/watch?v=P32hvk8b13M
+ [17]: https://twitter.com/KevlinHenney
+ [18]: https://www.google.nl/search?tbm=vid&q=Kevlin%20Henney
+ [19]: https://www.fluentcpp.com/
+ [20]: https://www.youtube.com/playlist?list=PLs3KjaCtOwSZ2tbuV1hx8Xz-rFZTan2J1
+ [21]: https://cppreference.com
+ [22]: https://www.amazon.com/Tour-C-Depth/dp/0321958314
+ [23]: https://www.bol.com/nl/p/a-tour-of-c/9200000096584509/
+ [24]: https://www.oreilly.com/library/view/effective-modern-c/9781491908419/
+ [25]: https://www.bol.com/nl/p/effective-modern-c/9200000036037659/
+ [26]: https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition
+ [27]: https://www.bogotobogo.com/cplusplus/files/CplusplusConcurrencyInAction_PracticalMultithreading.pdf
+ [28]: http://www.stroustrup.com/4th.html
+ [29]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4659.pdf
+ [30]: https://news.ycombinator.com/item?id=18814697
+ [31]: https://www.franklincovey.com/the-7-habits.html
+ [32]: https://cpplang.now.sh/
+ [33]: mailto:students@cppcon.org
+ [34]: https://www.youtube.com/watch?v=PJwd4JLYJJY
+ [35]: https://www.youtube.com/watch?v=ojZbFIQSdl8
+ [36]: https://www.youtube.com/watch?v=93Cjg42bGEw
+ [37]: https://www.youtube.com/watch?v=-5wpm-gesOY
+ [38]: https://www.youtube.com/watch?v=0j74jcxSunY
