@@ -20,7 +20,7 @@ So you (or rather I) have this legacy code that must be maintained. It has all t
 
 ## Tests
 
-`refactoring without tests is just changing sh*t. - Hamlet D’Arcy`
+> refactoring without tests is just changing sh*t. - Hamlet D’Arcy
 
 Before you start changing anything I would suggest you get proper tests in place if they are not already there. A comment I got at a presentation was: "yes, but to add tests I need to decouple stuff, add interfaces, and that is also a change, so I can't add any tests". Well, true, you have to start somewhere, a good set of integration tests can be a good start, test what you can, add interfaces as you go. There is always some risk of mistake, but as adding interfaces should not change any behavior, it is often a can-be-judged-good-by-inspection kind of change. Making other changes such as 'fixing this minor thing at the same time' should be carefully avoided.
 
