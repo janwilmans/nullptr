@@ -16,6 +16,13 @@ So you (or rather I) have this legacy code that must be maintained. It has all t
 *   it looks like it was written before const, smart pointers or RAII were a thing
 *   the author was a big fan of (overly) defensive programming 
 *   either not much thought went into the overall design or over time the design was compromised by the extensions that were made later
+*   there is a lack of (proper) tests
+
+## Tests
+
+`refactoring without tests is just changing sh*t. - Hamlet D’Arcy`
+
+Before you start changing anything I would suggest you get proper tests in place if they are not already there. A comment I got at a presentation was: "yes, but to add tests I need to decouple stuff, add interfaces, and that is also a change, so I can't add any tests". This is a chicken and the egg problem, can't add interfaces without tests, cant add tests without interfaces.
 
 ## About defensive programming
 
