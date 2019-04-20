@@ -1,11 +1,12 @@
 ---
 ID: 1810
-post_title: You found this secret page!
+post_title: >
+  You found The Secret Club page (Botw
+  reference)
 author: Jan Wilmans
 post_excerpt: ""
 layout: page
-permalink: >
-  http://nullptr.nl/you-found-this-secret-page/
+permalink: http://nullptr.nl/gsc/
 published: true
 post_date: 2019-04-20 14:02:37
 ---
