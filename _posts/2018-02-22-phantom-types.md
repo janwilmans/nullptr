@@ -282,6 +282,8 @@ To summarize: Strong types can be implemented in C++ and getting basic type safe
 
 > References
 
+recently updated: (6/6/2019) <https://github.com/anthonywilliams/strong_typedef>
+
 [C++Now 2017: Jonathan Müller “Type-safe Programming"][9]  
 [Arne Mertz' 2016 Simplify C++ article "Use Stronger Types!"][10]  
 [CppCon 2016: Ben Deane “Using Types Effectively"][11]  
