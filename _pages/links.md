@@ -20,6 +20,7 @@ post_date: 2017-11-04 13:46:31
 *   <https://cppinsights.io/> video: <https://www.youtube.com/watch?v=Bt7KzFxcbgc&feature=youtu.be>
 *   <http://www.codersnotes.com/sleepy/>
 *   <https://scnlib.eliaskosunen.com/>
+*   <https://www.hanselman.com/blog/ScottHanselmans2014UltimateDeveloperAndPowerUsersToolListForWindows.aspx>
 
 # C++ related
 
