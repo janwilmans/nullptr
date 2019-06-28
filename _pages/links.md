@@ -48,6 +48,7 @@ post_date: 2017-11-04 13:46:31
 *   [Niall's Zero overhead deterministic failure A unified mechanism for C and C++][7] <https://en.cppreference.com/w/cpp/language/aggregate_initialization#Designated_initializers>
 *   <https://www.robvanderwoude.com/>
 *   <https://tedium.co/2019/01/29/microsoft-msx-history/>
+*   [C++ Grandmaster Certification][8]
 
 # javascript related
 
@@ -61,13 +62,13 @@ post_date: 2017-11-04 13:46:31
 
 # Upcoming meetings and conferences
 
-[Upcoming ISO C++ Meetings][8]
+[Upcoming ISO C++ Meetings][9]
 
-*   Week 6 - Febr 4-6 (Ma-Wo) [C++ at Sea, Kent UK][9] [Wo: Nicolai Josuttis, Modern C++ Template Programming][10] 
-*   Week 12 - March 14-17 (Do-Zo) [EMBO, Bochum Germany][11] 
-*   Week 19 - May 5-10 (Zo-Vr) [C++Now Aspen, Colorado][12]
+*   Week 6 - Febr 4-6 (Ma-Wo) [C++ at Sea, Kent UK][10] [Wo: Nicolai Josuttis, Modern C++ Template Programming][11] 
+*   Week 12 - March 14-17 (Do-Zo) [EMBO, Bochum Germany][12] 
+*   Week 19 - May 5-10 (Zo-Vr) [C++Now Aspen, Colorado][13]
 *   Week 29 - July 15-20 (Ma-Za) Cologne, Germany; Nicolai Josuttis, exact location tbd.
-*   Week 38 - September 15-20 (Zo-Vr) [Cppcon 2019, Aurora, Colorado, Not announced yet][13]
+*   Week 38 - September 15-20 (Zo-Vr) [Cppcon 2019, Aurora, Colorado, Not announced yet][14]
 
  [1]: http://nullptr.nl
  [2]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4659.pdf
@@ -76,9 +77,10 @@ post_date: 2017-11-04 13:46:31
  [5]: http://open-std.org/JTC1/SC22/WG21/docs/papers/2017/p0515r0.pdf
  [6]: http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p0709r1.pdf
  [7]: http://www.open-std.org/jtc1/sc22/wg14/www/docs/n2289.pdf
- [8]: https://isocpp.org/std/meetings-and-participation/upcoming-meetings
- [9]: https://cpponsea.uk/
- [10]: https://cpponsea.uk/sessions/modern-cpp-template-programming.html
- [11]: http://embo.io
- [12]: http://cppnow.org/
- [13]: https://cppcon.org/
+ [8]: http://www.cppgm.org/
+ [9]: https://isocpp.org/std/meetings-and-participation/upcoming-meetings
+ [10]: https://cpponsea.uk/
+ [11]: https://cpponsea.uk/sessions/modern-cpp-template-programming.html
+ [12]: http://embo.io
+ [13]: http://cppnow.org/
+ [14]: https://cppcon.org/
