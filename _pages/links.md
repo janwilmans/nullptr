@@ -21,6 +21,7 @@ post_date: 2017-11-04 13:46:31
 *   <http://www.codersnotes.com/sleepy/>
 *   <https://scnlib.eliaskosunen.com/>
 *   <https://hanselman.com/tools>
+*   <https://blog.safecpp.com/>
 
 # C++ related
 
