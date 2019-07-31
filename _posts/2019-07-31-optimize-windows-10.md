@@ -61,6 +61,7 @@ The following settings are my personal defaults:
 
 There are also manual steps you can take to improve, for example, startup time, or overall speed
 
+*   If you are not using an SSD harddisk, this is by far the best investment you can do for productivity and general speed up of your pc.
 *   See Settings -> Apps -> Startup and disable all programs you don't regularly use.
 *   Set power options to 'High performance', paste 'Control Panel\Hardware and Sound\Power Options' into explorer and select 'High performance' 
 *   If you are on a laptop, connect to a wired network if you have the option. With all the phone-homing/update checking some applications do, this can really improve response/startup times of applications.
@@ -105,8 +106,9 @@ Some external references are in order:
 
 *   Scott Hanselman has [an extensive tool list (dated 2014)][21], many of the tools still exist and are still awesome.
 *   [NirSoft][22] has so many useful tools, its just ridiculous :)
+*   [Rainmeter][23], if you want to really customize the 'look' of your desktop, check out this tool
 
-Do you have a good tweak or tool that you are missing in this post? Please let me know, preferable using [twitter][23] and I will add it (if I like it too :)
+Do you have a good tweak or tool that you are missing in this post? Please let me know, preferable using [twitter][24] and I will add it (if I like it too :)
 
  [1]: http://nullptr.nl/wp-content/uploads/2019/07/firewall_off_reminders.png
  [2]: https://www.novirusthanks.org/products/win-update-stop/
@@ -130,4 +132,5 @@ Do you have a good tweak or tool that you are missing in this post? Please let m
  [20]: https://www.deleaker.com/
  [21]: https://www.hanselman.com/blog/ScottHanselmans2014UltimateDeveloperAndPowerUsersToolListForWindows.aspx
  [22]: http://www.nirsoft.net/
- [23]: https://twitter.com/janwilmans/status/1156650888028655617
+ [23]: https://www.rainmeter.net/
+ [24]: https://twitter.com/janwilmans/status/1156650888028655617
