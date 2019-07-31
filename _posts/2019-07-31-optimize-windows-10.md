@@ -77,16 +77,22 @@ The content of packages.bat is just an example, customize it to your wishes and 
 *   [Putty][9], my gateway to linux systems, serial ports, raw sockets, name it.
 *   [Debugview++][10], collect, view and filter your application logs, from http, UDP/TCP sockets, files, name it, just drag, drop and filter.
 *   [chocolatey][4], so nice, I had to mention it twice
+*   [LockHunter][11], a foolproof file unlocker
 
 ## More tooling that are bread and butter
 
-*   [ccleaner][11] is really useful to remove lots of unused stuff, clear caches, remove broken registrations etc.
-*   [defrag(gler)][12] harddisks (yea its still a thing, but only on large non-ssd harddisks with lots of small-ish ~1-2 MB files.)
-*   [Notepad++][13] (Settings -> Preferences -> Backup -> Remember current session -> disable)
-*   [Free Hex Editor Neo][14] 
-*   [Ultraedit][15] (paid, I've been a user for 20 years, just the best, but admittedly, Notepad++ and FHE Neo cover most use cases)
-*   [git][16] need I say more ?
-*   [TortoiseGit][17] (need to set Settings -> Icon Overlays -> Status cache -> None, otherwise slows down my explorer)
+*   [ccleaner][12] is really useful to remove lots of unused stuff, clear caches, remove broken registrations etc.
+*   [defrag(gler)][13] harddisks (yea its still a thing, but only on large non-ssd harddisks with lots of small-ish ~1-2 MB files.)
+*   [Notepad++][14] (Settings -> Preferences -> Backup -> Remember current session -> disable)
+*   [Free Hex Editor Neo][15] 
+*   [Ultraedit][16] (paid, I've been a user for 20 years, just the best, but admittedly, Notepad++ and FHE Neo cover most use cases)
+*   [git][17] need I say more ?
+*   [TortoiseGit][18] (need to set Settings -> Icon Overlays -> Status cache -> None, otherwise slows down my explorer)
+
+# C++ specific tools
+
+*   [Very sleepy][19], a free C/C++ CPU profiler
+*   [Deleaker][20], a resource profiler of C++, C#, .NET and DELPHI
 
  [1]: http://nullptr.nl/wp-content/uploads/2019/07/firewall_off_reminders.png
  [2]: https://www.novirusthanks.org/products/win-update-stop/
@@ -98,10 +104,13 @@ The content of packages.bat is just an example, customize it to your wishes and 
  [8]: http://%28https://github.com/bmatzelle/gow
  [9]: https://www.putty.org/
  [10]: https://github.com/CobaltFusion/DebugViewPP
- [11]: https://www.ccleaner.com/ccleaner
- [12]: https://www.ccleaner.com/defraggler
- [13]: https://notepad-plus-plus.org/
- [14]: https://www.hhdsoftware.com/free-hex-editor
- [15]: https://www.ultraedit.com/
- [16]: https://git-scm.com/download/win
- [17]: https://tortoisegit.org/
+ [11]: https://lockhunter.com/
+ [12]: https://www.ccleaner.com/ccleaner
+ [13]: https://www.ccleaner.com/defraggler
+ [14]: https://notepad-plus-plus.org/
+ [15]: https://www.hhdsoftware.com/free-hex-editor
+ [16]: https://www.ultraedit.com/
+ [17]: https://git-scm.com/download/win
+ [18]: https://tortoisegit.org/
+ [19]: http://www.codersnotes.com/sleepy/
+ [20]: https://www.deleaker.com/
