@@ -57,6 +57,10 @@ The following settings are my personal defaults:
 
 [<img src="http://nullptr.nl/wp-content/uploads/2019/07/registry_developer_settings.png" alt="" width="651" height="271" class="alignnone size-full wp-image-1903" />][3]
 
+# Further optimization
+
+There are also manual steps you can take to improve, for example, startup time. See Settings -> Apps -> Startup and disable all programs you don't regularly use.
+
 # Aside from windows settings there are tools
 
 Aside from windows settings there are tools that can make you developer life easier. Lets start with installation of tools. I regularly reinstall my whole system, every few months or so. Installing updating all tools to the latest version and manually installing them can be a hassle. Fortunately, [chocolatey.org][4] can install lots of things completely unattended.
