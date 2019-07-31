@@ -63,6 +63,7 @@ There are also manual steps you can take to improve, for example, startup time, 
 
 *   See Settings -> Apps -> Startup and disable all programs you don't regularly use.
 *   Set power options to 'High performance', paste 'Control Panel\Hardware and Sound\Power Options' into explorer and select 'High performance' 
+*   If you are on a laptop, connect to a wired network if you have the option. With all the phone-homing/update checking some applications do, this can really improve response/startup times of applications.
 
 ## Aside from windows settings there are tools
 
