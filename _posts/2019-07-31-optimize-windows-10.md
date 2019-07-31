@@ -86,7 +86,7 @@ The content of packages.bat is just an example, customize it to your wishes and 
 *   [Free Hex Editor Neo][14] 
 *   [Ultraedit][15] (paid, I've been a user for 20 years, just the best, but admittedly, Notepad++ and FHE Neo cover most use cases)
 *   [git][16] need I say more ?
-*   [TortoiseGit][17] (Settings -> Icon Overlays -> Status cache -> None)
+*   [TortoiseGit][17] (need to set Settings -> Icon Overlays -> Status cache -> None, otherwise slows down my explorer)
 
  [1]: http://nullptr.nl/wp-content/uploads/2019/07/firewall_off_reminders.png
  [2]: https://www.novirusthanks.org/products/win-update-stop/
