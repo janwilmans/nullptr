@@ -96,9 +96,12 @@ The content of packages.bat is just an example, customize it to your wishes and 
 
 ## Did I forget anything?
 
-On a side note, Scott Hanselman has [an extensive tool list (dated 2014)][21], many of the tools still exist and are still awesome.
+Some external references are in order:
 
-Do you have a good tweak or tool that you are missing in this post? Please let me know, preferable using [twitter][22] and I will add it (if I like it too :)
+*   Scott Hanselman has [an extensive tool list (dated 2014)][21], many of the tools still exist and are still awesome.
+*   [NirSoft][22] has so many useful tools, its just ridiculous :)
+
+Do you have a good tweak or tool that you are missing in this post? Please let me know, preferable using [twitter][23] and I will add it (if I like it too :)
 
  [1]: http://nullptr.nl/wp-content/uploads/2019/07/firewall_off_reminders.png
  [2]: https://www.novirusthanks.org/products/win-update-stop/
@@ -121,4 +124,5 @@ Do you have a good tweak or tool that you are missing in this post? Please let m
  [19]: http://www.codersnotes.com/sleepy/
  [20]: https://www.deleaker.com/
  [21]: https://www.hanselman.com/blog/ScottHanselmans2014UltimateDeveloperAndPowerUsersToolListForWindows.aspx
- [22]: https://twitter.com/janwilmans/status/1156650888028655617
+ [22]: http://www.nirsoft.net/
+ [23]: https://twitter.com/janwilmans/status/1156650888028655617
