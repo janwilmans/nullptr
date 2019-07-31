@@ -25,11 +25,11 @@ Developer mode - Handle With Care:
 
 After the firewall is turned off, you will get regular [reminders][1] about it, I have not found out how to turn these off yet.
 
-## Paranoid software engineers:
+## Paranoid software engineers
 
-As a software engineer, my job is to be paranoid, if something changed on my system, I have to assume I have to re-test ALL my assumptions. This means that if an update is installed during my debug session I can basically start over. This is not acceptable for me, so to prevent this I turn off updates during debug sessions. [Winupdate-stop][2] is a handy tool to turn update off and on again.
+As a software engineer, part of my job is to be paranoid, if something changed on my system, I have to assume I have to re-test ALL my assumptions. This means that if an update is installed during my debug session I can basically start over. This is not acceptable for me, so to prevent this I turn off updates during debug sessions. [Winupdate-stop][2] is a handy tool to turn update off and on again.
 
-## Windows 10 annoyances
+## Windows 10 settings and preferences
 
 The following settings are my personal defaults:
 
