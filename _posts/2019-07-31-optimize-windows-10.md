@@ -66,24 +66,23 @@ Aside from windows settings there are tools that can make you developer life eas
 
 The content of packages.bat is just an example, customize it to your wishes and save it for next time.
 
-https://www.howtogeek.com/356642/how-to-fix-all-windows-10%E2%80%99s-annoyances/
-
 # Tooling, roughly in order of awesome
 
-*   [FileLocator Lite][7]
-*   [GNU for Windows][8]
-*   [Putty][9]
-*   [chocolatey][4] 
+*   [FileLocator Lite][7], can replace Ctrl-f, super fast and can search for containing text and use regular expressions 
+*   [GNU for Windows][8], 100+ unix tools for windows, indispensable, grep, wc, find, less, tail, tar, nano, etc, etc just works.
+*   [Putty][9], my gateway to linux systems, serial ports, raw sockets, name it.
+*   [Debugview++][10], collect, view and filter your application logs, from http, UDP/TCP sockets, files, name it, just drag, drop and filter.
+*   [chocolatey][4], so nice, I had to mention it twice
 
-# More tooling, that are bread and butter
+# More tooling that are bread and butter
 
-*   [ccleaner][10] is really useful to remove lots of unused stuff, clear caches, remove broken registrations etc.
-*   [defrag(gler)][11] harddisks (yea its still a thing, but only on large non-ssd harddisks with lots of small-ish ~1-2 MB files.)
-*   [Notepad++][12] (Settings -> Preferences -> Backup -> Remember current session -> disable)
-*   [Free Hex Editor Neo][13] 
-*   [Ultraedit][14] (paid, I've been a user for 20 years, just the best, but admittedly, Notepad++ and FHE Neo cover most use cases)
-*   [git][15] need I say more ?
-*   [TortoiseGit][16] (Settings -> Icon Overlays -> Status cache -> None)
+*   [ccleaner][11] is really useful to remove lots of unused stuff, clear caches, remove broken registrations etc.
+*   [defrag(gler)][12] harddisks (yea its still a thing, but only on large non-ssd harddisks with lots of small-ish ~1-2 MB files.)
+*   [Notepad++][13] (Settings -> Preferences -> Backup -> Remember current session -> disable)
+*   [Free Hex Editor Neo][14] 
+*   [Ultraedit][15] (paid, I've been a user for 20 years, just the best, but admittedly, Notepad++ and FHE Neo cover most use cases)
+*   [git][16] need I say more ?
+*   [TortoiseGit][17] (Settings -> Icon Overlays -> Status cache -> None)
 
  [1]: http://nullptr.nl/wp-content/uploads/2019/07/firewall_off_reminders.png
  [2]: https://www.novirusthanks.org/products/win-update-stop/
@@ -94,10 +93,11 @@ https://www.howtogeek.com/356642/how-to-fix-all-windows-10%E2%80%99s-annoyances/
  [7]: https://www.mythicsoft.com/filelocatorlite/
  [8]: http://%28https://github.com/bmatzelle/gow
  [9]: https://www.putty.org/
- [10]: https://www.ccleaner.com/ccleaner
- [11]: https://www.ccleaner.com/defraggler
- [12]: https://notepad-plus-plus.org/
- [13]: https://www.hhdsoftware.com/free-hex-editor
- [14]: https://www.ultraedit.com/
- [15]: https://git-scm.com/download/win
- [16]: https://tortoisegit.org/
+ [10]: https://github.com/CobaltFusion/DebugViewPP
+ [11]: https://www.ccleaner.com/ccleaner
+ [12]: https://www.ccleaner.com/defraggler
+ [13]: https://notepad-plus-plus.org/
+ [14]: https://www.hhdsoftware.com/free-hex-editor
+ [15]: https://www.ultraedit.com/
+ [16]: https://git-scm.com/download/win
+ [17]: https://tortoisegit.org/
