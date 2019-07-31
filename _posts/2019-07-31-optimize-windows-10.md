@@ -57,11 +57,11 @@ The following settings are my personal defaults:
 
 [<img src="http://nullptr.nl/wp-content/uploads/2019/07/registry_developer_settings.png" alt="" width="651" height="271" class="alignnone size-full wp-image-1903" />][3]
 
-# Further optimization
+## Further optimization
 
 There are also manual steps you can take to improve, for example, startup time. See Settings -> Apps -> Startup and disable all programs you don't regularly use.
 
-# Aside from windows settings there are tools
+## Aside from windows settings there are tools
 
 Aside from windows settings there are tools that can make you developer life easier. Lets start with installation of tools. I regularly reinstall my whole system, every few months or so. Installing updating all tools to the latest version and manually installing them can be a hassle. Fortunately, [chocolatey.org][4] can install lots of things completely unattended.
 
@@ -70,7 +70,7 @@ Aside from windows settings there are tools that can make you developer life eas
 
 The content of packages.bat is just an example, customize it to your wishes and save it for next time.
 
-# Tooling, roughly in order of awesome
+## Tooling, roughly in order of awesome
 
 *   [FileLocator Lite][7], can replace Ctrl-f, super fast and can search for containing text and use regular expressions 
 *   [GNU for Windows][8], 100+ unix tools for windows, indispensable, grep, wc, find, less, tail, tar, nano, etc, etc just works.
@@ -78,7 +78,7 @@ The content of packages.bat is just an example, customize it to your wishes and 
 *   [Debugview++][10], collect, view and filter your application logs, from http, UDP/TCP sockets, files, name it, just drag, drop and filter.
 *   [chocolatey][4], so nice, I had to mention it twice
 
-# More tooling that are bread and butter
+## More tooling that are bread and butter
 
 *   [ccleaner][11] is really useful to remove lots of unused stuff, clear caches, remove broken registrations etc.
 *   [defrag(gler)][12] harddisks (yea its still a thing, but only on large non-ssd harddisks with lots of small-ish ~1-2 MB files.)
