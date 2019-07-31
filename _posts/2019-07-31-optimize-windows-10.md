@@ -23,7 +23,7 @@ Developer mode - Handle With Care:
 *   turn off Windows Defender (see reg file below)
 *   turn off Firewall: Win-S, Firewall, Turn Windows defined firewall on or off, private -> off, public -> off
 
-After the firewall is turned off, you will get regular [reminders][1] about it, I have not found out how to turn these off yet.
+After the firewall is turned off, you will get regular [reminders][1] about it, I have not found out how to turn these off yet. I do have a 'DisableNotificationCenter' key in the patch below, but it reportedly does not work in all cases. Alternatively you can try to go to 'Control Panel\System and Security\Security and Maintenance' and choose 'Change Security and Maintenance settings' and uncheck the boxes there. This also doesn't seem to work for everybody, but maybe you'll get lucky :)
 
 ## Paranoid software engineers
 
