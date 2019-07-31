@@ -59,7 +59,10 @@ The following settings are my personal defaults:
 
 ## Further optimization
 
-There are also manual steps you can take to improve, for example, startup time. See Settings -> Apps -> Startup and disable all programs you don't regularly use.
+There are also manual steps you can take to improve, for example, startup time, or overall speed
+
+*   See Settings -> Apps -> Startup and disable all programs you don't regularly use.
+*   Set power options to 'High performance', paste 'Control Panel\Hardware and Sound\Power Options' into explorer and select 'High performance' 
 
 ## Aside from windows settings there are tools
 
