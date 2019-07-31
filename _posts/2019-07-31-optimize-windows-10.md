@@ -89,10 +89,14 @@ The content of packages.bat is just an example, customize it to your wishes and 
 *   [git][17] need I say more ?
 *   [TortoiseGit][18] (need to set Settings -> Icon Overlays -> Status cache -> None, otherwise slows down my explorer)
 
-# C++ specific tools
+## C++ specific tools
 
 *   [Very sleepy][19], a free C/C++ CPU profiler
 *   [Deleaker][20], a resource profiler of C++, C#, .NET and DELPHI
+
+## Did I forget anything?
+
+Please let me know, preferable using [twitter][21] and I will add it (if I like it too :)
 
  [1]: http://nullptr.nl/wp-content/uploads/2019/07/firewall_off_reminders.png
  [2]: https://www.novirusthanks.org/products/win-update-stop/
@@ -114,3 +118,4 @@ The content of packages.bat is just an example, customize it to your wishes and 
  [18]: https://tortoisegit.org/
  [19]: http://www.codersnotes.com/sleepy/
  [20]: https://www.deleaker.com/
+ [21]: https://twitter.com/janwilmans
