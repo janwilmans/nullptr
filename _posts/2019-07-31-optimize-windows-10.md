@@ -55,7 +55,7 @@ The following settings are my personal defaults:
 
 > And here is all of it packed into one registry patch:
 
-<img src="http://nullptr.nl/wp-content/uploads/2019/07/registry_developer_settings-1.png" alt="" class="size-full wp-image-1926" />]
+<img src="http://nullptr.nl/wp-content/uploads/2019/07/registry_developer_settings-1.png" alt="" class="size-full wp-image-1926" />
 
 ## Further optimization
 
