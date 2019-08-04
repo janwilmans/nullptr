@@ -55,7 +55,7 @@ The following settings are my personal defaults:
 
 > And here is all of it packed into one registry patch:
 
-[caption id="attachment_1926" align="alignnone" width="643"][<img src="http://nullptr.nl/wp-content/uploads/2019/07/registry_developer_settings-1.png" alt="" width="643" height="268" class="size-full wp-image-1926" />][3] Developer Settings Patch[/caption]
+<img src="http://nullptr.nl/wp-content/uploads/2019/07/registry_developer_settings-1.png" alt="" class="size-full wp-image-1926" />]
 
 ## Further optimization
 
@@ -69,68 +69,67 @@ There are also manual steps you can take to improve, for example, startup time, 
 
 ## Aside from windows settings there are tools
 
-Aside from windows settings there are tools that can make you developer life easier. Lets start with installation of tools. I regularly reinstall my whole system, every few months or so. Installing updating all tools to the latest version and manually installing them can be a hassle. Fortunately, [chocolatey.org][4] can install lots of things completely unattended.
+Aside from windows settings there are tools that can make you developer life easier. Lets start with installation of tools. I regularly reinstall my whole system, every few months or so. Installing updating all tools to the latest version and manually installing them can be a hassle. Fortunately, [chocolatey.org][3] can install lots of things completely unattended.
 
-*   first run this script as admin to install choco itself [1_install_chocolatey_as_admin.bat][5]
-*   now open a **new** administrator command prompt and run [update_packages.bat][6]
+*   first run this script as admin to install choco itself [1_install_chocolatey_as_admin.bat][4]
+*   now open a **new** administrator command prompt and run [update_packages.bat][5]
 
 The content of packages.bat is just an example, customize it to your wishes and save it for next time.
 
 ## Tooling, roughly in order of awesome
 
-*   [FileLocator Lite][7], can replace Ctrl-f, super fast and can search for containing text and use regular expressions 
-*   [GNU for Windows][8], 100+ unix tools for windows, indispensable, grep, wc, find, less, tail, tar, nano, etc, etc just works.
-*   [Putty][9], my gateway to linux systems, serial ports, raw sockets, name it.
-*   [Debugview++][10], collect, view and filter your application logs, from http, UDP/TCP sockets, files, name it, just drag, drop and filter.
-*   [chocolatey][4], so nice, I had to mention it twice
-*   [LockHunter][11], a foolproof file unlocker
+*   [FileLocator Lite][6], can replace Ctrl-f, super fast and can search for containing text and use regular expressions 
+*   [GNU for Windows][7], 100+ unix tools for windows, indispensable, grep, wc, find, less, tail, tar, nano, etc, etc just works.
+*   [Putty][8], my gateway to linux systems, serial ports, raw sockets, name it.
+*   [Debugview++][9], collect, view and filter your application logs, from http, UDP/TCP sockets, files, name it, just drag, drop and filter.
+*   [chocolatey][3], so nice, I had to mention it twice
+*   [LockHunter][10], a foolproof file unlocker
 
 ## More tooling that are bread and butter
 
-*   [ccleaner][12] is really useful to remove lots of unused stuff, clear caches, remove broken registrations etc.
-*   [defrag(gler)][13] harddisks (yea its still a thing, but only on large non-ssd harddisks with lots of small-ish ~1-2 MB files.)
-*   [Notepad++][14] (Settings -> Preferences -> Backup -> Remember current session -> disable)
-*   [Free Hex Editor Neo][15] 
-*   [Ultraedit][16] (paid, I've been a user for 20 years, just the best, but admittedly, Notepad++ and FHE Neo cover most use cases)
-*   [git][17] need I say more ?
-*   [TortoiseGit][18] (need to set Settings -> Icon Overlays -> Status cache -> None, otherwise slows down my explorer)
+*   [ccleaner][11] is really useful to remove lots of unused stuff, clear caches, remove broken registrations etc.
+*   [defrag(gler)][12] harddisks (yea its still a thing, but only on large non-ssd harddisks with lots of small-ish ~1-2 MB files.)
+*   [Notepad++][13] (Settings -> Preferences -> Backup -> Remember current session -> disable)
+*   [Free Hex Editor Neo][14] 
+*   [Ultraedit][15] (paid, I've been a user for 20 years, just the best, but admittedly, Notepad++ and FHE Neo cover most use cases)
+*   [git][16] need I say more ?
+*   [TortoiseGit][17] (need to set Settings -> Icon Overlays -> Status cache -> None, otherwise slows down my explorer)
 
 ## C++ specific tools
 
-*   [Very sleepy][19], a free C/C++ CPU profiler
-*   [Deleaker][20], a resource profiler of C++, C#, .NET and DELPHI
+*   [Very sleepy][18], a free C/C++ CPU profiler
+*   [Deleaker][19], a resource profiler of C++, C#, .NET and DELPHI
 
 ## Did I forget anything?
 
 Some external references are in order:
 
-*   Scott Hanselman has [an extensive tool list (dated 2014)][21], many of the tools still exist and are still awesome.
-*   [NirSoft][22] has so many useful tools, its just ridiculous :)
-*   [Rainmeter][23], if you want to really customize the 'look' of your desktop, check out this tool
+*   Scott Hanselman has [an extensive tool list (dated 2014)][20], many of the tools still exist and are still awesome.
+*   [NirSoft][21] has so many useful tools, its just ridiculous :)
+*   [Rainmeter][22], if you want to really customize the 'look' of your desktop, check out this tool
 
-Do you have a good tweak or tool that you are missing in this post? Please let me know, preferable using [twitter][24] and I will add it (if I like it too :)
+Do you have a good tweak or tool that you are missing in this post? Please let me know, preferable using [twitter][23] and I will add it (if I like it too :)
 
  [1]: http://nullptr.nl/wp-content/uploads/2019/07/firewall_off_reminders.png
  [2]: https://www.novirusthanks.org/products/win-update-stop/
- [3]: https://github.com/janwilmans/windows-docker/blob/master/autoinstall_vsbuildtools/developer_settings.reg
- [4]: https://chocolatey.org/
- [5]: https://github.com/janwilmans/windows-docker/blob/master/autoinstall_vsbuildtools/1_install_chocolatey_as_admin.bat
- [6]: https://github.com/janwilmans/windows-docker/blob/master/autoinstall_vsbuildtools/update_packages.bat
- [7]: https://www.mythicsoft.com/filelocatorlite/
- [8]: http://%28https://github.com/bmatzelle/gow
- [9]: https://www.putty.org/
- [10]: https://github.com/CobaltFusion/DebugViewPP
- [11]: https://lockhunter.com/
- [12]: https://www.ccleaner.com/ccleaner
- [13]: https://www.ccleaner.com/defraggler
- [14]: https://notepad-plus-plus.org/
- [15]: https://www.hhdsoftware.com/free-hex-editor
- [16]: https://www.ultraedit.com/
- [17]: https://git-scm.com/download/win
- [18]: https://tortoisegit.org/
- [19]: http://www.codersnotes.com/sleepy/
- [20]: https://www.deleaker.com/
- [21]: https://www.hanselman.com/blog/ScottHanselmans2014UltimateDeveloperAndPowerUsersToolListForWindows.aspx
- [22]: http://www.nirsoft.net/
- [23]: https://www.rainmeter.net/
- [24]: https://twitter.com/janwilmans/status/1156650888028655617
+ [3]: https://chocolatey.org/
+ [4]: https://github.com/janwilmans/windows-docker/blob/master/autoinstall_vsbuildtools/1_install_chocolatey_as_admin.bat
+ [5]: https://github.com/janwilmans/windows-docker/blob/master/autoinstall_vsbuildtools/update_packages.bat
+ [6]: https://www.mythicsoft.com/filelocatorlite/
+ [7]: http://%28https://github.com/bmatzelle/gow
+ [8]: https://www.putty.org/
+ [9]: https://github.com/CobaltFusion/DebugViewPP
+ [10]: https://lockhunter.com/
+ [11]: https://www.ccleaner.com/ccleaner
+ [12]: https://www.ccleaner.com/defraggler
+ [13]: https://notepad-plus-plus.org/
+ [14]: https://www.hhdsoftware.com/free-hex-editor
+ [15]: https://www.ultraedit.com/
+ [16]: https://git-scm.com/download/win
+ [17]: https://tortoisegit.org/
+ [18]: http://www.codersnotes.com/sleepy/
+ [19]: https://www.deleaker.com/
+ [20]: https://www.hanselman.com/blog/ScottHanselmans2014UltimateDeveloperAndPowerUsersToolListForWindows.aspx
+ [21]: http://www.nirsoft.net/
+ [22]: https://www.rainmeter.net/
+ [23]: https://twitter.com/janwilmans/status/1156650888028655617
