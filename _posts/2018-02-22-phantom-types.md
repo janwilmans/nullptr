@@ -98,7 +98,7 @@ Here it would have been nice to overload the method 'getWorkingHours' with argum
     {
         static_assert(std::is_enum<T>::value, "argument of value_of is not an enum or enum class");
         return static_cast<std::underlying_type_t<T>>(t);
-    };
+    }
     
     int getWorkingHours(Days value)
     {
