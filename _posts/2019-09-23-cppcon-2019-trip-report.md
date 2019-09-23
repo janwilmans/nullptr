@@ -45,21 +45,21 @@ Barbara and Ansel presented the latest development that spun out of the CopperSp
 
 ## Sean Parent - Better Code: Relationships, Essential Relationships
 
-Seans [presentation][9] was about the relationships in our code, about thinking ahead about what your program will look like, comparing it with a game of chess, although I feel that usually my computer is not actively trying out moves against me :) I enjoyed the talk and I think a good takeaway was to think about the essential relationships between types and software designs in general. I heard someone say 'don't use raw pointers' was also a take-away, I think that is a little to much simplification and I would generalize that into: think/don't forget about the null-cases in the results of your functions. see https://sean-parent.stlab.cc/
+Seans [presentation][9] was about the relationships in our code, about thinking ahead about what your program will look like, comparing it with a game of chess, although I feel that usually my computer is not actively trying out moves against me :) I enjoyed the talk and I think a good takeaway was to think about the essential relationships between types and software designs in general. I heard someone say 'don't use raw pointers' was also a take-away, I think that is a little to much simplification and I would generalize that into: think/don't forget about the null-cases in the results of your functions. Slides and more available soon on [his site][10].
 
 ## Andrei Alexandrescu - Speed Is Found In The Minds of People
 
-Andrei is sort of a unguided projectile in [this talk][10].
+Andrei is sort of a unguided projectile in [this talk][11].
 
 ## Ben Smith - Applied WebAssembly - Compiling and Running C++ in Your Web Browser
 
-[Ben's talk][11] is
+[Ben's talk][12] is
 
 ## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
 
 This years so-called 'hallway track', the conversations you have with people outside the talks were, for me personally, the highlight of the conference. I talked to so many interesting people, I was truly inspired by the enthusiasm and openness of literally everybody I approached. I felt like a was literally radiating with pleasure walking that halls of the conference. Thank you everybody!! I hope to see all of you next year!
 
-While writing this post I noticed [Matt][12] has also done a [trip report][13], so check that one out too!
+While writing this post I noticed [Matt][13] has also done a [trip report][14], so check that one out too! CppCon publishes the slides for all presentations at <https://github.com/CppCon/CppCon2019>
 
  [1]: https://cppcon.org/timeline2019/
  [2]: https://www.marriott.com/hotels/travel/dengr-gaylord-rockies-resort-and-convention-center/
@@ -70,7 +70,8 @@ While writing this post I noticed [Matt][12] has also done a [trip report][13], 
  [7]: https://github.com/copperspice/cs_paint
  [8]: https://www.khronos.org/vulkan/
  [9]: https://www.youtube.com/watch?v=ejF6qqohp3M&t=283s
- [10]: https://www.youtube.com/watch?v=FJJTYQYB1JQ
- [11]: https://www.youtube.com/watch?v=5N4b-rU-OAA
- [12]: https://godbolt.org/
- [13]: https://xania.org/201909/cppcon-2019-trip-report
+ [10]: https://sean-parent.stlab.cc/
+ [11]: https://www.youtube.com/watch?v=FJJTYQYB1JQ
+ [12]: https://www.youtube.com/watch?v=5N4b-rU-OAA
+ [13]: https://godbolt.org/
+ [14]: https://xania.org/201909/cppcon-2019-trip-report
