@@ -53,10 +53,6 @@ Seans [presentation][9] was about the relationships in our code, about thinking 
 
 Andrei is sort of a unguided projectile in [this talk][11] about sorting while optimizing for medium sized datasets. [<img src="http://nullptr.nl/wp-content/uploads/2019/09/always-inf.png" alt="" width="600" height="286" class="alignnone size-full wp-image-2006" />][11]
 
-## Ben Smith - Applied WebAssembly - Compiling and Running C++ in Your Web Browser
-
-[Ben's talk][12] is
-
 ## Jason turners talk on - Code Smells
 
 This again was a good talk by Jason, focusing specifically on the red flags that should be investigated when reviewing code.
@@ -95,7 +91,7 @@ Timur gave an overview of all the little fixes and smaller features that were pu
 
 This years so-called 'hallway track', the conversations you have with people outside the talks were, for me personally, the highlight of the conference. I talked to so many interesting people, I was truly inspired by the enthusiasm and openness of literally everybody I approached. I felt like a was literally radiating with pleasure walking that halls of the conference. Thank you everybody!! I hope to see all of you next year!
 
-While writing this post I noticed [Matt][13] has also done a [trip report][14], so check that one out too! CppCon publishes the slides for all presentations at <https://github.com/CppCon/CppCon2019>
+While writing this post I noticed [Matt][12] has also done a [trip report][13], so check that one out too! CppCon publishes the slides for all presentations at <https://github.com/CppCon/CppCon2019>
 
  [1]: https://cppcon.org/timeline2019/
  [2]: https://www.marriott.com/hotels/travel/dengr-gaylord-rockies-resort-and-convention-center/
@@ -108,6 +104,5 @@ While writing this post I noticed [Matt][13] has also done a [trip report][14], 
  [9]: https://www.youtube.com/watch?v=ejF6qqohp3M&t=283s
  [10]: https://sean-parent.stlab.cc/
  [11]: https://www.youtube.com/watch?v=FJJTYQYB1JQ
- [12]: https://www.youtube.com/watch?v=5N4b-rU-OAA
- [13]: https://godbolt.org/
- [14]: https://xania.org/201909/cppcon-2019-trip-report
+ [12]: https://godbolt.org/
+ [13]: https://xania.org/201909/cppcon-2019-trip-report
