@@ -59,6 +59,8 @@ Andrei is sort of a unguided projectile in [this talk][11] about sorting while o
 
 ## Jason turners talk on - Code Smells
 
+This again was a good talk by Jason, focusing specifically on the red flags that should be investigated when reviewing code.
+
 ## SG14 Study Group Meeting
 
 The Wednesday I spend in SG14, the study group for Game Development and Low Latency. Among other things the BLAS (Basic Linear Algebra Subprograms) integration proposals where reviewed.
@@ -67,7 +69,11 @@ The Wednesday I spend in SG14, the study group for Game Development and Low Late
 
 ## Emery Berger: compacting memory by meshing
 
+Really interesting talk on compacting memory using meshing and virtual memory re-mapping. Emory demonstrated an 17% reduction in memory usage in a web browser. The really fun part of this being that this could be done without having the source code nor recompilation.
+
 ## Matt Godbolt - Ray Casting in threefold / Object Oriented, Functional, data oriented
+
+Matt shows three different ways to implement a path-tracer / ray casting example, analyzing the plus/minuses for the different strategies. A surprising result for me was that in this case the branch prediction was dominating the implementation style.
 
 ## Louis Dion - ABI’s for dummies
 
