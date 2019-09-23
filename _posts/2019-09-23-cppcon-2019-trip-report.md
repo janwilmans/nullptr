@@ -19,7 +19,7 @@ Just returned from one wholly awesome week of [CppCon][3]. This year the confere
 
 <img src="http://nullptr.nl/wp-content/uploads/2019/09/cabouse-1.png" alt="" width="2010" height="508" class="aligncenter size-full wp-image-2014" />
 
-I arrived on Friday to meet up with my fellow [CopperSpice][4] team members, Barbara, Ansel, Tim and Peter. We had a two day hacking session working on CopperSpice and hashed out strategies how to better organize our team. We talked about our new libraries CsCrypto, CsPaint, CsDeclarative, integrations with Azure Pipelines, further development of the CMake support and a formal funeral for our Autotools support (well, the actual working was more like, take it into the desert and shoot it, but remember to take a picture).
+I arrived on Friday to meet up with my fellow [CopperSpice][4] team members, Barbara, Ansel, Tim and Peter. We had a two day hacking session working on CopperSpice and hashed out strategies how to better organize our team. We talked about our new libraries CsCrypto, CsPaint, CsDeclarative, integrations with Azure Pipelines, further development of the CMake support and a formal funeral for our Autotools support (well, the actual wording was more like, take it into the desert and shoot it, but remember to take a picture).
 
 ## Conference Opening Keynote Bjarne Stroustrup
 
