@@ -41,7 +41,7 @@ A wild ride, energetically presented by Peter and Sy, they explained everything 
 
 ## Copperspice CsPaint: High performance graphics and text rendering on the GPU for any C++ application
 
-Barbara and Ansel presented the latest development that spun out of the CopperSpice development: [CsPaint][7] a portable high performance graphics library on top of [Vulcan][8]. One of the most notable features was the infinite accuracy text rendering! A unique feature that will be used to render portable and uniform high-DPI 2D UI graphics for CopperSpice on Linux, Windows and MacOS.
+Barbara and Ansel presented the latest library that spun out of the CopperSpice development: [CsPaint][7] a portable high performance graphics library on top of [Vulcan][8]. One of the most notable features was the infinite accuracy text rendering! A unique feature that will be used to render portable and uniform high-DPI 2D UI graphics for CopperSpice on Linux, Windows and MacOS.
 
 [<img src="http://nullptr.nl/wp-content/uploads/2019/09/tote-1-300x230.png" alt="" width="300" height="230" class="alignnone size-medium wp-image-1993" />][4]
 
