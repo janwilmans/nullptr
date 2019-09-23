@@ -77,6 +77,8 @@ Matt shows three different ways to implement a path-tracer / ray casting example
 
 ## Louis Dion - ABI’s for dummies
 
+Also recommended to watch on YouTube if you care about ABI stability. Very nice talk. What surprised me was the `Foo() = delete;` can introduce a breaking ABI change!
+
 ## J.F. Bastian - Deprecation of volatile
 
 This was a really good talk on the history and future of volatile. Recommended talk to watch when it goes online.
