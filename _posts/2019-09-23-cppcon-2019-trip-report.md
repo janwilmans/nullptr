@@ -47,7 +47,7 @@ Barbara and Ansel presented the latest library that spun out of the CopperSpice 
 
 ## Sean Parent - Better Code: Relationships, Essential Relationships
 
-Seans [presentation][9] was about the relationships in our code, about thinking ahead about what your program will look like, comparing it with a game of chess, although I feel that usually my computer is not actively trying out moves against me :) I enjoyed the talk and I think a good takeaway was to think about the essential relationships between types and software designs in general. I heard someone say 'don't use raw pointers' was also a take-away, I think that is a little to much simplification and I would generalize that into: think/don't forget about the null-cases in the results of your functions. Slides and more available soon on [his site][10].
+Seans [presentation][9] was about the relationships in our code, about thinking ahead about what your program will look like, comparing it with a game of chess, although I feel that usually my computer is not actively trying out moves against me :) I enjoyed the talk and I think a good takeaway was to think about the essential relationships between types and in software designs in general. I heard someone say 'don't use raw pointers' was also a take-away, I think that is a little to much simplification and I would generalize that into: think/don't forget about the null-cases in the results of your functions. Slides and more available soon on [his site][10].
 
 ## Andrei Alexandrescu - Speed Is Found In The Minds of People
 
