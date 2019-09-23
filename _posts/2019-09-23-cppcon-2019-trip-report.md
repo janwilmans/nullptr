@@ -57,7 +57,7 @@ Andrei is sort of a unguided projectile in [this talk][11].
 
 ### Timur Doumler - Can I has grammar?
 
-?????
+????? https://www.youtube.com/watch?v=tsG95Y-C14k
 
 ## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
 
