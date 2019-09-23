@@ -49,7 +49,7 @@ Seans [presentation][9] was about the relationships in our code, about thinking 
 
 ## Andrei Alexandrescu - Speed Is Found In The Minds of People
 
-Andrei is sort of a unguided projectile in [this talk][11].
+Andrei is sort of a unguided projectile in [this talk][11] about sorting while optimizing for medium sized datasets.
 
 ## Ben Smith - Applied WebAssembly - Compiling and Running C++ in Your Web Browser
 
