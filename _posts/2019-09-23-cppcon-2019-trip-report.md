@@ -23,7 +23,7 @@ I arrived on Friday to meet up with my fellow [CopperSpice][4] team members, Bar
 
 ## Conference Opening Keynote Bjarne Stroustrup
 
-On Monday Bjarne gave an [overview][5] of the current C++20 status, as always, it was a strait forward, well laid out [presentation][5] that I think will be very informative to anyone who has not been actively keeping up to date with the proposals in flight during the last 3 years.
+On Monday Bjarne gave an [overview][5] of the current C++20 status, as always, it was a straightforward, well laid out [presentation][5] that I think will be very informative to anyone who has not been actively keeping up to date with the proposals in flight during the last 3 years.
 
 ## Opening for the ‘Back to Basics’ track: Jason Turner, The Best Parts of C++
 
