@@ -79,11 +79,15 @@ Matt shows three different ways to implement a path-tracer / ray casting example
 
 ## J.F. Bastian - Deprecation of volatile
 
-This was a really good talk on the history and future of volatile
+This was a really good talk on the history and future of volatile. Recommended talk to watch when it goes online.
 
 ## Tony Van Eerd - Objects vs Values
 
+I was mostly asleep during this talk ;) this was not due to Tony's presentation, I will have to watch the talk again when it becomes available on youtube.
+
 ## Timur Doumler - C++20 the small things
+
+Timur gave an overview of all the little fixes and smaller features that were put into C++20 at the last SG21 meeting in Cologne.
 
 ## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lious Dion, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
 
