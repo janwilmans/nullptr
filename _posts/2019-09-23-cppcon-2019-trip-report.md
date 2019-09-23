@@ -19,7 +19,7 @@ Just returned from one wholly awesome week of [CppCon][3]. This year the confere
 
 <img src="http://nullptr.nl/wp-content/uploads/2019/09/cabouse-1.png" alt="" width="2010" height="508" class="aligncenter size-full wp-image-2014" />
 
-I arrived on Friday to meet up with my fellow [CopperSpice][4] team members, Barbara, Ansel, Tim and Peter. We had a two day hacking session working on CopperSpice and hashed out strategies how to better organize our team. We talked about our new libraries CsCrypto, CsPaint, CsDeclarative, integrations with Azure Pipelines, further development of the CMake support and a formal funeral for our Autotools support (well, the actual wording was more like, take it into the desert and shoot it, but remember to take a picture).
+I arrived on Friday to meet up with my fellow [CopperSpice][4] team members, Barbara, Ansel, Tim and Peter. We had a two day hacking session working on CopperSpice and hashed out strategies how to better organize our team. We talked about our new libraries and integrations with Azure Pipelines, further development of the CMake support and a formal funeral for our Autotools support (well, the actual wording was more like, take it into the desert and shoot it, but remember to take a picture).
 
 ## Conference Opening Keynote Bjarne Stroustrup
 
@@ -27,7 +27,7 @@ On Monday Bjarne gave an [overview][5] of the current C++20 status, as always, i
 
 ## Opening for the ‘Back to Basics’ track: Jason Turner, The Best Parts of C++
 
-Jason is always energetic and entertaining to watch; this talk was no exception. The ‘Back to Basics’ track maybe specifically targeted at the newcomers to C++, but I think many of us, also the professionals that have been in C++ for years, learned something. C++ is evolving quickly and sometimes feels like a completely new language. Jason presented a good mix of time trialed good practices and fresh new insights.
+Jason is always energetic and entertaining to watch; this talk was no exception. I ‘Back to Basics’ track maybe specifically targeted at the newcomers C++, but I think many of us, also the professionals that have been in C++ years, learned something. C++ is evolving quickly and sometimes feels like a completely new language. Jason presented a good mix of time trailed good practices and fresh new insights.
 
 ## Latest & Greatest in Visual Studio 2019 for C++, Marian Luparu and Simon Brand
 
@@ -41,13 +41,13 @@ A wild ride, energetically presented by Peter and Sy, they explained everything 
 
 ## Copperspice CsPaint: High performance graphics and text rendering on the GPU for any C++ application
 
-Barbara and Ansel presented the latest library that spun out of the CopperSpice development: [CsPaint][7] a portable high performance graphics library on top of [Vulcan][8]. One of the most notable features was the infinite accuracy text rendering! A unique feature that will be used to render portable and uniform high-DPI 2D UI graphics for CopperSpice on Linux, Windows and MacOS.
+Barbara and Ansel presented the latest development that spun out of the CopperSpice development: [CsPaint][7] a portable high performance graphics library on top of [Vulcan][8]. One of the most notable features was the infinite accuracy text rendering! A unique feature that will be used to render portable and uniform high-DPI 2D UI graphics for CopperSpice on Linux, Windows and MacOS.
 
 [<img src="http://nullptr.nl/wp-content/uploads/2019/09/tote-1-300x230.png" alt="" width="300" height="230" class="alignnone size-medium wp-image-1993" />][4]
 
 ## Sean Parent - Better Code: Relationships, Essential Relationships
 
-Seans [presentation][9] was about the relationships in our code, about thinking ahead about what your program will look like, comparing it with a game of chess, although I feel that usually my computer is not actively trying out moves against me :) I enjoyed the talk and I think a good takeaway was to think about the essential relationships between types and in software designs in general. I heard someone say 'don't use raw pointers' was also a take-away, I think that is a little to much simplification and I would generalize that into: think/don't forget about the null-cases in the results of your functions. Slides and more available soon on [his site][10].
+Seans [presentation][9] was about the relationships in our code, about thinking ahead about what your program will look like, comparing it with a game of chess, although I feel that usually my computer is not actively trying out moves against me :) I enjoyed the talk and I think a good takeaway was to think about the essential relationships between types and software designs in general. I heard someone say 'don't use raw pointers' was also a take-away, I think that is a little to much simplification and I would generalize that into: think/don't forget about the null-cases in the results of your functions. Slides and more available soon on [his site][10].
 
 ## Andrei Alexandrescu - Speed Is Found In The Minds of People
 
@@ -63,8 +63,6 @@ The Wednesday I spend in SG14, the study group for Game Development and Low Late
 
 ## Lightning talks
 
-The lighting talks are always lots of fun, its hard to summarize, but watch for them on youtube :)
-
 ## Emery Berger: compacting memory by meshing
 
 Really interesting talk on compacting memory using meshing and virtual memory re-mapping. Emory demonstrated an 17% reduction in memory usage in a web browser. The really fun part of this being that this could be done without having the source code nor recompilation.
@@ -77,7 +75,7 @@ Matt shows three different ways to implement a path-tracer / ray casting example
 
 Also recommended to watch on YouTube if you care about ABI stability. Very nice talk. What surprised me was the `Foo() = delete;` can introduce a breaking ABI change!
 
-## J.F. Bastien - Deprecation of volatile
+## J.F. Bastian - Deprecation of volatile
 
 This was a really good talk on the history and future of volatile. Recommended talk to watch when it goes online.
 
@@ -89,9 +87,9 @@ I was mostly asleep during this talk ;) this was not due to Tony's presentation,
 
 Timur gave an overview of all the little fixes and smaller features that were put into C++20 at the last SG21 meeting in Cologne.
 
-## The Hallway track with Walter Brown, Sean Parent, Stephan T. Lavavej, Lious Dionne, Lisa Lippincott, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
+## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lious Dion, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
 
-This years so-called 'hallway track', the conversations you have with people outside the talks were, for me personally, the highlight of the conference. I talked to so many interesting people, I was truly inspired by the enthusiasm and openness of literally everybody I approached. I felt like a was literally radiating with pleasure walking the halls of the conference. Thank you everybody!! I hope to see all of you next year!
+This years so-called 'hallway track', the conversations you have with people outside the talks were, for me personally, the highlight of the conference. I talked to so many interesting people, I was truly inspired by the enthusiasm and openness of literally everybody I approached. I felt like a was literally radiating with pleasure walking that halls of the conference. Thank you everybody!! I hope to see all of you next year!
 
 While writing this post I noticed [Matt][12] has also done a [trip report][13], so check that one out too! CppCon publishes the slides for all presentations at <https://github.com/CppCon/CppCon2019>
 
