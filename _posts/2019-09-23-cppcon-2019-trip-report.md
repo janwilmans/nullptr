@@ -59,7 +59,25 @@ Andrei is sort of a unguided projectile in [this talk][11] about sorting while o
 
 ????? https://www.youtube.com/watch?v=tsG95Y-C14k
 
-## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
+## Jason turners talk on - Code Smells
+
+## SG14 Study Group Meeting
+
+## Lightning talks
+
+## Emery Berger: compacting memory by meshing
+
+## Matt Godbolt - Ray Casting in threefold / Object Oriented, Functional, data oriented
+
+## Louis Dion - ABI’s for dummies
+
+## J.F. Bastian - Deprecation of volatile
+
+## Tony Van Eerd - Objects vs Values
+
+## Timur Doumler - C++20 the small things
+
+## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lious Dion, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
 
 This years so-called 'hallway track', the conversations you have with people outside the talks were, for me personally, the highlight of the conference. I talked to so many interesting people, I was truly inspired by the enthusiasm and openness of literally everybody I approached. I felt like a was literally radiating with pleasure walking that halls of the conference. Thank you everybody!! I hope to see all of you next year!
 
