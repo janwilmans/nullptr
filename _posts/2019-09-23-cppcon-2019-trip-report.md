@@ -17,6 +17,8 @@ Just returned from one wholly awesome week of [CppCon][3]. This year the confere
 
 [<img src="http://nullptr.nl/wp-content/uploads/2019/09/gaylord-hotel.png" alt="" width="1431" height="349" class="alignnone size-full wp-image-1977" />][2]
 
+<img src="http://nullptr.nl/wp-content/uploads/2019/09/cabouse-300x149.png" alt="" width="300" height="149" class="alignnone size-medium wp-image-2008" />
+
 I arrived on Friday to meet up with my fellow [CopperSpice][4] team members, Barbara, Ansel, Tim and Peter. We had a two day hacking session working on CopperSpice and hashed out strategies how to better organize our team. We talked about our new libraries CsCrypto, CsPaint, CsDeclarative, integrations with Azure Pipelines, further development of the CMake support and a formal funeral for our Autotools support (well, the actual working was more like, take it into the desert and shoot it, but remember to take a picture).
 
 ## Conference Opening Keynote Bjarne Stroustrup
@@ -55,13 +57,11 @@ Andrei is sort of a unguided projectile in [this talk][11] about sorting while o
 
 [Ben's talk][12] is
 
-### Timur Doumler - Can I has grammar?
-
-????? https://www.youtube.com/watch?v=tsG95Y-C14k
-
 ## Jason turners talk on - Code Smells
 
 ## SG14 Study Group Meeting
+
+The Wednesday I spend in SG14, the study group for Game Development and Low Latency. Among other things the BLAS (Basic Linear Algebra Subprograms) integration proposals where reviewed.
 
 ## Lightning talks
 
@@ -72,6 +72,8 @@ Andrei is sort of a unguided projectile in [this talk][11] about sorting while o
 ## Louis Dion - ABI’s for dummies
 
 ## J.F. Bastian - Deprecation of volatile
+
+This was a really good talk on the history and future of volatile
 
 ## Tony Van Eerd - Objects vs Values
 
