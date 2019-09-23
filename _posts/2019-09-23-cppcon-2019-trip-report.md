@@ -43,11 +43,15 @@ Barbara and Ansel presented the latest development that spun out of the CopperSp
 
 [<img src="http://nullptr.nl/wp-content/uploads/2019/09/tote-1-300x230.png" alt="" width="300" height="230" class="alignnone size-medium wp-image-1993" />][3]
 
+## Sean Parent - Better Code: Relationships, Essential Relationships
+
+Seans [presentation][8] was about the relationships in our code, about thinking ahead about what your program will look like, comparing it with a game of chess, although I feel that usually my computer is not actively trying out moves against me :) I enjoyed the talk and I think a good takeaway was to think about the essential relationships between types and software designs in general. I heard someone say 'don't use raw pointers' was also a take-away, I think that is a little to much simplification and I would generalize that into: think/don't forget about the null-cases in the results of your functions. see https://sean-parent.stlab.cc/
+
 ## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
 
 This years so-called 'hallway track', the conversations you have with people outside the talks were, for me personally, the highlight of the conference. I talked to so many interesting people, I was truly inspired by the enthusiasm and openness of literally everybody I approached. I felt like a was literally radiating with pleasure walking that halls of the conference. Thank you everybody!! I hope to see all of you next year!
 
-While writing this post I noticed [Matt][8] has also done a [trip report][9], so check that one out too!
+While writing this post I noticed [Matt][9] has also done a [trip report][10], so check that one out too!
 
  [1]: https://cppcon.org/timeline2019/
  [2]: https://www.marriott.com/hotels/travel/dengr-gaylord-rockies-resort-and-convention-center/
@@ -56,5 +60,6 @@ While writing this post I noticed [Matt][8] has also done a [trip report][9], so
  [5]: https://github.com/microsoft/STL
  [6]: https://github.com/copperspice/cs_paint
  [7]: https://www.khronos.org/vulkan/
- [8]: https://godbolt.org/
- [9]: https://xania.org/201909/cppcon-2019-trip-report
+ [8]: https://www.youtube.com/watch?v=ejF6qqohp3M&t=283s
+ [9]: https://godbolt.org/
+ [10]: https://xania.org/201909/cppcon-2019-trip-report
