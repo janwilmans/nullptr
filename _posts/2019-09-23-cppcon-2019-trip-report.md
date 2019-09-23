@@ -87,7 +87,7 @@ I was mostly asleep during this talk ;) this was not due to Tony's presentation,
 
 Timur gave an overview of all the little fixes and smaller features that were put into C++20 at the last SG21 meeting in Cologne.
 
-## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lious Dion, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
+## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lious Dionne, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
 
 This years so-called 'hallway track', the conversations you have with people outside the talks were, for me personally, the highlight of the conference. I talked to so many interesting people, I was truly inspired by the enthusiasm and openness of literally everybody I approached. I felt like a was literally radiating with pleasure walking that halls of the conference. Thank you everybody!! I hope to see all of you next year!
 
