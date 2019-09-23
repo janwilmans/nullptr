@@ -63,6 +63,8 @@ The Wednesday I spend in SG14, the study group for Game Development and Low Late
 
 ## Lightning talks
 
+The lighting talks are always lots of fun, its hard to summarize, but watch for them on youtube :)
+
 ## Emery Berger: compacting memory by meshing
 
 Really interesting talk on compacting memory using meshing and virtual memory re-mapping. Emory demonstrated an 17% reduction in memory usage in a web browser. The really fun part of this being that this could be done without having the source code nor recompilation.
