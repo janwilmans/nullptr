@@ -55,6 +55,10 @@ Andrei is sort of a unguided projectile in [this talk][11].
 
 [Ben's talk][12] is
 
+### Timur Doumler - Can I has grammar?
+
+?????
+
 ## The Hallway track with Walker Brown, Sean Parent, Stephan T. Lavavej, Lisa Lippincot, Timur Doumler and so many others, sorry that I cannot mention everybody in this title :)
 
 This years so-called 'hallway track', the conversations you have with people outside the talks were, for me personally, the highlight of the conference. I talked to so many interesting people, I was truly inspired by the enthusiasm and openness of literally everybody I approached. I felt like a was literally radiating with pleasure walking that halls of the conference. Thank you everybody!! I hope to see all of you next year!
