@@ -27,7 +27,7 @@ On Monday Bjarne gave an [overview][5] of the current C++20 status, as always, i
 
 ## Opening for the ‘Back to Basics’ track: Jason Turner, The Best Parts of C++
 
-Jason is always energetic and entertaining to watch; this talk was no exception. I ‘Back to Basics’ track maybe specifically targeted at the newcomers C++, but I think many of us, also the professionals that have been in C++ years, learned something. C++ is evolving quickly and sometimes feels like a completely new language. Jason presented a good mix of time trailed good practices and fresh new insights.
+Jason is always energetic and entertaining to watch; this talk was no exception. The ‘Back to Basics’ track maybe specifically targeted at the newcomers to C++, but I think many of us, also the professionals that have been in C++ for years, learned something. C++ is evolving quickly and sometimes feels like a completely new language. Jason presented a good mix of time trailed good practices and fresh new insights.
 
 ## Latest & Greatest in Visual Studio 2019 for C++, Marian Luparu and Simon Brand
 
