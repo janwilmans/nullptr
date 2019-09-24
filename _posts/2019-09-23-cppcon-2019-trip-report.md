@@ -67,9 +67,9 @@ The Wednesday I spend in SG14, the study group for Game Development and Low Late
 
 Really interesting talk on compacting memory using meshing and virtual memory re-mapping. Emory demonstrated an 17% reduction in memory usage in a web browser. The really fun part of this being that this could be done without having the source code nor recompilation.
 
-## Matt Godbolt - Ray Casting in threefold / Object Oriented, Functional, data oriented
+## Matt.org compiler explorer - Ray Casting in threefold / Object Oriented, Functional, data oriented
 
-Matt shows three different ways to implement a path-tracer / ray casting example, analyzing the plus/minuses for the different strategies. A surprising result for me was that in this case the branch prediction was dominating the implementation style.
+[Matt][12] shows three different ways to implement a path-tracer / ray casting example, analyzing the plus/minuses for the different strategies. A surprising result for me was that in this case the branch prediction was dominating the implementation style.
 
 ## Louis Dionne - ABI’s for dummies
 
