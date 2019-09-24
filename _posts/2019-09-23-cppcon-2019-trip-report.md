@@ -29,13 +29,13 @@ On Monday Bjarne gave an [overview][5] of the current C++20 status, as always, i
 
 Jason is always energetic and entertaining to watch; this talk was no exception. I ‘Back to Basics’ track maybe specifically targeted at the newcomers C++, but I think many of us, also the professionals that have been in C++ years, learned something. C++ is evolving quickly and sometimes feels like a completely new language. Jason presented a good mix of time trailed good practices and fresh new insights.
 
-## Latest & Greatest in Visual Studio 2019 for C++, Marian Luparu and Simon Brand
+## Latest & Greatest in Visual Studio 2019 for C++, Marian Luparu and Sy Brand
 
 Whether you are a fan or not, its good to see that Visual Studio keeps up with the times and brings us exciting features with every release. However in recent years we have really seen a change in Microsoft and the the killer surprise this time was the open sourcing of the STL, the standard library that comes with visual studio!!
 
 [<img src="http://nullptr.nl/wp-content/uploads/2019/09/stl-github.png" alt="" width="433" height="42" class="alignnone size-full wp-image-1983" />][6]
 
-## Hello World from scratch by Peter Bindels and Simon Brand
+## Hello World from scratch by Peter Bindels and Sy Brand
 
 A wild ride, energetically presented by Peter and Sy, they explained everything that happens from sourcecode, compilation, linking, loading, until the actual execution to your main() function. I enjoyed this and learned a thing or two along the way.
 
@@ -71,11 +71,11 @@ Really interesting talk on compacting memory using meshing and virtual memory re
 
 Matt shows three different ways to implement a path-tracer / ray casting example, analyzing the plus/minuses for the different strategies. A surprising result for me was that in this case the branch prediction was dominating the implementation style.
 
-## Louis Dion - ABI’s for dummies
+## Louis Dionne - ABI’s for dummies
 
 Also recommended to watch on YouTube if you care about ABI stability. Very nice talk. What surprised me was the `Foo() = delete;` can introduce a breaking ABI change!
 
-## J.F. Bastian - Deprecation of volatile
+## J.F. Bastien - Deprecation of volatile
 
 This was a really good talk on the history and future of volatile. Recommended talk to watch when it goes online.
 
